@@ -3,42 +3,52 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 import os
 
-# Load your model-ready data
+# Define the path to your data.
+# If your script is in the same folder as the 'data' folder, this should work.
+file_path = os.path.join('data', 'model_ready_data.csv')
+
 try:
-    DATA_DIR = 'data'
-    MODEL_DATA_FILE = os.path.join(DATA_DIR, "model_ready_data.csv")
-    df = pd.read_csv(MODEL_DATA_FILE)
-    print("Successfully loaded model_ready_data.csv")
+    # Load the dataset
+    df = pd.read_csv(file_path)
+    print(f"Successfully loaded '{file_path}'")
+
+    # Calculate the correlation of all numeric columns with the target 'home_team_win'
+    correlations = df.corr(numeric_only=True)['home_team_win'].dropna()
+
+    # Sort by absolute value to find the strongest relationships
+    sorted_correlations = correlations.abs().sort_values(ascending=False)
+
+    # Get the sorted features (excluding the target itself)
+    top_features = correlations.loc[sorted_correlations.index].drop('home_team_win')
+
+    # Separate top 15 positive and top 15 negative correlations for a balanced plot
+    top_positive = top_features[top_features > 0].head(15)
+    top_negative = top_features[top_features < 0].tail(15)
+
+    # Combine for plotting
+    top_corr_for_plot = pd.concat([top_positive, top_negative.sort_values(ascending=True)])
+
+    # --- Plotting ---
+    plt.figure(figsize=(12, 14))
+    sns.barplot(x=top_corr_for_plot.values, y=top_corr_for_plot.index, palette="vlag")
+    plt.title('Top 30 Features Correlated with Home Team Win', fontsize=16)
+    plt.xlabel('Correlation Coefficient', fontsize=12)
+    plt.ylabel('Features', fontsize=12)
+    plt.tight_layout()
+    
+    # Save the plot
+    plt.savefig('full_correlation_barplot.png')
+    print("Successfully generated and saved 'full_correlation_barplot.png'")
+
+    # --- Printing Top Features ---
+    print("\n--- Correlation Analysis Results ---")
+    print("\nTop 10 Most Predictive Features (Positive Correlation):")
+    print(top_positive.head(10))
+    print("\nTop 10 Most Predictive Features (Negative Correlation):")
+    print(top_negative.sort_values(ascending=True).head(10))
+
 except FileNotFoundError:
-    print("Error: 'model_ready_data.csv' not found. Make sure the file is in the correct directory.")
-    exit()
-
-# Select a subset of features for a readable heatmap
-# We'll focus on the engineered rolling averages and the target variable
-features_to_analyze = [
-    'home_team_win', # This is our target
-    'home_rolling_avg_Points',
-    'away_rolling_avg_Points',
-    'rolling_avg_Points_diff',
-    'home_rolling_avg_TotalNetYards',
-    'away_rolling_avg_TotalNetYards',
-    'rolling_avg_TotalNetYards_diff',
-    'home_rolling_avg_Turnovers',
-    'away_rolling_avg_Turnovers',
-    'rolling_avg_Turnovers_diff'
-]
-
-# Calculate the correlation matrix
-corr_matrix = df[features_to_analyze].corr()
-
-# Set up the matplotlib figure
-plt.figure(figsize=(12, 10))
-
-# Draw the heatmap
-sns.heatmap(corr_matrix, annot=True, fmt=".2f", cmap='coolwarm', linewidths=.5)
-
-# Add a title and save the figure
-plt.title('Correlation Matrix of Rolling Average Features', fontsize=16)
-plt.savefig('correlation_heatmap.png')
-
-print("Correlation heatmap has been saved as 'correlation_heatmap.png'")
+    print(f"Error: Could not find the file at '{file_path}'.")
+    print("Please make sure the script is run from the correct directory.")
+except Exception as e:
+    print(f"An unexpected error occurred: {e}")

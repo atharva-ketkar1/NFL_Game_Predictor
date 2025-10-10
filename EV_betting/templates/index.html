@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFL Prop Dashboard</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #1a202c; }
+        ::-webkit-scrollbar-thumb { background: #4a5568; border-radius: 4px; }
+        .accordion-content { 
+            max-height: 0; 
+            overflow: hidden; 
+            transition: max-height 0.3s ease-in-out; 
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-gray-200 font-sans">
+
+    <div class="container mx-auto p-4 md:p-8">
+        <header class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-white mb-2">NFL Prop Dashboard</h1>
+            {% if week_number %}
+            <p class="text-lg text-indigo-400 font-semibold">Displaying Data for Week {{ week_number }}</p>
+            {% endif %}
+        </header>
+
+        {% if not final_data %}
+        <div class="bg-red-900 border border-red-600 text-red-200 px-4 py-3 rounded-lg text-center">
+            <strong class="font-bold">Error:</strong>
+            <span class="block sm:inline">{{ error_msg or "No data available." }}</span>
+        </div>
+        {% else %}
+        <div id="cardsContainer" class="space-y-8">
+            {% for game_name, game_data in final_data.items() %}
+            <div class="bg-gray-800 rounded-lg shadow-lg overflow-hidden">
+                <h2 class="p-4 bg-gray-700 text-xl font-bold text-white">{{ game_name }}</h2>
+                
+                <!-- Game Lines Table -->
+                {% if game_data.game_lines %}
+                <div class="p-4">
+                    <table class="w-full text-center text-sm">
+                        <thead class="text-xs text-gray-400 uppercase">
+                            <tr>
+                                <th class="py-2 text-left">Team</th>
+                                <th class="py-2">Spread</th>
+                                <th class="py-2">Moneyline</th>
+                                <th class="py-2">Total</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-gray-700">
+                            {% set lines = game_data.game_lines %}
+                            <tr class="bg-gray-800/50">
+                                <td class="py-3 text-left font-semibold">{{ lines.away_team }}</td>
+                                <td class="py-3"><span class="bg-indigo-500/20 text-indigo-300 px-2 py-1 rounded">{{ lines.away_spread_line }}</span> <span class="text-gray-400">{{ lines.away_spread_odds }}</span></td>
+                                <td class="py-3 font-semibold">{{ lines.away_moneyline }}</td>
+                                <td class="py-3"><span class="text-gray-400">O</span> {{ lines.total_line }} <span class="text-gray-400">{{ lines.over_odds }}</span></td>
+                            </tr>
+                            <tr class="bg-gray-800/50">
+                                <td class="py-3 text-left font-semibold">{{ lines.home_team }}</td>
+                                <td class="py-3"><span class="bg-indigo-500/20 text-indigo-300 px-2 py-1 rounded">{{ lines.home_spread_line }}</span> <span class="text-gray-400">{{ lines.home_spread_odds }}</span></td>
+                                <td class="py-3 font-semibold">{{ lines.home_moneyline }}</td>
+                                <td class="py-3"><span class="text-gray-400">U</span> {{ lines.total_line }} <span class="text-gray-400">{{ lines.under_odds }}</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                {% endif %}
+
+                <div class="divide-y divide-gray-700 border-t border-gray-700">
+                {% for team_name, team_data in game_data.player_props.items() %}
+                    <div class="p-4 bg-gray-800/50">
+                        <div class="flex items-center mb-3">
+                            <img src="{{ team_data.logo }}" alt="{{ team_name }} logo" class="w-8 h-8 mr-3">
+                            <h3 class="text-lg font-semibold text-indigo-300">{{ team_name }}</h3>
+                        </div>
+                        
+                        {% for player_name, props in team_data.players.items() %}
+                            <div>
+                                <button class="player-accordion-button w-full text-left p-3 hover:bg-gray-700 rounded-md focus:outline-none flex justify-between items-center">
+                                    <span class="font-medium">{{ player_name }}</span>
+                                    <svg class="w-5 h-5 transform transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                                </button>
+                                <div class="accordion-content bg-gray-900/50 rounded-b-md px-3">
+                                    <table class="min-w-full text-sm my-2">
+                                        <thead class="text-xs text-gray-400 uppercase">
+                                            <tr>
+                                                <th class="py-2 text-left">Prop</th>
+                                                <th class="py-2 text-center">Line</th>
+                                                <th class="py-2 text-center">Over</th>
+                                                <th class="py-2 text-center">Under</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                        {% for prop in props %}
+                                            <tr class="border-t border-gray-700">
+                                                <td class="py-2">{{ prop.prop_type }}</td>
+                                                <td class="py-2 text-center">{{ prop.line }}</td>
+                                                <td class="py-2 text-center text-green-400">{{ prop.over_odds }}</td>
+                                                <td class="py-2 text-center text-red-400">{{ prop.under_odds }}</td>
+                                            </tr>
+                                        {% endfor %}
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        {% endfor %}
+                    </div>
+                {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const allButtons = document.querySelectorAll('.player-accordion-button');
+            allButtons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const content = button.nextElementSibling;
+                    const svgIcon = button.querySelector('svg');
+                    const isExpanded = content.style.maxHeight && content.style.maxHeight !== '0px';
+
+                    if (isExpanded) {
+                        content.style.maxHeight = null;
+                        svgIcon.classList.remove('rotate-180');
+                    } else {
+                        content.style.maxHeight = content.scrollHeight + 'px';
+                        svgIcon.classList.add('rotate-180');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
