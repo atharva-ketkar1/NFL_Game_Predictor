@@ -12,13 +12,13 @@
             --secondary-text: #a0a0a0;
             --border-color: #333;
             --header-color: #2a2a2a;
-            --accent-color: #007bff;
-            --accent-hover: #0056b3;
+            --accent-color: #03a9f4; /* Light Blue */
             --best-odd-bg: #2a3b2a;
             --best-odd-text: #71dd71;
             --profit-color: #28a745;
             --arbitrage-bg: #2f2b0a;
             --arbitrage-border: #85731b;
+            --prop-group-bg: #222;
         }
         body {
             font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -26,46 +26,22 @@
             background-color: var(--bg-color);
             color: var(--primary-text);
         }
-        .container {
-            max-width: 95%;
-            margin: 20px auto;
-            padding: 0 20px;
-        }
+        .container { max-width: 95%; margin: 20px auto; padding: 0 20px; }
         .header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            padding: 20px;
-            background-color: var(--surface-color);
-            border-radius: 8px;
-            margin-bottom: 25px;
-            border: 1px solid var(--border-color);
+            display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
+            padding: 20px; background-color: var(--surface-color); border-radius: 8px;
+            margin-bottom: 25px; border: 1px solid var(--border-color);
         }
         h1 { text-align: left; margin: 0; }
         .search-box {
-            padding: 10px 15px;
-            width: 300px;
-            border-radius: 5px;
-            border: 1px solid var(--border-color);
-            background-color: var(--bg-color);
-            color: var(--primary-text);
-            font-size: 1em;
+            padding: 10px 15px; width: 300px; border-radius: 5px;
+            border: 1px solid var(--border-color); background-color: var(--bg-color);
+            color: var(--primary-text); font-size: 1em;
         }
-        .game-container {
-            border: 1px solid var(--border-color);
-            border-radius: 8px;
-            margin-bottom: 25px;
-            overflow: hidden;
-        }
+        .game-container { border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 25px; overflow: hidden; }
         .game-header {
-            background-color: var(--header-color);
-            padding: 15px 20px;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            user-select: none;
+            background-color: var(--header-color); padding: 15px 20px; cursor: pointer;
+            display: flex; justify-content: space-between; align-items: center; user-select: none;
         }
         .game-header h2 { margin: 0; font-size: 1.5em; }
         .game-header .toggle-icon { font-size: 1.5em; transition: transform 0.2s; }
@@ -79,29 +55,28 @@
         td { vertical-align: middle; }
         tbody tr:hover { background-color: #252525; }
         .player-name-cell {
-            font-weight: bold;
-            font-size: 1.05em;
-            color: var(--primary-text);
+            font-weight: bold; font-size: 1.1em; color: var(--primary-text);
             border-left: 3px solid var(--accent-color);
         }
-        .prop-type-cell { font-weight: 500; color: var(--secondary-text); }
+        .prop-group-cell {
+            font-weight: 600;
+            color: var(--secondary-text);
+            background-color: var(--prop-group-bg);
+        }
+        .prop-qualifier-cell {
+            padding-left: 30px !important; /* Indent the qualifier */
+            font-style: italic;
+        }
         .line-cell { font-family: 'Courier New', Courier, monospace; font-size: 1.1em; font-weight: bold; }
         .odds-cell { text-align: center; }
         .odds-cell span { display: inline-block; width: 45px; }
         .odds-over.best-odd, .odds-under.best-odd {
-            background-color: var(--best-odd-bg);
-            color: var(--best-odd-text);
-            font-weight: bold;
-            border-radius: 4px;
-            padding: 2px 4px;
+            background-color: var(--best-odd-bg); color: var(--best-odd-text);
+            font-weight: bold; border-radius: 4px; padding: 2px 4px;
         }
         .logo { width: 28px; height: auto; }
         .error { color: #d9534f; text-align: center; font-size: 1.2em; }
-        .arbitrage-section {
-            background-color: var(--arbitrage-bg);
-            border: 1px solid var(--arbitrage-border);
-            padding: 20px; border-radius: 8px; margin-bottom: 30px;
-        }
+        .arbitrage-section { background-color: var(--arbitrage-bg); border: 1px solid var(--arbitrage-border); padding: 20px; border-radius: 8px; margin-bottom: 30px; }
         .arbitrage-table th { background-color: #4d410d; }
         .profit { color: var(--profit-color); font-weight: bold; }
     </style>
@@ -153,12 +128,16 @@
                 </div>
                 <div class="game-content">
                     {% for team, team_data in game_data.teams.items()|sort %}
-                        <h3><img src="{{ team_data.logo }}" alt="{{ team }} logo" class="logo"> {{ team }}</h3>
+                        <h3>
+                            {% if team_data.logo %}<img src="{{ team_data.logo }}" alt="{{ team }} logo" class="logo">{% endif %}
+                            {{ team }}
+                        </h3>
                         <table>
                             <thead>
                                 <tr>
                                     <th style="width: 18%;">Player</th>
-                                    <th style="width: 22%;">Prop Type</th>
+                                    <th style="width: 18%;">Prop</th>
+                                    <th style="width: 12%;">Qualifier</th>
                                     <th style="width: 8%;">Line</th>
                                     {% for book in sportsbooks %}
                                         <th style="text-align: center;">{{ book }} (O/U)</th>
@@ -167,28 +146,40 @@
                             </thead>
                             <tbody class="props-tbody">
                             {% for player, player_data in team_data.players.items()|sort %}
-                                {% set player_rowspan = namespace(value=0) %}
-                                {% for prop, lines in player_data.props.items() %}{% set player_rowspan.value = player_rowspan.value + lines|length %}{% endfor %}
-                                
-                                {% for prop_type, lines in player_data.props.items()|sort %}
-                                    {% set outer_loop = loop %} {# Alias the outer loop #}
-                                    {% for line_data in lines %}
+                                {% set player_total_lines = namespace(count=0) %}
+                                {% for main_prop, qualifiers in player_data.props.items() %}
+                                    {% for qualifier, lines in qualifiers.items() %}
+                                        {% set player_total_lines.count = player_total_lines.count + lines|length %}
+                                    {% endfor %}
+                                {% endfor %}
+
+                                {% for main_prop, qualifiers in player_data.props.items()|sort %}
+                                    {% set main_prop_loop = loop %} {% set main_prop_total_lines = namespace(count=0) %}
+                                    {% for qualifier, lines in qualifiers.items() %}
+                                        {% set main_prop_total_lines.count = main_prop_total_lines.count + lines|length %}
+                                    {% endfor %}
+
+                                    {% for qualifier, lines in qualifiers.items()|sort %}
+                                        {% set qualifier_loop = loop %} {% for line_data in lines %}
                                         <tr class="player-row" data-player-name="{{ player|lower }}">
-                                            {# Use the alias 'outer_loop' to check the parent #}
-                                            {% if outer_loop.first and loop.first %}
-                                                <td class="player-name-cell" rowspan="{{ player_rowspan.value }}">{{ player }}</td>
+                                            {% if main_prop_loop.first and qualifier_loop.first and loop.first %}
+                                                <td class="player-name-cell" rowspan="{{ player_total_lines.count }}">{{ player }}</td>
+                                            {% endif %}
+                                            {% if qualifier_loop.first and loop.first %}
+                                                <td class="prop-group-cell" rowspan="{{ main_prop_total_lines.count }}">{{ main_prop }}</td>
                                             {% endif %}
                                             {% if loop.first %}
-                                                <td class="prop-type-cell" rowspan="{{ lines|length }}">{{ prop_type }}</td>
+                                                <td class="prop-qualifier-cell" rowspan="{{ lines|length }}">{{ qualifier }}</td>
                                             {% endif %}
                                             <td class="line-cell">{{ line_data.line }}</td>
                                             {% for book in sportsbooks %}
-                                                <td class="odds-cell">
-                                                    <span class="odds-over">{{ line_data.odds[book].over }}</span> / 
-                                                    <span class="odds-under">{{ line_data.odds[book].under }}</span>
-                                                </td>
+                                            <td class="odds-cell">
+                                                <span class="odds-over">{{ line_data.odds[book].over }}</span> / 
+                                                <span class="odds-under">{{ line_data.odds[book].under }}</span>
+                                            </td>
                                             {% endfor %}
                                         </tr>
+                                        {% endfor %}
                                     {% endfor %}
                                 {% endfor %}
                             {% endfor %}
@@ -202,42 +193,48 @@
 
     <script>
         document.addEventListener('DOMContentLoaded', function() {
-            // --- Feature 1: Collapsible Game Sections ---
-            const gameHeaders = document.querySelectorAll('.game-header');
-            gameHeaders.forEach(header => {
+            // Feature 1: Collapsible Game Sections
+            document.querySelectorAll('.game-header').forEach((header, index) => {
                 header.addEventListener('click', () => {
                     header.classList.toggle('collapsed');
-                    const content = header.nextElementSibling;
-                    content.classList.toggle('hidden');
+                    header.nextElementSibling.classList.toggle('hidden');
                 });
-                // Collapse all games by default except the first one
-                if (header !== gameHeaders[0]) {
+                if (index !== 0) { // Collapse all except the first game
                     header.classList.add('collapsed');
                     header.nextElementSibling.classList.add('hidden');
                 }
             });
 
-            // --- Feature 2: Player Search ---
+            // Feature 2: Player Search
             const searchInput = document.getElementById('playerSearch');
             searchInput.addEventListener('input', function() {
                 const searchTerm = this.value.toLowerCase();
-                document.querySelectorAll('.player-row').forEach(row => {
-                    const playerName = row.dataset.playerName;
-                    if (playerName.includes(searchTerm)) {
-                        row.style.display = '';
-                    } else {
-                        row.style.display = 'none';
-                    }
+                document.querySelectorAll('.props-tbody').forEach(tbody => {
+                    let visiblePlayers = new Set();
+                    
+                    // First pass: determine which players should be visible
+                    tbody.querySelectorAll('tr.player-row').forEach(row => {
+                        if (row.dataset.playerName.includes(searchTerm)) {
+                            visiblePlayers.add(row.dataset.playerName);
+                        }
+                    });
+
+                    // Second pass: toggle row visibility
+                    tbody.querySelectorAll('tr.player-row').forEach(row => {
+                        if (visiblePlayers.has(row.dataset.playerName)) {
+                            row.style.display = '';
+                        } else {
+                            row.style.display = 'none';
+                        }
+                    });
                 });
             });
 
-            // --- Feature 3: Highlight Best Odds ---
+            // Feature 3: Highlight Best Odds
             function highlightBestOdds() {
                 document.querySelectorAll('.player-row').forEach(row => {
-                    let maxOver = -Infinity;
-                    let maxUnder = -Infinity;
-
-                    // First pass: find max odds values
+                    let maxOver = -Infinity, maxUnder = -Infinity;
+                    
                     row.querySelectorAll('.odds-over').forEach(span => {
                         const odd = parseFloat(span.textContent);
                         if (!isNaN(odd) && odd > maxOver) maxOver = odd;
@@ -247,17 +244,16 @@
                         if (!isNaN(odd) && odd > maxUnder) maxUnder = odd;
                     });
 
-                    // Second pass: apply 'best-odd' class
-                    row.querySelectorAll('.odds-over').forEach(span => {
-                        if (parseFloat(span.textContent) === maxOver) {
-                            span.classList.add('best-odd');
-                        }
-                    });
-                    row.querySelectorAll('.odds-under').forEach(span => {
-                        if (parseFloat(span.textContent) === maxUnder) {
-                            span.classList.add('best-odd');
-                        }
-                    });
+                    if (isFinite(maxOver)) {
+                        row.querySelectorAll('.odds-over').forEach(span => {
+                            if (parseFloat(span.textContent) === maxOver) span.classList.add('best-odd');
+                        });
+                    }
+                    if (isFinite(maxUnder)) {
+                        row.querySelectorAll('.odds-under').forEach(span => {
+                            if (parseFloat(span.textContent) === maxUnder) span.classList.add('best-odd');
+                        });
+                    }
                 });
             }
 
