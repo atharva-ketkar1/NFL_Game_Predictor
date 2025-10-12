@@ -163,7 +163,7 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Los Angeles Chargers @ Miami Dolphins,Tua Tagovailoa,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Passing Yds,223.5,-114,-114,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Justin Herbert,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Passing TDs,1.5,-130,-102,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Justin Herbert,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Passing + Rushing Yds,273.5,-114,-114,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Tua Tagovailoa,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,1st Qtr Passing Yds,46.5,-111,-115,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Tua Tagovailoa,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,1st Qtr Passing Yds,45.5,-115,-111,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Justin Herbert,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,1st Qtr Passing + Rushing Yds,59.5,-114,-114,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Justin Herbert,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Pass Attempts,34.5,100,-130,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Justin Herbert,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Pass Completions,23.5,106,-140,FanDuel
@@ -180,30 +180,30 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Los Angeles Chargers @ Miami Dolphins,Darren Waller,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,1st Qtr Receiving Yds,5.5,-115,-111,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,De'Von Achane,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Longest Reception,12.5,-120,-110,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,De'Von Achane,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Rushing + Receiving Yds,93.5,-114,-114,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Jaylen Waddle,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Longest Reception,22.5,-122,-106,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Jaylen Waddle,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Longest Reception,22.5,-122,-108,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Jaylen Waddle,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Total Receptions,5.5,-138,104,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Ladd McConkey,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Total Receptions,5.5,-108,-122,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Ladd McConkey,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Total Receptions,5.5,-122,-108,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Ladd McConkey,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Receiving Yds,64.5,-114,-114,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Ladd McConkey,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,1st Qtr Receiving Yds,9.5,-115,-111,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Ladd McConkey,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,1st Qtr Receiving Yds,9.5,-118,-108,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,De'Von Achane,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Receiving Yds,31.5,-114,-114,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,De'Von Achane,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Total Receptions,4.5,-148,112,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Jaylen Waddle,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Receiving Yds,68.5,-114,-114,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Oronde Gadsden,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Longest Reception,11.5,-125,-106,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Oronde Gadsden,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Longest Reception,12.5,-108,-122,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Malik Washington,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Receiving Yds,21.5,-114,-114,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Malik Washington,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Total Receptions,3.5,130,-174,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Jaylen Waddle,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,1st Qtr Receiving Yds,10.5,-111,-115,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Malik Washington,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Longest Reception,11.5,-122,-108,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Oronde Gadsden,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,1st Qtr Receiving Yds,0.5,144,-186,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Oronde Gadsden,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,1st Qtr Receiving Yds,0.5,136,-174,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,De'Von Achane,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,1st Qtr Receiving Yds,3.5,-120,-106,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Ladd McConkey,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Longest Reception,22.5,-112,-118,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Ladd McConkey,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Longest Reception,21.5,-125,-106,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Keenan Allen,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Total Receptions,5.5,-114,-114,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Keenan Allen,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Receiving Yds,59.5,-114,-114,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Keenan Allen,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,1st Qtr Receiving Yds,11.5,-111,-115,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Darren Waller,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Longest Reception,18.5,-108,-122,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Keenan Allen,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Longest Reception,20.5,-120,-110,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Oronde Gadsden,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Total Receptions,2.5,162,-220,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Oronde Gadsden,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Receiving Yds,18.5,-114,-114,FanDuel
-6,Los Angeles Chargers @ Miami Dolphins,Malik Washington,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,1st Qtr Receiving Yds,0.5,108,-138,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Keenan Allen,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Longest Reception,20.5,-118,-112,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Oronde Gadsden,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Total Receptions,2.5,144,-194,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Oronde Gadsden,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Receiving Yds,19.5,-114,-114,FanDuel
+6,Los Angeles Chargers @ Miami Dolphins,Malik Washington,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,1st Qtr Receiving Yds,0.5,110,-140,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Hassan Haskins,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Rush Attempts,9.5,-138,104,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Tua Tagovailoa,Miami Dolphins,https://assets.sportsbook.fanduel.com/images/team/nfl/miami_dolphins.png,Rushing Yds,2.5,-130,-102,FanDuel
 6,Los Angeles Chargers @ Miami Dolphins,Hassan Haskins,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Longest Rush,11.5,-118,-108,FanDuel
@@ -223,7 +223,7 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Los Angeles Chargers @ Miami Dolphins,Justin Herbert,Los Angeles Chargers,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_chargers.png,Longest Rush,11.5,-126,-102,FanDuel
 6,New England Patriots @ New Orleans Saints,Spencer Rattler,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Longest Pass,31.5,-112,-112,FanDuel
 6,New England Patriots @ New Orleans Saints,Spencer Rattler,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Pass Completions,21.5,-102,-130,FanDuel
-6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,1st Qtr Passing + Rushing Yds,56.5,-118,-114,FanDuel
+6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,1st Qtr Passing + Rushing Yds,57.5,-114,-114,FanDuel
 6,New England Patriots @ New Orleans Saints,Spencer Rattler,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Pass Attempts,33.5,-108,-120,FanDuel
 6,New England Patriots @ New Orleans Saints,Spencer Rattler,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Passing TDs,1.5,116,-154,FanDuel
 6,New England Patriots @ New Orleans Saints,Spencer Rattler,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Passing Yds,212.5,-114,-114,FanDuel
@@ -232,14 +232,14 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,New England Patriots @ New Orleans Saints,Spencer Rattler,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Interception,0,-125,-104,FanDuel
 6,New England Patriots @ New Orleans Saints,Spencer Rattler,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,1st Qtr Passing Yds,42.5,-111,-115,FanDuel
 6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Longest Pass,34.5,-118,-108,FanDuel
-6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Passing + Rushing Yds,260.5,-114,-114,FanDuel
+6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Passing + Rushing Yds,262.5,-114,-114,FanDuel
 6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Interception,0,112,-146,FanDuel
 6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,1st Qtr Passing Yds,50.5,-111,-115,FanDuel
 6,New England Patriots @ New Orleans Saints,Spencer Rattler,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,1st Qtr Passing + Rushing Yds,47.5,-112,-118,FanDuel
 6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Pass Completions,21.5,-114,-114,FanDuel
 6,New England Patriots @ New Orleans Saints,Spencer Rattler,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Passing + Rushing Yds,234.5,-114,-114,FanDuel
 6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Passing Yds,232.5,-114,-114,FanDuel
-6,New England Patriots @ New Orleans Saints,Chris Olave,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Longest Reception,18.5,-114,-114,FanDuel
+6,New England Patriots @ New Orleans Saints,Chris Olave,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Longest Reception,18.5,-118,-112,FanDuel
 6,New England Patriots @ New Orleans Saints,Juwan Johnson,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Longest Reception,16.5,-114,-114,FanDuel
 6,New England Patriots @ New Orleans Saints,Juwan Johnson,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Receiving Yds,38.5,-114,-114,FanDuel
 6,New England Patriots @ New Orleans Saints,Rhamondre Stevenson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Total Receptions,2.5,116,-154,FanDuel
@@ -283,7 +283,7 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,New England Patriots @ New Orleans Saints,Rhamondre Stevenson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Receiving Yds,13.5,-125,-106,FanDuel
 6,New England Patriots @ New Orleans Saints,Mack Hollins,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Total Receptions,1.5,124,-166,FanDuel
 6,New England Patriots @ New Orleans Saints,Mack Hollins,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Receiving Yds,9.5,-114,-114,FanDuel
-6,New England Patriots @ New Orleans Saints,Kendre Miller,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Rushing Yds,28.5,-114,-114,FanDuel
+6,New England Patriots @ New Orleans Saints,Kendre Miller,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Rushing Yds,29.5,-114,-114,FanDuel
 6,New England Patriots @ New Orleans Saints,Alvin Kamara,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Rush Attempts,11.5,102,-136,FanDuel
 6,New England Patriots @ New Orleans Saints,TreVeyon Henderson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Rushing + Receiving Yds,53.5,-112,-118,FanDuel
 6,New England Patriots @ New Orleans Saints,TreVeyon Henderson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Rush Attempts,9.5,-108,-122,FanDuel
@@ -294,8 +294,8 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,New England Patriots @ New Orleans Saints,Alvin Kamara,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Longest Rush,12.5,-112,-112,FanDuel
 6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Longest Rush,11.5,-110,-116,FanDuel
 6,New England Patriots @ New Orleans Saints,Rhamondre Stevenson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Longest Rush,12.5,-102,-126,FanDuel
-6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,1st Qtr Rushing Yds,2.5,-122,-108,FanDuel
-6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Rushing Yds,23.5,-114,-114,FanDuel
+6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,1st Qtr Rushing Yds,3.5,-112,-118,FanDuel
+6,New England Patriots @ New Orleans Saints,Drake Maye,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Rushing Yds,25.5,-114,-114,FanDuel
 6,New England Patriots @ New Orleans Saints,Taysom Hill,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Rushing Yds,14.5,-114,-114,FanDuel
 6,New England Patriots @ New Orleans Saints,Rhamondre Stevenson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Rushing + Receiving Yds,62.5,-118,-112,FanDuel
 6,New England Patriots @ New Orleans Saints,Spencer Rattler,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,Rushing Yds,18.5,-114,-114,FanDuel
@@ -304,7 +304,7 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,New England Patriots @ New Orleans Saints,Rhamondre Stevenson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Rushing Yds,45.5,-108,-122,FanDuel
 6,New England Patriots @ New Orleans Saints,TreVeyon Henderson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,Rushing Yds,33.5,-114,-114,FanDuel
 6,New England Patriots @ New Orleans Saints,Rhamondre Stevenson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,1st Qtr Rushing + Receiving Yds,13.5,-114,-114,FanDuel
-6,New England Patriots @ New Orleans Saints,TreVeyon Henderson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,1st Qtr Rushing Yds,6.5,-104,-128,FanDuel
+6,New England Patriots @ New Orleans Saints,TreVeyon Henderson,New England Patriots,https://assets.sportsbook.fanduel.com/images/team/nfl/new_england_patriots.png,1st Qtr Rushing Yds,6.5,-102,-130,FanDuel
 6,New England Patriots @ New Orleans Saints,Alvin Kamara,New Orleans Saints,https://assets.sportsbook.fanduel.com/images/team/nfl/new_orleans_saints.png,1st Qtr Rushing + Receiving Yds,13.5,-108,-122,FanDuel
 6,Seattle Seahawks @ Jacksonville Jaguars,Sam Darnold,Seattle Seahawks,https://assets.sportsbook.fanduel.com/images/team/nfl/seattle_seahawks.png,Pass Attempts,32.5,-114,-114,FanDuel
 6,Seattle Seahawks @ Jacksonville Jaguars,Sam Darnold,Seattle Seahawks,https://assets.sportsbook.fanduel.com/images/team/nfl/seattle_seahawks.png,Pass Completions,21.5,-140,-140,FanDuel
@@ -486,8 +486,8 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Los Angeles Rams @ Baltimore Ravens,Zay Flowers,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Longest Reception,17.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Justice Hill,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Total Receptions,2.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,1st Qtr Receiving Yds,0.5,144,-186,FanDuel
-6,Los Angeles Rams @ Baltimore Ravens,Rashod Bateman,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Longest Reception,14.5,-112,-118,FanDuel
-6,Los Angeles Rams @ Baltimore Ravens,Rashod Bateman,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,1st Qtr Receiving Yds,0.5,108,-138,FanDuel
+6,Los Angeles Rams @ Baltimore Ravens,Rashod Bateman,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Longest Reception,14.5,-114,-114,FanDuel
+6,Los Angeles Rams @ Baltimore Ravens,Rashod Bateman,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,1st Qtr Receiving Yds,0.5,110,-140,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Davante Adams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Total Receptions,4.5,-138,104,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,DeAndre Hopkins,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Total Receptions,1.5,102,-136,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Puka Nacua,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Receiving Yds,93.5,-114,-114,FanDuel
@@ -495,9 +495,9 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Los Angeles Rams @ Baltimore Ravens,Davante Adams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,1st Qtr Receiving Yds,12.5,-113,-113,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Longest Reception,8.5,-125,-106,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Rashod Bateman,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Total Receptions,2.5,-130,-102,FanDuel
-6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Receiving Yds,4.5,-114,-114,FanDuel
+6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Receiving Yds,5.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Mark Andrews,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Total Receptions,3.5,112,-148,FanDuel
-6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Rushing + Receiving Yds,77.5,-118,-112,FanDuel
+6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Rushing + Receiving Yds,79.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Tyler Higbee,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Receiving Yds,15.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Tyler Higbee,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,1st Qtr Receiving Yds,0.5,150,-194,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Tyler Higbee,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Total Receptions,2.5,172,-235,FanDuel
@@ -508,13 +508,13 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Los Angeles Rams @ Baltimore Ravens,Justice Hill,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Rushing + Receiving Yds,27.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Zay Flowers,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Total Receptions,4.5,-130,-102,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Justice Hill,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Receiving Yds,16.5,-114,-114,FanDuel
-6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Rushing + Receiving Yds,89.5,-114,-114,FanDuel
+6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Rushing + Receiving Yds,89.5,-118,-112,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Mark Andrews,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Longest Reception,12.5,-122,-108,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Receiving Yds,12.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Total Receptions,2.5,110,-146,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Puka Nacua,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Total Receptions,8.5,102,-136,FanDuel
-6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,1st Qtr Rushing + Receiving Yds,20.5,-110,-120,FanDuel
-6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Rushing + Receiving Yds,77.5,-118,-112,FanDuel
+6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,1st Qtr Rushing + Receiving Yds,20.5,-112,-118,FanDuel
+6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Rushing + Receiving Yds,79.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Matthew Stafford,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Rushing Yds,0.5,116,-154,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Rushing Yds,73.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Longest Rush,15.5,-112,-112,FanDuel
@@ -528,7 +528,7 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Los Angeles Rams @ Baltimore Ravens,Justice Hill,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Rushing + Receiving Yds,27.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,1st Qtr Rushing Yds,18.5,-118,-112,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Rush Attempts,16.5,-118,-112,FanDuel
-6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Rushing + Receiving Yds,89.5,-114,-114,FanDuel
+6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,Rushing + Receiving Yds,89.5,-118,-112,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Derrick Henry,Baltimore Ravens,https://assets.sportsbook.fanduel.com/images/team/nfl/baltimore_ravens.png,Rush Attempts,16.5,-102,-130,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,1st Qtr Rushing Yds,16.5,-114,-114,FanDuel
 6,Los Angeles Rams @ Baltimore Ravens,Kyren Williams,Los Angeles Rams,https://assets.sportsbook.fanduel.com/images/team/nfl/los_angeles_rams.png,1st Qtr Rushing + Receiving Yds,20.5,-114,-114,FanDuel
@@ -677,47 +677,58 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Mac Jones,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Passing TDs,1.5,-102,-130,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Mac Jones,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Pass Completions,24.5,100,-132,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Baker Mayfield,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,1st Qtr Passing Yds,50.5,-115,-111,FanDuel
-6,San Francisco 49ers @ Tampa Bay Buccaneers,Baker Mayfield,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Passing TDs,1.5,-180,134,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Baker Mayfield,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Longest Pass,36.5,-112,-112,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Baker Mayfield,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Passing TDs,1.5,-180,134,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Mac Jones,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,1st Qtr Passing Yds,50.5,-111,-115,FanDuel
-6,San Francisco 49ers @ Tampa Bay Buccaneers,Mac Jones,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Longest Pass,33.5,-112,-112,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Mac Jones,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Passing Yds,250.5,-114,-114,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Mac Jones,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Longest Pass,33.5,-112,-112,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Baker Mayfield,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Pass Attempts,33.5,-130,100,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Mac Jones,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Pass Attempts,36.5,-106,-122,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Baker Mayfield,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Interception,0,-102,-128,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Jauan Jennings,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Longest Reception,20.5,-112,-118,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Kyle Juszczyk,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Total Receptions,1.5,-102,-130,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Rachaad White,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Total Receptions,3.5,-152,114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Rachaad White,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,1st Qtr Receiving Yds,3.5,-108,-118,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Kyle Juszczyk,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Receiving Yds,9.5,-114,-114,FanDuel
-6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,1st Qtr Receiving Yds,9.5,-106,-120,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,1st Qtr Receiving Yds,8.5,-115,-111,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Emeka Egbuka,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,1st Qtr Receiving Yds,15.5,-108,-118,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Rachaad White,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Receiving Yds,25.5,-114,-114,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Kendrick Bourne,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,1st Qtr Receiving Yds,6.5,-111,-115,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Rushing + Receiving Yds,112.5,-114,-114,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Kendrick Bourne,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Receiving Yds,46.5,-114,-114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Receiving Yds,52.5,-114,-114,FanDuel
-6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Longest Reception,17.5,-110,-120,FanDuel
-6,San Francisco 49ers @ Tampa Bay Buccaneers,Emeka Egbuka,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Longest Reception,24.5,-112,-118,FanDuel
-6,San Francisco 49ers @ Tampa Bay Buccaneers,Kendrick Bourne,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Longest Reception,19.5,-114,-114,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Longest Reception,17.5,-108,-122,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Kendrick Bourne,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Total Receptions,4.5,120,-160,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Emeka Egbuka,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Longest Reception,24.5,-110,-120,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Kendrick Bourne,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Longest Reception,19.5,-112,-118,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,DeMarcus Robinson,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Total Receptions,1.5,-188,140,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Cade Otton,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Receiving Yds,31.5,-114,-114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Cade Otton,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,1st Qtr Receiving Yds,3.5,-113,-113,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Cade Otton,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Longest Reception,14.5,-128,-104,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Tez Johnson,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,1st Qtr Receiving Yds,1.5,-113,-113,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Jake Tonges,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Total Receptions,3.5,-148,112,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,DeMarcus Robinson,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Receiving Yds,19.5,-114,-114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Tez Johnson,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Total Receptions,2.5,-182,136,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Cade Otton,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Total Receptions,3.5,106,-140,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Tez Johnson,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Receiving Yds,32.5,-114,-114,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Jake Tonges,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Receiving Yds,32.5,-114,-114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Tez Johnson,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Longest Reception,16.5,-114,-114,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Jake Tonges,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Longest Reception,14.5,-118,-112,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Rachaad White,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Rushing + Receiving Yds,89.5,-114,-114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Total Receptions,6.5,-112,-118,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Sterling Shepard,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,1st Qtr Receiving Yds,3.5,-111,-115,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Sterling Shepard,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Receiving Yds,31.5,-114,-114,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Jauan Jennings,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Total Receptions,4.5,-130,-102,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Emeka Egbuka,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Receiving Yds,72.5,-114,-114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Sterling Shepard,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Longest Reception,15.5,-108,-122,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Sterling Shepard,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Total Receptions,3.5,-102,-130,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Jauan Jennings,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Receiving Yds,52.5,-114,-114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Emeka Egbuka,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Total Receptions,5.5,-136,102,FanDuel
-6,San Francisco 49ers @ Tampa Bay Buccaneers,Rachaad White,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,1st Qtr Rushing + Receiving Yds,21.5,-118,-112,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Rachaad White,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,1st Qtr Rushing + Receiving Yds,21.5,-114,-114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,1st Qtr Rushing Yds,14.5,-112,-118,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Rachaad White,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,1st Qtr Rushing Yds,14.5,-118,-112,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Rushing + Receiving Yds,112.5,-114,-114,FanDuel
-6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,1st Qtr Rushing + Receiving Yds,27.5,-110,-120,FanDuel
+6,San Francisco 49ers @ Tampa Bay Buccaneers,Christian McCaffrey,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,1st Qtr Rushing + Receiving Yds,26.5,-114,-114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Brian Robinson Jr.,San Francisco 49ers,https://assets.sportsbook.fanduel.com/images/team/nfl/san_francisco_49ers.png,Rushing Yds,15.5,-114,-114,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Rachaad White,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Rush Attempts,15.5,-130,-102,FanDuel
 6,San Francisco 49ers @ Tampa Bay Buccaneers,Rachaad White,Tampa Bay Buccaneers,https://assets.sportsbook.fanduel.com/images/team/nfl/tampa_bay_buccaneers.png,Rushing Yds,59.5,-114,-114,FanDuel
@@ -734,7 +745,7 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Cincinnati Bengals @ Green Bay Packers,Jordan Love,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Interception,0,118,-154,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Joe Flacco,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Pass Completions,21.5,-130,-102,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Joe Flacco,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Pass Attempts,36.5,-114,-114,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Jordan Love,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Passing + Rushing Yds,248.5,-114,-114,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Jordan Love,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Passing + Rushing Yds,247.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Jordan Love,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Longest Pass,38.5,-112,-112,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Joe Flacco,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Longest Pass,29.5,-112,-112,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Jordan Love,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Passing TDs,1.5,-180,134,FanDuel
@@ -742,21 +753,21 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Cincinnati Bengals @ Green Bay Packers,Jordan Love,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Pass Attempts,29.5,-122,-106,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Romeo Doubs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Receiving Yds,43.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Tee Higgins,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Total Receptions,3.5,-138,104,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Total Receptions,3.5,-102,-130,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Rushing + Receiving Yds,68.5,-112,-118,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Total Receptions,3.5,-114,-114,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Rushing + Receiving Yds,70.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Dontayvion Wicks,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Total Receptions,2.5,-154,116,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Receiving Yds,19.5,-114,-114,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Receiving Yds,21.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Mike Gesicki,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Longest Reception,11.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Dontayvion Wicks,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,1st Qtr Receiving Yds,3.5,-113,-113,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Romeo Doubs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Total Receptions,3.5,-106,-125,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Mike Gesicki,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Total Receptions,2.5,-136,102,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Mike Gesicki,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Receiving Yds,20.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Matthew Golden,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Longest Reception,21.5,-114,-114,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,1st Qtr Receiving Yds,0.5,100,-128,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,1st Qtr Receiving Yds,0.5,-111,-115,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Matthew Golden,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Total Receptions,3.5,148,-200,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Tee Higgins,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Receiving Yds,41.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Dontayvion Wicks,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Receiving Yds,31.5,-114,-114,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Dontayvion Wicks,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Longest Reception,16.5,-114,-118,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Dontayvion Wicks,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Longest Reception,16.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Ja'Marr Chase,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Longest Reception,21.5,-108,-122,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Tee Higgins,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Longest Reception,18.5,-106,-125,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Tucker Kraft,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Receiving Yds,49.5,-114,-114,FanDuel
@@ -764,27 +775,29 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Cincinnati Bengals @ Green Bay Packers,Andrei Iosivas,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Receiving Yds,12.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Josh Jacobs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Rushing + Receiving Yds,101.5,-112,-118,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Josh Jacobs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Total Receptions,2.5,-106,-125,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Longest Reception,10.5,-112,-118,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Longest Reception,10.5,-132,100,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Andrei Iosivas,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Total Receptions,1.5,116,-154,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Josh Jacobs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,1st Qtr Receiving Yds,0.5,120,-154,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Mike Gesicki,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,1st Qtr Receiving Yds,0.5,120,-154,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Ja'Marr Chase,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Receiving Yds,64.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Ja'Marr Chase,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Total Receptions,5.5,-158,118,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Ja'Marr Chase,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,1st Qtr Receiving Yds,11.5,-113,-113,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Matthew Golden,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,1st Qtr Receiving Yds,6.5,-115,-111,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Romeo Doubs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,1st Qtr Receiving Yds,7.5,-113,-113,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Romeo Doubs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Longest Reception,19.5,-118,-112,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Tucker Kraft,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Total Receptions,4.5,146,-198,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Tucker Kraft,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Longest Reception,20.5,-125,-106,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Tucker Kraft,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Longest Reception,21.5,-106,-125,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Matthew Golden,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Receiving Yds,44.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Tucker Kraft,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,1st Qtr Receiving Yds,9.5,-111,-115,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Jordan Love,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Rushing Yds,8.5,-114,-114,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Josh Jacobs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,1st Qtr Rushing Yds,21.5,-114,-114,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Josh Jacobs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,1st Qtr Rushing Yds,21.5,-112,-118,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Rushing Yds,44.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Rush Attempts,13.5,-102,-130,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Josh Jacobs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Rushing Yds,81.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,1st Qtr Rushing Yds,10.5,-122,-108,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Josh Jacobs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Rush Attempts,19.5,-102,-130,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,1st Qtr Rushing + Receiving Yds,15.5,-114,-114,FanDuel
-6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Rushing + Receiving Yds,68.5,-112,-118,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,1st Qtr Rushing + Receiving Yds,16.5,-108,-122,FanDuel
+6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Rushing + Receiving Yds,70.5,-114,-114,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Josh Jacobs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,1st Qtr Rushing + Receiving Yds,26.5,-112,-118,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Josh Jacobs,Green Bay Packers,https://assets.sportsbook.fanduel.com/images/team/nfl/green_bay_packers.png,Rushing + Receiving Yds,101.5,-112,-118,FanDuel
 6,Cincinnati Bengals @ Green Bay Packers,Chase Brown,Cincinnati Bengals,https://assets.sportsbook.fanduel.com/images/team/nfl/cincinnati_bengals.png,Longest Rush,10.5,-102,-124,FanDuel
@@ -910,26 +923,26 @@ week,game,player_name,team_name,team_logo,prop_type,line,over_odds,under_odds,sp
 6,Buffalo Bills @ Atlanta Falcons,James Cook,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Rushing + Receiving Yds,87.5,-114,-114,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Josh Palmer,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Receiving Yds,18.5,-114,-114,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Keon Coleman,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Receiving Yds,38.5,-114,-114,FanDuel
-6,Buffalo Bills @ Atlanta Falcons,Keon Coleman,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Longest Reception,18.5,-118,-112,FanDuel
+6,Buffalo Bills @ Atlanta Falcons,Keon Coleman,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Longest Reception,18.5,-114,-114,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Khalil Shakir,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,1st Qtr Receiving Yds,6.5,-106,-120,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Keon Coleman,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,1st Qtr Receiving Yds,0.5,-106,-120,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Keon Coleman,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Total Receptions,3.5,120,-160,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,James Cook,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,1st Qtr Receiving Yds,0.5,164,-215,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Ray-Ray McCloud III,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Total Receptions,2.5,116,-154,FanDuel
-6,Buffalo Bills @ Atlanta Falcons,Ray-Ray McCloud III,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Longest Reception,12.5,-118,-112,FanDuel
-6,Buffalo Bills @ Atlanta Falcons,Ray-Ray McCloud III,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Receiving Yds,20.5,-114,-114,FanDuel
+6,Buffalo Bills @ Atlanta Falcons,Ray-Ray McCloud III,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Longest Reception,11.5,-118,-112,FanDuel
+6,Buffalo Bills @ Atlanta Falcons,Ray-Ray McCloud III,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Receiving Yds,18.5,-114,-114,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Drake London,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Total Receptions,5.5,-172,128,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Drake London,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Longest Reception,23.5,-108,-122,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Drake London,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,1st Qtr Receiving Yds,13.5,-118,-108,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Drake London,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Receiving Yds,71.5,-114,-114,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Kyle Pitts,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Longest Reception,17.5,-122,-108,FanDuel
-6,Buffalo Bills @ Atlanta Falcons,Bijan Robinson,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Longest Reception,13.5,-120,-110,FanDuel
-6,Buffalo Bills @ Atlanta Falcons,Kyle Pitts,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,1st Qtr Receiving Yds,4.5,-115,-113,FanDuel
+6,Buffalo Bills @ Atlanta Falcons,Bijan Robinson,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Longest Reception,13.5,-122,-110,FanDuel
+6,Buffalo Bills @ Atlanta Falcons,Kyle Pitts,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,1st Qtr Receiving Yds,4.5,-115,-111,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Kyle Pitts,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Total Receptions,3.5,-132,100,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,James Cook,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Total Receptions,2.5,-112,-118,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Kyle Pitts,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Receiving Yds,40.5,-114,-114,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,James Cook,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Receiving Yds,12.5,-114,-114,FanDuel
-6,Buffalo Bills @ Atlanta Falcons,Khalil Shakir,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Longest Reception,19.5,-114,-114,FanDuel
+6,Buffalo Bills @ Atlanta Falcons,Khalil Shakir,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Longest Reception,19.5,-118,-112,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Khalil Shakir,Buffalo Bills,https://assets.sportsbook.fanduel.com/images/team/nfl/buffalo_bills.png,Total Receptions,4.5,-104,-128,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Bijan Robinson,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Rush Attempts,15.5,-122,-108,FanDuel
 6,Buffalo Bills @ Atlanta Falcons,Tyler Allgeier,Atlanta Falcons,https://assets.sportsbook.fanduel.com/images/team/nfl/atlanta_falcons.png,Rush Attempts,7.5,-114,-114,FanDuel
