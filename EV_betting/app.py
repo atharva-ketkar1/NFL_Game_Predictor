@@ -233,7 +233,19 @@ def get_combined_data():
         player_props = output_structure[game]['teams'][team]['players'].setdefault(player, {'props': {}})
         market_data = {}
         for _, row in group.iterrows():
-            market_data[row['sportsbook']] = { 'line': row['line'], 'over': int(row['over_odds']), 'under': int(row['under_odds']) }
+            def format_odds(odds):
+                """Ensure positive odds have a '+' sign."""
+                try:
+                    odds = int(odds)
+                    return f"+{odds}" if odds > 0 else str(odds)
+                except:
+                    return str(odds)
+
+            market_data[row['sportsbook']] = {
+                'line': row['line'],
+                'over': format_odds(row['over_odds']),
+                'under': format_odds(row['under_odds'])
+            }
         player_props['props'].setdefault(prop_main, {})[prop_qualifier] = market_data
 
     for game_name, data in output_structure.items():
