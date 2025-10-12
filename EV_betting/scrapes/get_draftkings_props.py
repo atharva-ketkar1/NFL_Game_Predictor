@@ -16,6 +16,13 @@ PLAYER_PROP_CATEGORIES = {
     'Receiving': 1342,
 }
 
+# <<< NEW: Configuration for "Longest" props with their specific subcategory IDs
+LONGEST_PROP_SUBCATEGORIES = {
+    'Longest Rush': '14880',
+    'Longest Reception': '14881',
+    'Longest Passing Completion': '9526'
+}
+
 # ============================================================
 # 🏈 GAME LINES FETCH + PARSE (Merged from your working snippet)
 # ============================================================
@@ -135,6 +142,30 @@ def parse_game_lines(data):
 # 🧠 PLAYER PROPS FUNCTIONS (unchanged from your main script)
 # ============================================================
 
+# <<< NEW: Generic function to fetch props from the direct market-style endpoints
+def fetch_direct_prop_data(session, subcategory_id, prop_name):
+    """
+    Fetches prop data from a direct subcategory endpoint that returns
+    events, markets, and selections directly.
+    """
+    url = (
+        f"https://sportsbook-nash.draftkings.com/sites/US-OH-SB/api/sportscontent/controldata/league/leagueSubcategory/v1/markets"
+        f"?isBatchable=false&templateVars=88808%2C{subcategory_id}"
+        f"&eventsQuery=%24filter%3DleagueId%20eq%20%2788808%27%20AND%20clientMetadata%2FSubcategories%2Fany%28s%3A%20s%2FId%20eq%20%27{subcategory_id}%27%29"
+        f"&marketsQuery=%24filter%3DclientMetadata%2FsubCategoryId%20eq%20%27{subcategory_id}%27%20AND%20tags%2Fall%28t%3A%20t%20ne%20%27SportcastBetBuilder%27%29"
+        f"&include=Events&entity=events"
+    )
+    print(f"Fetching '{prop_name}' props from DraftKings...")
+    try:
+        response = session.get(url, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+        print(f"  ✅ '{prop_name}' data received successfully.")
+        return data
+    except requests.exceptions.RequestException as e:
+        print(f"  ❌ Error fetching '{prop_name}': {e}")
+        return None
+
 def find_subcategories_in_response(data):
     if isinstance(data, dict):
         for key, value in data.items():
@@ -178,11 +209,21 @@ def fetch_subcategory_data(session, category_id, sub_id):
 def parse_prop_data(data, prop_type_name):
     if not data:
         return []
+    # <<< MODIFIED: Handle both API response structures gracefully
     events = data.get('events', [])
     markets = data.get('markets', [])
     selections = data.get('selections', [])
+
+    # If the primary keys are not found, check for a nested structure
+    if not events and 'eventGroup' in data and data['eventGroup'].get('events'):
+         events = data['eventGroup']['events']
+         markets = data['eventGroup']['events'][0].get('markets', [])
+         selections = data['eventGroup']['events'][0]['markets'][0].get('outcomes', [])
+
+
     event_map = {event['id']: event['name'] for event in events}
     selections_by_market = defaultdict(dict)
+    
     for sel in selections:
         market_id = sel.get('marketId')
         label = sel.get('label', '').lower()
@@ -198,6 +239,12 @@ def parse_prop_data(data, prop_type_name):
         over_sel = outcomes['over']
         under_sel = outcomes['under']
         player_name = re.sub(re.escape(f" {prop_type_name} O/U"), "", market['name'], flags=re.IGNORECASE).strip()
+        
+        # Handle cases where the player name might be empty after regex
+        if not player_name:
+             player_name = market['name'].replace(f" {prop_type_name} O/U", "").strip()
+
+
         parsed_props.append({
             'player_name': player_name,
             'game': event_map.get(market.get('eventId')),
@@ -249,12 +296,12 @@ def main():
 
     # --- 2️⃣ Fetch Player Props ---
     print("\n--- Starting Player Prop Scraping ---")
-    # We only need to hit one category endpoint to get ALL subcategories.
-    # Using 'Passing' (1000) as the entry point.
+    all_props = []
+
+    # --- Part A: Discoverable Props (Passing, Rushing, Receiving Yards, etc.)
     passing_category_id = PLAYER_PROP_CATEGORIES['Passing']
     all_subs = get_prop_subcategories(session, "Player Props", passing_category_id)
 
-    all_props = []
     for sub in all_subs:
         data = fetch_subcategory_data(session, sub['categoryId'], sub['id'])
         if data:
@@ -263,6 +310,19 @@ def main():
             print(f"  -> Found {len(props)} {sub['name']} props")
         time.sleep(random.uniform(1.5, 3.0))
 
+    # <<< NEW: Part B: Fetch "Longest" props directly
+    print("\n--- Fetching 'Longest' Player Props ---")
+    for prop_name, sub_id in LONGEST_PROP_SUBCATEGORIES.items():
+        data = fetch_direct_prop_data(session, sub_id, prop_name)
+        if data:
+            # We can reuse the same parsing function!
+            props = parse_prop_data(data, prop_name)
+            all_props.extend(props)
+            print(f"  -> Found {len(props)} {prop_name} props")
+        time.sleep(random.uniform(1.5, 3.0))
+
+
+    # --- 3️⃣ Save All Props to CSV ---
     if all_props:
         props_file = os.path.join(output_dir, f"draftkings_nfl_week_{week_number}_props.csv")
         with open(props_file, "w", newline="", encoding="utf-8") as f:
@@ -272,9 +332,9 @@ def main():
             for prop in all_props:
                 prop['week'] = week_number
             writer.writerows(all_props)
-        print(f"  ✅ Player props saved to {props_file}")
+        print(f"\n  ✅ All player props ({len(all_props)} total) saved to {props_file}")
     else:
-        print("  ⚠️ No props found.")
+        print("\n  ⚠️ No props found.")
 
     print("\n✅ DraftKings scraping complete!")
 
