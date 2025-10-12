@@ -249,11 +249,10 @@ def main():
 
     # --- 2️⃣ Fetch Player Props ---
     print("\n--- Starting Player Prop Scraping ---")
-    all_subs = []
-    for name, cat_id in PLAYER_PROP_CATEGORIES.items():
-        subs = get_prop_subcategories(session, name, cat_id)
-        all_subs.extend(subs)
-        time.sleep(random.uniform(1.0, 2.0))
+    # We only need to hit one category endpoint to get ALL subcategories.
+    # Using 'Passing' (1000) as the entry point.
+    passing_category_id = PLAYER_PROP_CATEGORIES['Passing']
+    all_subs = get_prop_subcategories(session, "Player Props", passing_category_id)
 
     all_props = []
     for sub in all_subs:

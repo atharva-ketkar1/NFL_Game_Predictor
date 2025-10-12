@@ -59,19 +59,14 @@
             border-left: 3px solid var(--accent-color);
         }
         .prop-group-cell {
-            font-weight: 600;
-            color: var(--secondary-text);
-            background-color: var(--prop-group-bg);
+            font-weight: 600; color: var(--secondary-text); background-color: var(--prop-group-bg);
         }
-        .prop-qualifier-cell {
-            padding-left: 30px !important; /* Indent the qualifier */
-            font-style: italic;
-        }
-        .line-cell { font-family: 'Courier New', Courier, monospace; font-size: 1.1em; font-weight: bold; }
+        .prop-qualifier-cell { padding-left: 30px !important; font-style: italic; }
         .odds-cell { text-align: center; }
-        .odds-cell span { display: inline-block; width: 45px; }
-        .odds-over.best-odd, .odds-under.best-odd {
-            background-color: var(--best-odd-bg); color: var(--best-odd-text);
+        .line { font-weight: bold; font-size: 1.1em; }
+        .odds { font-size: 0.9em; color: var(--secondary-text); margin-left: 8px; }
+        .best-odd {
+             background-color: var(--best-odd-bg); color: var(--best-odd-text);
             font-weight: bold; border-radius: 4px; padding: 2px 4px;
         }
         .logo { width: 28px; height: auto; }
@@ -87,37 +82,10 @@
             <h1>NFL Player Props (Week {{ week_number }})</h1>
             <input type="text" id="playerSearch" class="search-box" placeholder="🔍 Search for a player...">
         </div>
-
         {% if error_msg %}<p class="error">{{ error_msg }}</p>{% endif %}
-        
         {% if arbitrage_ops %}
         <div class="arbitrage-section">
-            <h2>🚨 Arbitrage Opportunities</h2>
-            <table class="arbitrage-table">
-                <thead>
-                    <tr>
-                        <th>Player</th>
-                        <th>Prop</th>
-                        <th>Line</th>
-                        <th>Bet Over</th>
-                        <th>Bet Under</th>
-                        <th>Profit Margin</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    {% for op in arbitrage_ops %}
-                    <tr>
-                        <td>{{ op.player_name }}</td>
-                        <td>{{ op.prop_type }}</td>
-                        <td>{{ op.line }}</td>
-                        <td>{{ op.bet_on_over.sportsbook }} ({{ op.bet_on_over.odds }})</td>
-                        <td>{{ op.bet_on_under.sportsbook }} ({{ op.bet_on_under.odds }})</td>
-                        <td class="profit">{{ op.profit_margin }}</td>
-                    </tr>
-                    {% endfor %}
-                </tbody>
-            </table>
-        </div>
+            </div>
         {% endif %}
 
         {% for game, game_data in final_data.items()|sort %}
@@ -137,49 +105,42 @@
                                 <tr>
                                     <th style="width: 18%;">Player</th>
                                     <th style="width: 18%;">Prop</th>
-                                    <th style="width: 12%;">Qualifier</th>
-                                    <th style="width: 8%;">Line</th>
+                                    <th style="width: 15%;">Qualifier</th>
                                     {% for book in sportsbooks %}
-                                        <th style="text-align: center;">{{ book }} (O/U)</th>
+                                        <th style="text-align: center;">{{ book }}</th>
                                     {% endfor %}
                                 </tr>
                             </thead>
                             <tbody class="props-tbody">
                             {% for player, player_data in team_data.players.items()|sort %}
-                                {% set player_total_lines = namespace(count=0) %}
-                                {% for main_prop, qualifiers in player_data.props.items() %}
-                                    {% for qualifier, lines in qualifiers.items() %}
-                                        {% set player_total_lines.count = player_total_lines.count + lines|length %}
-                                    {% endfor %}
-                                {% endfor %}
+                                {% set player_rowspan = namespace(count=0) %}
+                                {% for main_prop, qualifiers in player_data.props.items() %}{% set player_rowspan.count = player_rowspan.count + qualifiers|length %}{% endfor %}
 
                                 {% for main_prop, qualifiers in player_data.props.items()|sort %}
-                                    {% set main_prop_loop = loop %} {% set main_prop_total_lines = namespace(count=0) %}
-                                    {% for qualifier, lines in qualifiers.items() %}
-                                        {% set main_prop_total_lines.count = main_prop_total_lines.count + lines|length %}
-                                    {% endfor %}
-
-                                    {% for qualifier, lines in qualifiers.items()|sort %}
-                                        {% set qualifier_loop = loop %} {% for line_data in lines %}
+                                    {% set main_prop_loop = loop %}
+                                    {% for qualifier, market_data in qualifiers.items()|sort %}
                                         <tr class="player-row" data-player-name="{{ player|lower }}">
-                                            {% if main_prop_loop.first and qualifier_loop.first and loop.first %}
-                                                <td class="player-name-cell" rowspan="{{ player_total_lines.count }}">{{ player }}</td>
-                                            {% endif %}
-                                            {% if qualifier_loop.first and loop.first %}
-                                                <td class="prop-group-cell" rowspan="{{ main_prop_total_lines.count }}">{{ main_prop }}</td>
+                                            {% if main_prop_loop.first and loop.first %}
+                                                <td class="player-name-cell" rowspan="{{ player_rowspan.count }}">{{ player }}</td>
                                             {% endif %}
                                             {% if loop.first %}
-                                                <td class="prop-qualifier-cell" rowspan="{{ lines|length }}">{{ qualifier }}</td>
+                                                <td class="prop-group-cell" rowspan="{{ qualifiers|length }}">{{ main_prop }}</td>
                                             {% endif %}
-                                            <td class="line-cell">{{ line_data.line }}</td>
+                                            <td class="prop-qualifier-cell">{{ qualifier }}</td>
+                                            
                                             {% for book in sportsbooks %}
                                             <td class="odds-cell">
-                                                <span class="odds-over">{{ line_data.odds[book].over }}</span> / 
-                                                <span class="odds-under">{{ line_data.odds[book].under }}</span>
+                                                {% if book in market_data %}
+                                                    <span class="line">{{ market_data[book].line }}</span>
+                                                    <span class="odds">
+                                                        <span>{{ market_data[book].over }}</span>/<span>{{ market_data[book].under }}</span>
+                                                    </span>
+                                                {% else %}
+                                                    —
+                                                {% endif %}
                                             </td>
                                             {% endfor %}
                                         </tr>
-                                        {% endfor %}
                                     {% endfor %}
                                 {% endfor %}
                             {% endfor %}
@@ -192,6 +153,7 @@
     </div>
 
     <script>
+        // Script is simplified as the complex highlighting logic is no longer needed in the same way
         document.addEventListener('DOMContentLoaded', function() {
             // Feature 1: Collapsible Game Sections
             document.querySelectorAll('.game-header').forEach((header, index) => {
@@ -199,7 +161,7 @@
                     header.classList.toggle('collapsed');
                     header.nextElementSibling.classList.toggle('hidden');
                 });
-                if (index !== 0) { // Collapse all except the first game
+                if (index !== 0) {
                     header.classList.add('collapsed');
                     header.nextElementSibling.classList.add('hidden');
                 }
@@ -211,53 +173,17 @@
                 const searchTerm = this.value.toLowerCase();
                 document.querySelectorAll('.props-tbody').forEach(tbody => {
                     let visiblePlayers = new Set();
-                    
-                    // First pass: determine which players should be visible
                     tbody.querySelectorAll('tr.player-row').forEach(row => {
                         if (row.dataset.playerName.includes(searchTerm)) {
                             visiblePlayers.add(row.dataset.playerName);
                         }
                     });
 
-                    // Second pass: toggle row visibility
                     tbody.querySelectorAll('tr.player-row').forEach(row => {
-                        if (visiblePlayers.has(row.dataset.playerName)) {
-                            row.style.display = '';
-                        } else {
-                            row.style.display = 'none';
-                        }
+                        row.style.display = visiblePlayers.has(row.dataset.playerName) ? '' : 'none';
                     });
                 });
             });
-
-            // Feature 3: Highlight Best Odds
-            function highlightBestOdds() {
-                document.querySelectorAll('.player-row').forEach(row => {
-                    let maxOver = -Infinity, maxUnder = -Infinity;
-                    
-                    row.querySelectorAll('.odds-over').forEach(span => {
-                        const odd = parseFloat(span.textContent);
-                        if (!isNaN(odd) && odd > maxOver) maxOver = odd;
-                    });
-                    row.querySelectorAll('.odds-under').forEach(span => {
-                        const odd = parseFloat(span.textContent);
-                        if (!isNaN(odd) && odd > maxUnder) maxUnder = odd;
-                    });
-
-                    if (isFinite(maxOver)) {
-                        row.querySelectorAll('.odds-over').forEach(span => {
-                            if (parseFloat(span.textContent) === maxOver) span.classList.add('best-odd');
-                        });
-                    }
-                    if (isFinite(maxUnder)) {
-                        row.querySelectorAll('.odds-under').forEach(span => {
-                            if (parseFloat(span.textContent) === maxUnder) span.classList.add('best-odd');
-                        });
-                    }
-                });
-            }
-
-            highlightBestOdds();
         });
     </script>
 </body>
