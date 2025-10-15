@@ -3,188 +3,334 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NFL Player Props - Week {{ week_number }}</title>
+    <title>NFL Player Props Dashboard - Week {{ week_number }}</title>
     <style>
+        /*
+        ========================================
+        V6.1 - ARBITRAGE SECTION RESTORED
+        Author: Gemini (Senior UI/UX Engineer)
+        Date: 2025-10-12
+        Description: Re-integrated the collapsible arbitrage section
+                     into the main content area.
+        ========================================
+        */
+
         :root {
-            --bg-color: #121212;
-            --surface-color: #1e1e1e;
-            --primary-text: #e0e0e0;
-            --secondary-text: #a0a0a0;
-            --border-color: #333;
-            --header-color: #2a2a2a;
-            --accent-color: #03a9f4; /* Light Blue */
-            --best-odd-bg: #2a3b2a;
-            --best-odd-text: #71dd71;
-            --profit-color: #28a745;
-            --arbitrage-bg: #2f2b0a;
-            --arbitrage-border: #85731b;
-            --prop-group-bg: #222;
+            --bg-color: #0d1117;
+            --surface-color: #161b22;
+            --header-bg: #21262d;
+            --border-color: #30363d;
+            --primary-text: #c9d1d9;
+            --secondary-text: #8b949e;
+            --accent-color: #58a6ff;
+            --best-odd-bg: #234c31;
+            --best-odd-text: #56d364;
+            --profit-color: #56d364;
+            --hover-color: #2a3038;
+            --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            --border-radius: 6px;
         }
-        body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-            margin: 0;
-            background-color: var(--bg-color);
-            color: var(--primary-text);
-        }
-        .container { max-width: 95%; margin: 20px auto; padding: 0 20px; }
-        .header {
-            display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;
-            padding: 20px; background-color: var(--surface-color); border-radius: 8px;
-            margin-bottom: 25px; border: 1px solid var(--border-color);
-        }
-        h1 { text-align: left; margin: 0; }
-        .search-box {
-            padding: 10px 15px; width: 300px; border-radius: 5px;
-            border: 1px solid var(--border-color); background-color: var(--bg-color);
-            color: var(--primary-text); font-size: 1em;
-        }
-        .game-container { border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 25px; overflow: hidden; }
-        .game-header {
-            background-color: var(--header-color); padding: 15px 20px; cursor: pointer;
-            display: flex; justify-content: space-between; align-items: center; user-select: none;
-        }
-        .game-header h2 { margin: 0; font-size: 1.5em; }
-        .game-header .toggle-icon { font-size: 1.5em; transition: transform 0.2s; }
-        .game-header.collapsed .toggle-icon { transform: rotate(-90deg); }
-        .game-content { background-color: var(--surface-color); padding: 20px; display: block; }
-        .game-content.hidden { display: none; }
-        h3 { display: flex; align-items: center; gap: 15px; font-size: 1.3em; margin-top: 25px; margin-bottom: 15px; }
+
+        html { scroll-behavior: smooth; }
+        body { font-family: var(--font-family); margin: 0; background-color: var(--bg-color); color: var(--primary-text); }
+
+        .dashboard-container { display: flex; max-width: 1600px; margin: 0 auto; }
+
+        /* --- 1. Sidebar Navigation --- */
+        .sidebar { width: 280px; height: 100vh; position: sticky; top: 0; background-color: var(--surface-color); border-right: 1px solid var(--border-color); padding: 20px 0; overflow-y: auto; flex-shrink: 0; }
+        .sidebar-header { padding: 0 20px 15px 20px; font-size: 1.2em; font-weight: bold; border-bottom: 1px solid var(--border-color); }
+        .game-nav-list { list-style: none; padding: 0; margin: 10px 0 0 0; }
+        .game-nav-item a { display: flex; align-items: center; gap: 10px; padding: 12px 20px; color: var(--secondary-text); text-decoration: none; font-size: 0.9em; border-left: 3px solid transparent; transition: all 0.2s; }
+        .game-nav-item a:hover { background-color: var(--hover-color); color: var(--primary-text); }
+        .game-nav-item a.active { background-color: #2d405d; color: #fff; font-weight: bold; border-left-color: var(--accent-color); }
+        .game-nav-item a.filtered-out { opacity: 0.4; pointer-events: none; }
+        .game-nav-logos { display: flex; align-items: center; }
+        .game-nav-logos img, .game-nav-logos svg { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; background-color: #2a3038;}
+        .game-nav-logos > *:first-child { margin-right: -8px; }
+        .placeholder-icon { fill: var(--secondary-text); }
+
+        /* --- 2. Main Content & Header Controls --- */
+        .main-content { flex-grow: 1; padding: 20px 30px; min-width: 0; }
+        .page-header { margin-bottom: 25px; }
+        .page-header h1 { margin: 0 0 20px 0; }
+        .controls-container { display: flex; gap: 15px; align-items: center; flex-wrap: wrap; }
+        .search-box { padding: 8px 12px; max-width: 300px; border-radius: var(--border-radius); border: 1px solid var(--border-color); background-color: var(--bg-color); color: var(--primary-text); font-size: 0.9em; }
+        .filter-dropdown { position: relative; }
+        .filter-dropdown-btn { background-color: var(--surface-color); border: 1px solid var(--border-color); color: var(--primary-text); padding: 8px 12px; border-radius: var(--border-radius); cursor: pointer; font-size: 0.9em; transition: background-color 0.2s; }
+        .filter-dropdown-btn .count { background-color: var(--accent-color); color: white; border-radius: 10px; padding: 1px 6px; font-size: 0.8em; margin-left: 5px; }
+        .filter-dropdown-content { display: none; position: absolute; background-color: var(--header-bg); border: 1px solid var(--border-color); border-radius: var(--border-radius); z-index: 100; min-width: 250px; max-height: 300px; overflow-y: auto; padding: 5px; }
+        .filter-dropdown-content.show { display: block; }
+        .filter-dropdown-content label { display: block; padding: 8px 12px; cursor: pointer; border-radius: 4px; font-size: 0.9em;}
+        .filter-dropdown-content label:hover { background-color: var(--hover-color); }
+        .filter-dropdown-content input { margin-right: 10px; }
+        
+        /* --- 3. Arbitrage, Game & Team Containers --- */
+        .content-section { border: 1px solid var(--border-color); border-radius: var(--border-radius); margin-bottom: 25px; background-color: var(--surface-color); }
+        .game-container, .team-section { transition: max-height 0.4s ease-in-out, margin 0.4s, padding 0.4s; overflow: hidden; }
+        .game-container.hidden, .team-section.hidden { max-height: 0 !important; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; border: none; }
+        .section-header { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; background-color: var(--header-bg); cursor: pointer;}
+        .section-header h2 { margin: 0; font-size: 1.5em; }
+        .toggle-icon { font-size: 1.5em; transition: transform 0.3s ease-in-out; }
+        .section-header.collapsed .toggle-icon { transform: rotate(-90deg); }
+        .section-content { overflow: hidden; max-height: 5000px; transition: max-height 0.4s ease-in-out, padding 0.4s ease-in-out; }
+        .section-content.hidden { max-height: 0; padding: 0 20px; }
+        .badge { background-color: var(--secondary-text); color: var(--bg-color); font-size: 0.7em; font-weight: bold; padding: 3px 8px; border-radius: 10px; margin-left: 10px; }
+        #arbitrage-section .section-header .badge { background-color: var(--profit-color); }
+        .game-section-header { cursor: default; } /* Make game headers non-clickable */
+
+        /* --- 4. Player Accordion --- */
+        .team-header { padding: 15px 20px; font-size: 1.3em; font-weight: bold; border-top: 1px solid var(--border-color); background: #1a222e; }
+        .player-accordion-item { border-top: 1px solid var(--border-color); }
+        .player-header { display: flex; align-items: center; gap: 15px; padding: 12px 20px; cursor: pointer; transition: background-color 0.2s; }
+        .player-header:hover { background-color: var(--hover-color); }
+        .player-header .toggle-icon { font-size: 1.1em; transform: rotate(-90deg); transition: transform 0.3s ease-out; }
+        .player-header.active .toggle-icon { transform: rotate(0deg); }
+        .player-name { font-weight: bold; font-size: 1.1em; }
+        .player-team { font-size: 0.9em; color: var(--secondary-text); }
+        .player-props-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; background-color: var(--bg-color); }
+        .player-props-content .table-wrapper { padding: 15px; overflow-x: auto;}
+
         table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid var(--border-color); }
-        th { background-color: var(--header-color); font-weight: 600; font-size: 0.85em; text-transform: uppercase; color: var(--secondary-text); }
-        td { vertical-align: middle; }
-        tbody tr:hover { background-color: #252525; }
-        .player-name-cell {
-            font-weight: bold; font-size: 1.1em; color: var(--primary-text);
-            border-left: 3px solid var(--accent-color);
-        }
-        .prop-group-cell {
-            font-weight: 600; color: var(--secondary-text); background-color: var(--prop-group-bg);
-        }
-        .prop-qualifier-cell { padding-left: 30px !important; font-style: italic; }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid var(--border-color); white-space: nowrap; }
+        th { font-size: 0.8em; color: var(--secondary-text); }
         .odds-cell { text-align: center; }
-        .line { font-weight: bold; font-size: 1.1em; }
-        .odds { font-size: 0.9em; color: var(--secondary-text); margin-left: 8px; }
-        .best-odd {
-             background-color: var(--best-odd-bg); color: var(--best-odd-text);
-            font-weight: bold; border-radius: 4px; padding: 2px 4px;
-        }
-        .logo { width: 28px; height: auto; }
-        .error { color: #d9534f; text-align: center; font-size: 1.2em; }
-        .arbitrage-section { background-color: var(--arbitrage-bg); border: 1px solid var(--arbitrage-border); padding: 20px; border-radius: 8px; margin-bottom: 30px; }
-        .arbitrage-table th { background-color: #4d410d; }
-        .profit { color: var(--profit-color); font-weight: bold; }
+        .line { font-weight: bold; }
+        .odds { font-size: 0.9em; color: var(--secondary-text); }
+        .best-odd { background-color: var(--best-odd-bg); color: var(--best-odd-text); font-weight: bold; border-radius: 4px; padding: 2px 4px; }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>NFL Player Props (Week {{ week_number }})</h1>
-            <input type="text" id="playerSearch" class="search-box" placeholder="🔍 Search for a player...">
-        </div>
-        {% if error_msg %}<p class="error">{{ error_msg }}</p>{% endif %}
-        {% if arbitrage_ops %}
-        <div class="arbitrage-section">
-            </div>
-        {% endif %}
-
-        {% for game, game_data in final_data.items()|sort %}
-            <div class="game-container">
-                <div class="game-header">
-                    <h2>{{ game }}</h2>
+    <div class="dashboard-container">
+        <nav class="sidebar">
+            <div class="sidebar-header">Games This Week</div>
+            <ul class="game-nav-list">
+                {% for game, game_data in final_data.items()|sort %}
+                    <li class="game-nav-item">
+                        <a href="#game-{{ loop.index }}" data-target-id="game-{{ loop.index }}">
+                            <div class="game-nav-logos">
+                                {% set logos = namespace(items=[]) %}
+                                {% for team, t_data in game_data.teams.items() %}{% set logos.items = logos.items + [t_data.logo or 'placeholder'] %}{% endfor %}
+                                {% for logo_url in logos.items[:2] %}
+                                    {% if logo_url == 'placeholder' %}
+                                        <svg class="placeholder-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,1.5A10.5,10.5,0,0,0,1.5,12A10.5,10.5,0,0,0,12,22.5A10.5,10.5,0,0,0,22.5,12A10.5,10.5,0,0,0,12,1.5M12,3A9,9,0,0,1,21,12C21,14.63,19.78,16.94,18,18.45V12A6,6,0,0,0,12,6A6,6,0,0,0,6,12V18.45C4.22,16.94,3,14.63,3,12A9,9,0,0,1,12,3M6,20A7.5,7.5,0,0,0,12,21A7.5,7.5,0,0,0,18,20V12A6,6,0,0,0,12,6A6,6,0,0,0,6,12V20Z"></path></svg>
+                                    {% else %}
+                                        <img src="{{ logo_url }}" alt="Team Logo">
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                            <span>{{ game }}</span>
+                        </a>
+                    </li>
+                {% endfor %}
+            </ul>
+        </nav>
+        
+        <main class="main-content">
+            <header class="page-header">
+                <h1>NFL Player Props Dashboard</h1>
+                <div class="controls-container">
+                    <input type="text" id="playerSearch" class="search-box" placeholder="🔍 Search players...">
+                    <div class="filter-dropdown">
+                        <button id="filterBtn" class="filter-dropdown-btn">Filter by Prop</button>
+                        <div id="propFilterDropdown" class="filter-dropdown-content"></div>
+                    </div>
+                </div>
+            </header>
+            
+            <section id="arbitrage-section" class="content-section">
+                <div class="section-header collapsed" data-toggle="collapse" data-target="#arbitrage-content">
+                    <h2>Arbitrage <span class="badge">{{ arbitrage_ops|length }}</span></h2>
                     <span class="toggle-icon">▼</span>
                 </div>
-                <div class="game-content">
-                    {% for team, team_data in game_data.teams.items()|sort %}
-                        <h3>
-                            {% if team_data.logo %}<img src="{{ team_data.logo }}" alt="{{ team }} logo" class="logo">{% endif %}
-                            {{ team }}
-                        </h3>
-                        <table>
-                            <thead>
-                                <tr>
-                                    <th style="width: 18%;">Player</th>
-                                    <th style="width: 18%;">Prop</th>
-                                    <th style="width: 15%;">Qualifier</th>
-                                    {% for book in sportsbooks %}
-                                        <th style="text-align: center;">{{ book }}</th>
-                                    {% endfor %}
-                                </tr>
-                            </thead>
-                            <tbody class="props-tbody">
-                            {% for player, player_data in team_data.players.items()|sort %}
-                                {% set player_rowspan = namespace(count=0) %}
-                                {% for main_prop, qualifiers in player_data.props.items() %}{% set player_rowspan.count = player_rowspan.count + qualifiers|length %}{% endfor %}
-
-                                {% for main_prop, qualifiers in player_data.props.items()|sort %}
-                                    {% set main_prop_loop = loop %}
-                                    {% for qualifier, market_data in qualifiers.items()|sort %}
-                                        <tr class="player-row" data-player-name="{{ player|lower }}">
-                                            {% if main_prop_loop.first and loop.first %}
-                                                <td class="player-name-cell" rowspan="{{ player_rowspan.count }}">{{ player }}</td>
-                                            {% endif %}
-                                            {% if loop.first %}
-                                                <td class="prop-group-cell" rowspan="{{ qualifiers|length }}">{{ main_prop }}</td>
-                                            {% endif %}
-                                            <td class="prop-qualifier-cell">{{ qualifier }}</td>
-                                            
-                                            {% for book in sportsbooks %}
-                                            <td class="odds-cell">
-                                                {% if book in market_data %}
-                                                    <span class="line">{{ market_data[book].line }}</span>
-                                                    <span class="odds">
-                                                        <span>{{ market_data[book].over }}</span>/<span>{{ market_data[book].under }}</span>
-                                                    </span>
-                                                {% else %}
-                                                    —
-                                                {% endif %}
-                                            </td>
-                                            {% endfor %}
-                                        </tr>
-                                    {% endfor %}
-                                {% endfor %}
-                            {% endfor %}
-                            </tbody>
-                        </table>
-                    {% endfor %}
+                <div id="arbitrage-content" class="section-content hidden">
+                    {% if not arbitrage_ops %}<p>No arbitrage opportunities found in the current data.</p>{% endif %}
                 </div>
-            </div>
-        {% endfor %}
+            </section>
+
+            {% for game, game_data in final_data.items()|sort %}
+                <section class="game-container content-section" id="game-{{ loop.index }}">
+                    <div class="section-header game-section-header"><h2>{{ game }}</h2></div>
+                    <div class="section-content" style="padding:0;">
+                    {% for team, team_data in game_data.teams.items()|sort %}
+                        <div class="team-section">
+                            <div class="team-header">{{ team }}</div>
+                            <div class="player-accordions">
+                            {% for player, player_data in team_data.players.items()|sort %}
+                                <div class="player-accordion-item" data-player-name="{{ player|lower }}" data-props="{{ player_data.props.keys()|list|tojson|safe }}">
+                                    <div class="player-header">
+                                        <span class="toggle-icon">▼</span>
+                                        <div>
+                                            <div class="player-name">{{ player }}</div>
+                                            <div class="player-team">{{ team }}</div>
+                                        </div>
+                                    </div>
+                                    <div class="player-props-content">
+                                        <div class="table-wrapper">
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <th>Prop</th>
+                                                        <th>Qualifier</th>
+                                                        {% for book in sportsbooks %}<th>{{ book }}</th>{% endfor %}
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                {% for main_prop, qualifiers in player_data.props.items()|sort %}
+                                                    {% for qualifier, market_data in qualifiers.items()|sort %}
+                                                        {% set best_over = namespace(value=-99999, book=None) %}{% set best_under = namespace(value=-99999, book=None) %}
+                                                        {% for book in sportsbooks %}
+                                                            {% if book in market_data %}
+                                                                {% set over_val = market_data[book].over|float(-99999) %}{% if over_val > best_over.value %}{% set best_over.value = over_val %}{% set best_over.book = book %}{% endif %}
+                                                                {% set under_val = market_data[book].under|float(-99999) %}{% if under_val > best_under.value %}{% set best_under.value = under_val %}{% set best_under.book = book %}{% endif %}
+                                                            {% endif %}
+                                                        {% endfor %}
+                                                        <tr>
+                                                            <td>{{ main_prop }}</td>
+                                                            <td>{{ qualifier }}</td>
+                                                            {% for book in sportsbooks %}
+                                                            <td class="odds-cell">
+                                                                {% if book in market_data %}<span class="line">{{ market_data[book].line }}</span> <span class="odds"><span class="{% if book == best_over.book %}best-odd{% endif %}">{{ market_data[book].over }}</span>/<span class="{% if book == best_under.book %}best-odd{% endif %}">{{ market_data[book].under }}</span></span>
+                                                                {% else %}—{% endif %}
+                                                            </td>
+                                                            {% endfor %}
+                                                        </tr>
+                                                    {% endfor %}
+                                                {% endfor %}
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </div>
+                </section>
+            {% endfor %}
+        </main>
     </div>
 
     <script>
-        // Script is simplified as the complex highlighting logic is no longer needed in the same way
-        document.addEventListener('DOMContentLoaded', function() {
-            // Feature 1: Collapsible Game Sections
-            document.querySelectorAll('.game-header').forEach((header, index) => {
-                header.addEventListener('click', () => {
-                    header.classList.toggle('collapsed');
-                    header.nextElementSibling.classList.toggle('hidden');
-                });
-                if (index !== 0) {
-                    header.classList.add('collapsed');
-                    header.nextElementSibling.classList.add('hidden');
+    document.addEventListener('DOMContentLoaded', function() {
+        // ARBITRAGE SCRIPT DATA
+        const arbitrageOps = {{ arbitrage_ops|tojson }};
+
+        // --- 1. Collapsible Section Logic (for Arbitrage) ---
+         document.querySelectorAll('[data-toggle="collapse"]').forEach(header => {
+            const target = document.querySelector(header.dataset.target);
+            if (!target) return;
+            header.addEventListener('click', () => {
+                header.classList.toggle('collapsed');
+                target.classList.toggle('hidden');
+                
+                if (target.id === 'arbitrage-content' && !target.classList.contains('hidden') && !target.innerHTML.includes('<table>')) {
+                    if (arbitrageOps && arbitrageOps.length > 0) {
+                        let tableHTML = `<table class="arbitrage-table"><thead><tr><th>Player / Prop</th><th>Bet Over</th><th>Bet Under</th><th>Profit</th></tr></thead><tbody>`;
+                        arbitrageOps.forEach(op => {
+                            tableHTML += `<tr>
+                                <td><strong>${op.player_name}</strong><br><small>${op.prop_type} (${op.line})</small></td>
+                                <td><strong>${op.bet_on_over.odds}</strong> on ${op.bet_on_over.sportsbook}</td>
+                                <td><strong>${op.bet_on_under.odds}</strong> on ${op.bet_on_under.sportsbook}</td>
+                                <td class="profit">${op.profit_margin}</td>
+                            </tr>`;
+                        });
+                        tableHTML += `</tbody></table>`;
+                        target.innerHTML = tableHTML;
+                    }
                 }
             });
+        });
 
-            // Feature 2: Player Search
-            const searchInput = document.getElementById('playerSearch');
-            searchInput.addEventListener('input', function() {
-                const searchTerm = this.value.toLowerCase();
-                document.querySelectorAll('.props-tbody').forEach(tbody => {
-                    let visiblePlayers = new Set();
-                    tbody.querySelectorAll('tr.player-row').forEach(row => {
-                        if (row.dataset.playerName.includes(searchTerm)) {
-                            visiblePlayers.add(row.dataset.playerName);
+        // --- 2. Intelligent Filtering Logic ---
+        const searchInput = document.getElementById('playerSearch');
+        const filterBtn = document.getElementById('filterBtn');
+        const propFilterDropdown = document.getElementById('propFilterDropdown');
+        let activePropTypes = new Set();
+        let propTypes = new Set();
+
+        document.querySelectorAll('.player-accordion-item').forEach(item => {
+            if (item.dataset.props) {
+                try {
+                    JSON.parse(item.dataset.props).forEach(prop => propTypes.add(prop));
+                } catch (e) { console.error("Could not parse props:", e); }
+            }
+        });
+
+        Array.from(propTypes).sort().forEach(prop => {
+            propFilterDropdown.innerHTML += `<label><input type="checkbox" data-prop="${prop}"> ${prop}</label>`;
+        });
+        
+        const applyFilters = () => {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            document.querySelectorAll('.game-container').forEach(gameContainer => {
+                let gameHasVisiblePlayers = false;
+                gameContainer.querySelectorAll('.team-section').forEach(teamSection => {
+                    let teamHasVisiblePlayers = false;
+                    teamSection.querySelectorAll('.player-accordion-item').forEach(item => {
+                        const playerName = item.dataset.playerName || '';
+                        const playerProps = new Set(JSON.parse(item.dataset.props || '[]'));
+                        const matchesSearch = !searchTerm || playerName.includes(searchTerm);
+                        const matchesProp = activePropTypes.size === 0 || [...activePropTypes].some(p => playerProps.has(p));
+                        
+                        if (matchesSearch && matchesProp) {
+                            item.style.display = '';
+                            teamHasVisiblePlayers = true;
+                            gameHasVisiblePlayers = true;
+                        } else {
+                            item.style.display = 'none';
                         }
                     });
-
-                    tbody.querySelectorAll('tr.player-row').forEach(row => {
-                        row.style.display = visiblePlayers.has(row.dataset.playerName) ? '' : 'none';
-                    });
+                    teamSection.classList.toggle('hidden', !teamHasVisiblePlayers);
                 });
+                gameContainer.classList.toggle('hidden', !gameHasVisiblePlayers);
+                const gameId = gameContainer.id;
+                const sidebarLink = document.querySelector(`.game-nav-item a[href="#${gameId}"]`);
+                if(sidebarLink) sidebarLink.classList.toggle('filtered-out', !gameHasVisiblePlayers);
+            });
+        };
+        
+        searchInput.addEventListener('input', applyFilters);
+        propFilterDropdown.addEventListener('change', (e) => {
+            if (e.target.type === 'checkbox') {
+                const prop = e.target.dataset.prop;
+                if (e.target.checked) activePropTypes.add(prop); else activePropTypes.delete(prop);
+                const count = activePropTypes.size;
+                filterBtn.innerHTML = `Filter by Prop ${count > 0 ? `<span class="count">${count}</span>` : ''}`;
+                applyFilters();
+            }
+        });
+
+        // --- 3. Player Accordion Logic ---
+        document.querySelectorAll('.player-header').forEach(header => {
+            header.addEventListener('click', () => {
+                header.classList.toggle('active');
+                const content = header.nextElementSibling;
+                if (content.style.maxHeight) {
+                    content.style.maxHeight = null;
+                } else {
+                    content.style.maxHeight = content.scrollHeight + "px";
+                }
             });
         });
+        
+        // --- 4. Misc Event Listeners ---
+        filterBtn.addEventListener('click', (e) => { e.stopPropagation(); propFilterDropdown.classList.toggle('show'); });
+        window.addEventListener('click', () => propFilterDropdown.classList.remove('show'));
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const id = entry.target.getAttribute('id');
+                    document.querySelectorAll('.game-nav-item a').forEach(link => {
+                        link.classList.toggle('active', link.getAttribute('href') === `#${id}`);
+                    });
+                }
+            });
+        }, { rootMargin: "-40% 0px -60% 0px" });
+        
+        document.querySelectorAll('.game-container').forEach(section => observer.observe(section));
+    });
     </script>
 </body>
 </html>

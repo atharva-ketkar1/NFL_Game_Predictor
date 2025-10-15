@@ -276,15 +276,17 @@ def main():
         "Accept": "*/*",
     })
 
-    output_dir = "nfl_data"
-    os.makedirs(output_dir, exist_ok=True)
+    # --- Create week-specific output folder ---
+    base_dir = "nfl_data"
+    week_dir = os.path.join(base_dir, f"week_{week_number}")
+    os.makedirs(week_dir, exist_ok=True)
 
     # --- 1️⃣ Fetch Game Lines ---
     game_lines_data = fetch_game_lines(session)
     parsed_lines = parse_game_lines(game_lines_data)
 
     if parsed_lines:
-        lines_file = os.path.join(output_dir, f"draftkings_nfl_week_{week_number}_game_lines.csv")
+        lines_file = os.path.join(week_dir, f"draftkings_nfl_week_{week_number}_game_lines.csv")
         with open(lines_file, "w", newline="", encoding="utf-8") as f:
             fieldnames = ['game', 'away_team', 'home_team', 'spread', 'spread_odds', 'total_line', 'total_odds', 'moneyline']
             writer = csv.DictWriter(f, fieldnames=fieldnames)
@@ -298,7 +300,6 @@ def main():
     print("\n--- Starting Player Prop Scraping ---")
     all_props = []
 
-    # --- Part A: Discoverable Props (Passing, Rushing, Receiving Yards, etc.)
     passing_category_id = PLAYER_PROP_CATEGORIES['Passing']
     all_subs = get_prop_subcategories(session, "Player Props", passing_category_id)
 
@@ -310,21 +311,18 @@ def main():
             print(f"  -> Found {len(props)} {sub['name']} props")
         time.sleep(random.uniform(1.5, 3.0))
 
-    # <<< NEW: Part B: Fetch "Longest" props directly
     print("\n--- Fetching 'Longest' Player Props ---")
     for prop_name, sub_id in LONGEST_PROP_SUBCATEGORIES.items():
         data = fetch_direct_prop_data(session, sub_id, prop_name)
         if data:
-            # We can reuse the same parsing function!
             props = parse_prop_data(data, prop_name)
             all_props.extend(props)
             print(f"  -> Found {len(props)} {prop_name} props")
         time.sleep(random.uniform(1.5, 3.0))
 
-
     # --- 3️⃣ Save All Props to CSV ---
     if all_props:
-        props_file = os.path.join(output_dir, f"draftkings_nfl_week_{week_number}_props.csv")
+        props_file = os.path.join(week_dir, f"draftkings_nfl_week_{week_number}_props.csv")
         with open(props_file, "w", newline="", encoding="utf-8") as f:
             fieldnames = ['week', 'game', 'player_name', 'prop_type', 'line', 'over_odds', 'under_odds', 'sportsbook']
             writer = csv.DictWriter(f, fieldnames=fieldnames)

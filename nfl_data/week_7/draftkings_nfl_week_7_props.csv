@@ -1,0 +1,51 @@
+week,game,player_name,prop_type,line,over_odds,under_odds,sportsbook
+7,PIT Steelers @ CIN Bengals,Ja'Marr Chase Receiving Yards O/U,Rec Yards,72.5,−111,−113,DraftKings
+7,PIT Steelers @ CIN Bengals,DK Metcalf Receiving Yards O/U,Rec Yards,59.5,−111,−113,DraftKings
+7,PIT Steelers @ CIN Bengals,Tee Higgins Receiving Yards O/U,Rec Yards,45.5,−112,−112,DraftKings
+7,PIT Steelers @ CIN Bengals,Noah Fant Receiving Yards O/U,Rec Yards,25.5,−113,−111,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren Receiving Yards O/U,Rec Yards,20.5,−116,−108,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown Receiving Yards O/U,Rec Yards,15.5,−118,−107,DraftKings
+7,PIT Steelers @ CIN Bengals,Andrei Iosivas Receiving Yards O/U,Rec Yards,15.5,−116,−108,DraftKings
+7,PIT Steelers @ CIN Bengals,Ja'Marr Chase,Receptions,6.5,−137,+107,DraftKings
+7,PIT Steelers @ CIN Bengals,Tee Higgins,Receptions,4.5,+118,−151,DraftKings
+7,PIT Steelers @ CIN Bengals,DK Metcalf,Receptions,4.5,+121,−154,DraftKings
+7,PIT Steelers @ CIN Bengals,Noah Fant,Receptions,3.5,−102,−125,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Receptions,3.5,+137,−176,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Receptions,2.5,−154,+121,DraftKings
+7,PIT Steelers @ CIN Bengals,Andrei Iosivas,Receptions,1.5,−106,−121,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers Interceptions Thrown O/U,Interceptions,0.5,+125,−160,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco Interceptions Thrown O/U,Interceptions,0.5,−171,+134,DraftKings
+7,PIT Steelers @ CIN Bengals,Chris Boswell Extra Points Made O/U,PAT Made,2.5,+111,−142,DraftKings
+7,PIT Steelers @ CIN Bengals,Evan McPherson Extra Points Made O/U,PAT Made,1.5,−119,−107,DraftKings
+7,PIT Steelers @ CIN Bengals,Chris Boswell Field Goals Made O/U,FG Made,1.5,−174,+135,DraftKings
+7,PIT Steelers @ CIN Bengals,Evan McPherson Field Goals Made O/U,FG Made,1.5,−107,−120,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren Rushing Yards O/U,Rush Yards,49.5,−112,−112,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown Rushing Yards O/U,Rush Yards,42.5,−115,−109,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell Rushing Yards O/U,Rush Yards,23.5,−108,−116,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco Passing Attempts O/U,Pass Attempts,36.5,−113,−113,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers Passing Attempts O/U,Pass Attempts,29.5,−127,+100,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren Rushing Attempts O/U,Rush Attempts,13.5,−119,−107,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown Rushing Attempts O/U,Rush Attempts,12.5,−128,+101,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco Passing,Completions,23.5,+102,−131,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers Passing,Completions,20.5,−122,−105,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco Passing Yards O/U,Pass Yards,232.5,−112,−112,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers Passing Yards O/U,Pass Yards,217.5,−111,−113,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers Passing Touchdowns O/U,Pass TDs,1.5,−132,+103,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco Passing Touchdowns O/U,Pass TDs,1.5,+153,−196,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Longest Rush,12.5,−120,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Longest Rush,10.5,−110,−120,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Longest Rush,9.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,DK Metcalf,Longest Reception,24.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Ja'Marr Chase,Longest Reception,22.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Tee Higgins,Longest Reception,19.5,−125,−105,DraftKings
+7,PIT Steelers @ CIN Bengals,Jonnu Smith,Longest Reception,13.5,−120,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Noah Fant,Longest Reception,12.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Darnell Washington,Longest Reception,11.5,−125,−105,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Longest Reception,10.5,−130,+100,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Longest Reception,10.5,−125,−105,DraftKings
+7,PIT Steelers @ CIN Bengals,Andrei Iosivas,Longest Reception,10.5,−120,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Longest Reception,9.5,−110,−120,DraftKings
+7,LA Rams @ JAX Jaguars,Matthew Stafford,Longest Passing Completion,36.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers,Longest Passing Completion,35.5,−110,−120,DraftKings
+7,LA Rams @ JAX Jaguars,Trevor Lawrence,Longest Passing Completion,34.5,−110,−120,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco,Longest Passing Completion,32.5,−120,−110,DraftKings
