@@ -7,11 +7,10 @@
     <style>
         /*
         ========================================
-        V6.1 - ARBITRAGE SECTION RESTORED
+        V6.2 - DYNAMIC WEEK SELECTOR
         Author: Gemini (Senior UI/UX Engineer)
-        Date: 2025-10-12
-        Description: Re-integrated the collapsible arbitrage section
-                     into the main content area.
+        Date: 2025-10-14
+        Description: Added week navigation and dynamic data loading.
         ========================================
         */
 
@@ -64,6 +63,10 @@
         .filter-dropdown-content label:hover { background-color: var(--hover-color); }
         .filter-dropdown-content input { margin-right: 10px; }
         
+        /* New styles for week selector */
+        .week-selector-container { display: flex; align-items: center; gap: 8px; margin-left: auto; }
+        #weekSelector { -webkit-appearance: none; appearance: none; padding-right: 30px; background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236e7681' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e"); background-position: right 0.5rem center; background-repeat: no-repeat; background-size: 1.5em 1.5em; }
+
         /* --- 3. Arbitrage, Game & Team Containers --- */
         .content-section { border: 1px solid var(--border-color); border-radius: var(--border-radius); margin-bottom: 25px; background-color: var(--surface-color); }
         .game-container, .team-section { transition: max-height 0.4s ease-in-out, margin 0.4s, padding 0.4s; overflow: hidden; }
@@ -76,7 +79,7 @@
         .section-content.hidden { max-height: 0; padding: 0 20px; }
         .badge { background-color: var(--secondary-text); color: var(--bg-color); font-size: 0.7em; font-weight: bold; padding: 3px 8px; border-radius: 10px; margin-left: 10px; }
         #arbitrage-section .section-header .badge { background-color: var(--profit-color); }
-        .game-section-header { cursor: default; } /* Make game headers non-clickable */
+        .game-section-header { cursor: default; }
 
         /* --- 4. Player Accordion --- */
         .team-header { padding: 15px 20px; font-size: 1.3em; font-weight: bold; border-top: 1px solid var(--border-color); background: #1a222e; }
@@ -102,7 +105,7 @@
 <body>
     <div class="dashboard-container">
         <nav class="sidebar">
-            <div class="sidebar-header">Games This Week</div>
+            <div class="sidebar-header">Games - Week {{ week_number }}</div>
             <ul class="game-nav-list">
                 {% for game, game_data in final_data.items()|sort %}
                     <li class="game-nav-item">
@@ -134,16 +137,33 @@
                         <button id="filterBtn" class="filter-dropdown-btn">Filter by Prop</button>
                         <div id="propFilterDropdown" class="filter-dropdown-content"></div>
                     </div>
+                    {% if available_weeks %}
+                    <div class="week-selector-container">
+                        <label for="weekSelector" class="secondary-text">View:</label>
+                        <select id="weekSelector" class="filter-dropdown-btn">
+                            {% for week in available_weeks %}
+                                <option value="{{ week }}" {% if week == current_week %}selected{% endif %}>
+                                    Week {{ week }}
+                                </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    {% endif %}
                 </div>
             </header>
             
+            <!-- Display error message if any -->
+            {% if error_msg %}
+                <p style="color: #ff4d4d; text-align: center;">{{ error_msg }}</p>
+            {% endif %}
+
             <section id="arbitrage-section" class="content-section">
                 <div class="section-header collapsed" data-toggle="collapse" data-target="#arbitrage-content">
                     <h2>Arbitrage <span class="badge">{{ arbitrage_ops|length }}</span></h2>
                     <span class="toggle-icon">▼</span>
                 </div>
                 <div id="arbitrage-content" class="section-content hidden">
-                    {% if not arbitrage_ops %}<p>No arbitrage opportunities found in the current data.</p>{% endif %}
+                    {% if not arbitrage_ops %}<p style="padding: 15px;">No arbitrage opportunities found in the current data.</p>{% endif %}
                 </div>
             </section>
 
@@ -213,10 +233,17 @@
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // ARBITRAGE SCRIPT DATA
-        const arbitrageOps = {{ arbitrage_ops|tojson }};
+        // --- 0. Week Selector Logic ---
+        const weekSelector = document.getElementById('weekSelector');
+        if (weekSelector) {
+            weekSelector.addEventListener('change', function() {
+                const selectedWeek = this.value;
+                window.location.href = `/week/${selectedWeek}`;
+            });
+        }
 
-        // --- 1. Collapsible Section Logic (for Arbitrage) ---
+        // --- 1. Arbitrage Data & Section Logic ---
+        const arbitrageOps = {{ arbitrage_ops|tojson }};
          document.querySelectorAll('[data-toggle="collapse"]').forEach(header => {
             const target = document.querySelector(header.dataset.target);
             if (!target) return;
@@ -226,16 +253,16 @@
                 
                 if (target.id === 'arbitrage-content' && !target.classList.contains('hidden') && !target.innerHTML.includes('<table>')) {
                     if (arbitrageOps && arbitrageOps.length > 0) {
-                        let tableHTML = `<table class="arbitrage-table"><thead><tr><th>Player / Prop</th><th>Bet Over</th><th>Bet Under</th><th>Profit</th></tr></thead><tbody>`;
+                        let tableHTML = `<div class="table-wrapper" style="padding: 15px;"><table class="arbitrage-table"><thead><tr><th>Player / Prop</th><th>Bet Over</th><th>Bet Under</th><th>Profit</th></tr></thead><tbody>`;
                         arbitrageOps.forEach(op => {
                             tableHTML += `<tr>
-                                <td><strong>${op.player_name}</strong><br><small>${op.prop_type} (${op.line})</small></td>
-                                <td><strong>${op.bet_on_over.odds}</strong> on ${op.bet_on_over.sportsbook}</td>
-                                <td><strong>${op.bet_on_under.odds}</strong> on ${op.bet_on_under.sportsbook}</td>
-                                <td class="profit">${op.profit_margin}</td>
+                                <td><strong>${op.player_name}</strong><br><small style="color: var(--secondary-text);">${op.prop_type} (${op.line})</small></td>
+                                <td><strong>${op.bet_on_over.odds > 0 ? '+' : ''}${op.bet_on_over.odds}</strong> on ${op.bet_on_over.sportsbook}</td>
+                                <td><strong>${op.bet_on_under.odds > 0 ? '+' : ''}${op.bet_on_under.odds}</strong> on ${op.bet_on_under.sportsbook}</td>
+                                <td style="color: var(--profit-color);">${op.profit_margin}</td>
                             </tr>`;
                         });
-                        tableHTML += `</tbody></table>`;
+                        tableHTML += `</tbody></table></div>`;
                         target.innerHTML = tableHTML;
                     }
                 }
@@ -248,19 +275,14 @@
         const propFilterDropdown = document.getElementById('propFilterDropdown');
         let activePropTypes = new Set();
         let propTypes = new Set();
-
         document.querySelectorAll('.player-accordion-item').forEach(item => {
             if (item.dataset.props) {
-                try {
-                    JSON.parse(item.dataset.props).forEach(prop => propTypes.add(prop));
-                } catch (e) { console.error("Could not parse props:", e); }
+                try { JSON.parse(item.dataset.props).forEach(prop => propTypes.add(prop)); } catch (e) { console.error("Could not parse props:", e); }
             }
         });
-
         Array.from(propTypes).sort().forEach(prop => {
             propFilterDropdown.innerHTML += `<label><input type="checkbox" data-prop="${prop}"> ${prop}</label>`;
         });
-        
         const applyFilters = () => {
             const searchTerm = searchInput.value.toLowerCase().trim();
             document.querySelectorAll('.game-container').forEach(gameContainer => {
@@ -272,14 +294,9 @@
                         const playerProps = new Set(JSON.parse(item.dataset.props || '[]'));
                         const matchesSearch = !searchTerm || playerName.includes(searchTerm);
                         const matchesProp = activePropTypes.size === 0 || [...activePropTypes].some(p => playerProps.has(p));
-                        
                         if (matchesSearch && matchesProp) {
-                            item.style.display = '';
-                            teamHasVisiblePlayers = true;
-                            gameHasVisiblePlayers = true;
-                        } else {
-                            item.style.display = 'none';
-                        }
+                            item.style.display = ''; teamHasVisiblePlayers = true; gameHasVisiblePlayers = true;
+                        } else { item.style.display = 'none'; }
                     });
                     teamSection.classList.toggle('hidden', !teamHasVisiblePlayers);
                 });
@@ -289,7 +306,6 @@
                 if(sidebarLink) sidebarLink.classList.toggle('filtered-out', !gameHasVisiblePlayers);
             });
         };
-        
         searchInput.addEventListener('input', applyFilters);
         propFilterDropdown.addEventListener('change', (e) => {
             if (e.target.type === 'checkbox') {
@@ -306,18 +322,14 @@
             header.addEventListener('click', () => {
                 header.classList.toggle('active');
                 const content = header.nextElementSibling;
-                if (content.style.maxHeight) {
-                    content.style.maxHeight = null;
-                } else {
-                    content.style.maxHeight = content.scrollHeight + "px";
-                }
+                if (content.style.maxHeight) { content.style.maxHeight = null; } 
+                else { content.style.maxHeight = content.scrollHeight + "px"; }
             });
         });
         
         // --- 4. Misc Event Listeners ---
         filterBtn.addEventListener('click', (e) => { e.stopPropagation(); propFilterDropdown.classList.toggle('show'); });
         window.addEventListener('click', () => propFilterDropdown.classList.remove('show'));
-
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -328,7 +340,6 @@
                 }
             });
         }, { rootMargin: "-40% 0px -60% 0px" });
-        
         document.querySelectorAll('.game-container').forEach(section => observer.observe(section));
     });
     </script>
