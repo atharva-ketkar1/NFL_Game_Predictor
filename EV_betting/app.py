@@ -3,7 +3,7 @@ import re
 import pandas as pd
 import unicodedata
 from collections import defaultdict
-from flask import Flask, render_template, redirect, url_for
+from flask import Flask, render_template, redirect, url_for, request
 
 app = Flask(__name__)
 
@@ -12,7 +12,6 @@ TEAM_MAP = {
     'ARI Cardinals': 'Arizona Cardinals', 'ATL Falcons': 'Atlanta Falcons', 'BAL Ravens': 'Baltimore Ravens', 'BUF Bills': 'Buffalo Bills', 'CAR Panthers': 'Carolina Panthers', 'CHI Bears': 'Chicago Bears', 'CIN Bengals': 'Cincinnati Bengals', 'CLE Browns': 'Cleveland Browns', 'DAL Cowboys': 'Dallas Cowboys', 'DEN Broncos': 'Denver Broncos', 'DET Lions': 'Detroit Lions', 'GB Packers': 'Green Bay Packers', 'HOU Texans': 'Houston Texans', 'IND Colts': 'Indianapolis Colts', 'JAX Jaguars': 'Jacksonville Jaguars', 'KC Chiefs': 'Kansas City Chiefs', 'LV Raiders': 'Las Vegas Raiders', 'LA Chargers': 'Los Angeles Chargers', 'LA Rams': 'Los Angeles Rams', 'MIA Dolphins': 'Miami Dolphins', 'MIN Vikings': 'Minnesota Vikings', 'NE Patriots': 'New England Patriots', 'NO Saints': 'New Orleans Saints', 'NY Giants': 'New York Giants', 'NY Jets': 'New York Jets', 'PHI Eagles': 'Philadelphia Eagles', 'PIT Steelers': 'Pittsburgh Steelers', 'SF 49ers': 'San Francisco 49ers', 'SEA Seahawks': 'Seattle Seahawks', 'TB Buccaneers': 'Tampa Bay Buccaneers', 'TEN Titans': 'Tennessee Titans', 'WAS Commanders': 'Washington Commanders'
 }
 
-# --- CORRECTED MAPPING: Using underscores for FanDuel Logo URLs ---
 FANDUEL_LOGO_MAP = {
     'Arizona Cardinals': 'arizona_cardinals', 'Atlanta Falcons': 'atlanta_falcons', 'Baltimore Ravens': 'baltimore_ravens', 'Buffalo Bills': 'buffalo_bills', 'Carolina Panthers': 'carolina_panthers', 'Chicago Bears': 'chicago_bears', 'Cincinnati Bengals': 'cincinnati_bengals', 'Cleveland Browns': 'cleveland_browns', 'Dallas Cowboys': 'dallas_cowboys', 'Denver Broncos': 'denver_broncos', 'Detroit Lions': 'detroit_lions', 'Green Bay Packers': 'green_bay_packers', 'Houston Texans': 'houston_texans', 'Indianapolis Colts': 'indianapolis_colts', 'Jacksonville Jaguars': 'jacksonville_jaguars', 'Kansas City Chiefs': 'kansas_city_chiefs', 'Las Vegas Raiders': 'las_vegas_raiders', 'Los Angeles Chargers': 'los_angeles_chargers', 'Los Angeles Rams': 'los_angeles_rams', 'Miami Dolphins': 'miami_dolphins', 'Minnesota Vikings': 'minnesota_vikings', 'New England Patriots': 'new_england_patriots', 'New Orleans Saints': 'new_orleans_saints', 'New York Giants': 'new_york_giants', 'New York Jets': 'new_york_jets', 'Philadelphia Eagles': 'philadelphia_eagles', 'Pittsburgh Steelers': 'pittsburgh_steelers', 'San Francisco 49ers': 'san_francisco_49ers', 'Seattle Seahawks': 'seattle_seahawks', 'Tampa Bay Buccaneers': 'tampa_bay_buccaneers', 'Tennessee Titans': 'tennessee_titans', 'Washington Commanders': 'washington_commanders'
 }
@@ -119,8 +118,6 @@ def extract_player_name(text, known_players):
     return best_match if best_match else text
 
 def get_combined_data(week_number):
-    output_structure = defaultdict(lambda: {'game_lines': None, 'teams': {}})
-    sportsbooks = []
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(script_dir, '..', 'nfl_data')
     week_folder = f'week_{week_number}'
@@ -129,33 +126,37 @@ def get_combined_data(week_number):
         'draftkings': os.path.join(week_folder, f'draftkings_nfl_week_{week_number}_props.csv')
     }
     if not os.path.isdir(data_dir):
-        return None, output_structure, f"Error: Data directory not found at '{os.path.abspath(data_dir)}'.", str(week_number), sportsbooks
-    
+        return None, f"Error: Data directory not found at '{os.path.abspath(data_dir)}'.", []
+
     fanduel_path = os.path.join(data_dir, prop_files['fanduel'])
     draftkings_path = os.path.join(data_dir, prop_files['draftkings'])
     fanduel_df = pd.read_csv(fanduel_path) if os.path.exists(fanduel_path) else pd.DataFrame()
     draftkings_df = pd.read_csv(draftkings_path) if os.path.exists(draftkings_path) else pd.DataFrame()
-    
+
     if fanduel_df.empty and draftkings_df.empty:
-        return None, output_structure, f"No prop data files found for Week {week_number} in '{os.path.abspath(data_dir)}'.", str(week_number), sportsbooks
+        return None, f"No prop data files found for Week {week_number} in '{os.path.abspath(data_dir)}'.", []
 
     if not fanduel_df.empty: fanduel_df['sportsbook'] = 'Fanduel'
     if not draftkings_df.empty:
         draftkings_df.rename(columns={'player': 'player_name'}, inplace=True)
         draftkings_df['sportsbook'] = 'Draftkings'
-            
+
     props_df = pd.concat([fanduel_df, draftkings_df], ignore_index=True)
     props_df.rename(columns={'over': 'over_odds', 'under': 'under_odds'}, inplace=True)
 
-    # --- FIX: Convert odds columns to a numeric type to prevent TypeError ---
     for col in ['over_odds', 'under_odds']:
         if col in props_df.columns:
             props_df[col] = pd.to_numeric(
-                props_df[col].astype(str).str.replace('−', '-'), 
+                props_df[col].astype(str).str.replace('−', '-'),
                 errors='coerce'
             )
 
-    # --- NEW UNIFIED NAME LOGIC ---
+    if not fanduel_df.empty:
+        known_clean_players = set(fanduel_df['player_name'].dropna().unique())
+        props_df['player_name'] = props_df['player_name'].apply(
+            lambda name: extract_player_name(name, known_clean_players)
+        )
+
     props_df['player_name_norm'] = props_df['player_name'].apply(normalize_player_name)
 
     canonical_name_map = {}
@@ -165,8 +166,7 @@ def get_combined_data(week_number):
         canonical_name_map = fd_map_df.drop_duplicates('player_name_norm', keep='last').set_index('player_name_norm')['player_name'].to_dict()
 
     props_df['player_name'] = props_df['player_name_norm'].map(canonical_name_map).fillna(props_df['player_name'])
-    
-    # --- REVISED PROP PARSING LOGIC ---
+
     def get_prop_string_from_row(row):
         prop_str = str(row['prop_type'])
         player_str = str(row['player_name'])
@@ -176,11 +176,10 @@ def get_combined_data(week_number):
 
     clean_prop_strings = props_df.apply(get_prop_string_from_row, axis=1)
     prop_details = clean_prop_strings.apply(parse_prop_type)
-    
+
     props_df['prop_main'] = prop_details.apply(lambda x: x['main'])
     props_df['prop_qualifier'] = prop_details.apply(lambda x: x['qualifier'])
 
-    # --- Build Player-Team Map for logos and grouping ---
     player_team_map = {}
     if not fanduel_df.empty and 'team_name' in fanduel_df.columns:
         map_source_df = fanduel_df[['player_name', 'team_name']].dropna().copy()
@@ -188,23 +187,30 @@ def get_combined_data(week_number):
         map_source_df = map_source_df.drop_duplicates(subset=['player_name_norm'], keep='last')
         player_team_map = map_source_df.set_index('player_name_norm')['team_name'].to_dict()
 
-    # Ensure team_name column exists and fill it using the map
     if 'team_name' not in props_df.columns:
         props_df['team_name'] = ''
     props_df['team_name'] = props_df['player_name_norm'].map(player_team_map).fillna(props_df.get('team_name', ''))
 
     props_df.dropna(subset=['game', 'player_name', 'over_odds', 'under_odds', 'prop_main'], inplace=True)
-    
+
     props_df['game_norm'] = props_df['game'].astype(str).apply(lambda g: normalize_game_name(g, TEAM_MAP))
-    
+
     sportsbooks = sorted(props_df['sportsbook'].unique())
     props_df['grouping_team'] = props_df['team_name'].replace('', 'Unknown')
-    
+
+    return props_df, None, sportsbooks
+
+def structure_props_for_template(props_df):
+    """Takes a DataFrame of props and structures it into a nested dict for the template."""
+    output_structure = defaultdict(lambda: {'game_lines': None, 'teams': {}})
+    if props_df is None or props_df.empty:
+        return output_structure
+
     grouped = props_df.groupby(['game_norm', 'grouping_team', 'player_name', 'prop_main', 'prop_qualifier'])
-    
+
     for (game, team, player, prop_main, prop_qualifier), group in grouped:
         if not all([game, player]): continue
-        
+
         team_logo_url = ''
         if team != 'Unknown':
             team_logo_slug = FANDUEL_LOGO_MAP.get(team, '')
@@ -224,8 +230,8 @@ def get_combined_data(week_number):
 
     for game_name, data in output_structure.items():
         if 'Unknown' in data['teams']: data['teams']['Players'] = data['teams'].pop('Unknown')
-            
-    return props_df, output_structure, None, str(week_number), sportsbooks
+
+    return output_structure
 
 
 @app.route('/')
@@ -242,24 +248,56 @@ def index():
 @app.route('/week/<int:week_num>')
 def show_week(week_num):
     """Displays the dashboard for a specific week."""
+    # Get filter criteria from URL to pre-populate the form
+    player_search = request.args.get('player_search', '').strip()
+    prop_filter = request.args.get('prop_filter', '').strip()
+
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(script_dir, '..', 'nfl_data')
     available_weeks = get_available_weeks(data_dir)
     if week_num not in available_weeks:
         return redirect(url_for('index'))
 
-    raw_props_df, final_data, error_msg, week_number, sportsbooks = get_combined_data(week_num)
+    # Get all raw data
+    raw_props_df, error_msg, sportsbooks = get_combined_data(week_num)
+
+    # Handle errors or no data
+    if error_msg or raw_props_df is None or raw_props_df.empty:
+         return render_template('index.html',
+                           final_data={},
+                           error_msg=error_msg or "No data available for this week.",
+                           week_number=str(week_num),
+                           arbitrage_ops=[],
+                           sportsbooks=[],
+                           available_weeks=available_weeks,
+                           current_week=week_num,
+                           prop_types=[],
+                           player_search=player_search,
+                           prop_filter=prop_filter)
+
+    # 1. Get unique prop types for the filter dropdown
+    prop_types = sorted(raw_props_df['prop_main'].unique())
+
+    # 2. Find arbitrage opportunities on the full dataset
     arbitrage_ops = find_arbitrage_opportunities(raw_props_df)
 
-    return render_template('index.html', 
-                           final_data=final_data, 
-                           error_msg=error_msg, 
-                           week_number=week_number, 
-                           arbitrage_ops=arbitrage_ops, 
+    # 3. IMPORTANT: We no longer filter the DataFrame here.
+    #    We pass the full, unfiltered dataset to the template.
+    #    JavaScript will handle the filtering on the client-side.
+    final_data = structure_props_for_template(raw_props_df)
+
+    return render_template('index.html',
+                           final_data=final_data,
+                           error_msg=None,
+                           week_number=str(week_num),
+                           arbitrage_ops=arbitrage_ops,
                            sportsbooks=sportsbooks,
                            available_weeks=available_weeks,
-                           current_week=week_num)
+                           current_week=week_num,
+                           prop_types=prop_types,
+                           player_search=player_search,
+                           prop_filter=prop_filter)
+
 
 if __name__ == '__main__':
     app.run(debug=True)
-

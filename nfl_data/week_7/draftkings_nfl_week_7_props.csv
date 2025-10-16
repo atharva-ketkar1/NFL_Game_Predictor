@@ -1,51 +1,323 @@
 week,game,player_name,prop_type,line,over_odds,under_odds,sportsbook
-7,PIT Steelers @ CIN Bengals,Ja'Marr Chase Receiving Yards O/U,Rec Yards,72.5,−111,−113,DraftKings
-7,PIT Steelers @ CIN Bengals,DK Metcalf Receiving Yards O/U,Rec Yards,59.5,−111,−113,DraftKings
-7,PIT Steelers @ CIN Bengals,Tee Higgins Receiving Yards O/U,Rec Yards,45.5,−112,−112,DraftKings
-7,PIT Steelers @ CIN Bengals,Noah Fant Receiving Yards O/U,Rec Yards,25.5,−113,−111,DraftKings
-7,PIT Steelers @ CIN Bengals,Jaylen Warren Receiving Yards O/U,Rec Yards,20.5,−116,−108,DraftKings
-7,PIT Steelers @ CIN Bengals,Chase Brown Receiving Yards O/U,Rec Yards,15.5,−118,−107,DraftKings
-7,PIT Steelers @ CIN Bengals,Andrei Iosivas Receiving Yards O/U,Rec Yards,15.5,−116,−108,DraftKings
-7,PIT Steelers @ CIN Bengals,Ja'Marr Chase,Receptions,6.5,−137,+107,DraftKings
-7,PIT Steelers @ CIN Bengals,Tee Higgins,Receptions,4.5,+118,−151,DraftKings
-7,PIT Steelers @ CIN Bengals,DK Metcalf,Receptions,4.5,+121,−154,DraftKings
-7,PIT Steelers @ CIN Bengals,Noah Fant,Receptions,3.5,−102,−125,DraftKings
-7,PIT Steelers @ CIN Bengals,Jaylen Warren,Receptions,3.5,+137,−176,DraftKings
-7,PIT Steelers @ CIN Bengals,Chase Brown,Receptions,2.5,−154,+121,DraftKings
-7,PIT Steelers @ CIN Bengals,Andrei Iosivas,Receptions,1.5,−106,−121,DraftKings
-7,PIT Steelers @ CIN Bengals,Aaron Rodgers Interceptions Thrown O/U,Interceptions,0.5,+125,−160,DraftKings
-7,PIT Steelers @ CIN Bengals,Joe Flacco Interceptions Thrown O/U,Interceptions,0.5,−171,+134,DraftKings
-7,PIT Steelers @ CIN Bengals,Chris Boswell Extra Points Made O/U,PAT Made,2.5,+111,−142,DraftKings
-7,PIT Steelers @ CIN Bengals,Evan McPherson Extra Points Made O/U,PAT Made,1.5,−119,−107,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Rush Yards,48.5,−114,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Rush Yards,44.5,−115,−109,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Rush Yards,25.5,−116,−108,DraftKings
+7,LA Rams @ JAX Jaguars,Kyren Williams,Rush Yards,69.5,−114,−110,DraftKings
+7,LA Rams @ JAX Jaguars,Travis Etienne Jr.,Rush Yards,60.5,−111,−113,DraftKings
+7,LA Rams @ JAX Jaguars,Trevor Lawrence,Rush Yards,15.5,−109,−115,DraftKings
+7,LA Rams @ JAX Jaguars,Bhayshul Tuten,Rush Yards,14.5,−117,−107,DraftKings
+7,NE Patriots @ TEN Titans,Rhamondre Stevenson,Rush Yards,44.5,−112,−112,DraftKings
+7,NE Patriots @ TEN Titans,Drake Maye,Rush Yards,24.5,−112,−112,DraftKings
+7,MIA Dolphins @ CLE Browns,Quinshon Judkins,Rush Yards,84.5,−114,−110,DraftKings
+7,MIA Dolphins @ CLE Browns,DeVon Achane,Rush Yards,58.5,−112,−112,DraftKings
+7,LV Raiders @ KC Chiefs,Ashton Jeanty,Rush Yards,61.5,−110,−114,DraftKings
+7,PHI Eagles @ MIN Vikings,Saquon Barkley,Rush Yards,69.5,−111,−113,DraftKings
+7,PHI Eagles @ MIN Vikings,Jalen Hurts,Rush Yards,33.5,−115,−109,DraftKings
+7,CAR Panthers @ NY Jets,Breece Hall,Rush Yards,71.5,−113,−111,DraftKings
+7,CAR Panthers @ NY Jets,Justin Fields,Rush Yards,40.5,−114,−110,DraftKings
+7,NO Saints @ CHI Bears,Spencer Rattler,Rush Yards,21.5,−114,−110,DraftKings
+7,NY Giants @ DEN Broncos,Cameron Skattebo,Rush Yards,57.5,−112,−112,DraftKings
+7,NY Giants @ DEN Broncos,Jaxson Dart,Rush Yards,43.5,−110,−114,DraftKings
+7,NY Giants @ DEN Broncos,Bo Nix,Rush Yards,18.5,−108,−116,DraftKings
+7,IND Colts @ LA Chargers,Jonathan Taylor,Rush Yards,88.5,−112,−112,DraftKings
+7,IND Colts @ LA Chargers,Daniel Jones,Rush Yards,16.5,−118,−106,DraftKings
+7,IND Colts @ LA Chargers,Justin Herbert,Rush Yards,16.5,−116,−108,DraftKings
+7,GB Packers @ ARI Cardinals,Josh Jacobs,Rush Yards,72.5,−111,−113,DraftKings
+7,TB Buccaneers @ DET Lions,Jahmyr Gibbs,Rush Yards,61.5,−114,−110,DraftKings
+7,TB Buccaneers @ DET Lions,Rachaad White,Rush Yards,54.5,−114,−110,DraftKings
+7,TB Buccaneers @ DET Lions,David Montgomery,Rush Yards,45.5,−114,−111,DraftKings
+7,TB Buccaneers @ DET Lions,Baker Mayfield,Rush Yards,19.5,−114,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco,Pass Yards,239.5,−111,−114,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers,Pass Yards,219.5,−112,−112,DraftKings
+7,LA Rams @ JAX Jaguars,Matthew Stafford,Pass Yards,251.5,−111,−113,DraftKings
+7,LA Rams @ JAX Jaguars,Trevor Lawrence,Pass Yards,221.5,−113,−111,DraftKings
+7,NE Patriots @ TEN Titans,Drake Maye,Pass Yards,233.5,−111,−113,DraftKings
+7,MIA Dolphins @ CLE Browns,Tua Tagovailoa,Pass Yards,222.5,−112,−112,DraftKings
+7,MIA Dolphins @ CLE Browns,Dillon Gabriel,Pass Yards,194.5,−112,−112,DraftKings
+7,LV Raiders @ KC Chiefs,Geno Smith,Pass Yards,205.5,−111,−113,DraftKings
+7,PHI Eagles @ MIN Vikings,Jalen Hurts,Pass Yards,209.5,−111,−113,DraftKings
+7,CAR Panthers @ NY Jets,Bryce Young,Pass Yards,198.5,−110,−114,DraftKings
+7,CAR Panthers @ NY Jets,Justin Fields,Pass Yards,176.5,−113,−111,DraftKings
+7,NO Saints @ CHI Bears,Spencer Rattler,Pass Yards,213.5,−110,−114,DraftKings
+7,NY Giants @ DEN Broncos,Bo Nix,Pass Yards,218.5,−112,−112,DraftKings
+7,NY Giants @ DEN Broncos,Jaxson Dart,Pass Yards,164.5,−111,−113,DraftKings
+7,IND Colts @ LA Chargers,Justin Herbert,Pass Yards,250.5,−111,−113,DraftKings
+7,IND Colts @ LA Chargers,Daniel Jones,Pass Yards,225.5,−113,−111,DraftKings
+7,GB Packers @ ARI Cardinals,Jordan Love,Pass Yards,230.5,−112,−112,DraftKings
+7,TB Buccaneers @ DET Lions,Jared Goff,Pass Yards,247.5,−112,−112,DraftKings
+7,TB Buccaneers @ DET Lions,Baker Mayfield,Pass Yards,242.5,−112,−112,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers,Pass TDs,1.5,−131,+103,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco,Pass TDs,1.5,+144,−184,DraftKings
+7,LA Rams @ JAX Jaguars,Matthew Stafford,Pass TDs,1.5,−143,+112,DraftKings
+7,LA Rams @ JAX Jaguars,Trevor Lawrence,Pass TDs,1.5,+138,−178,DraftKings
+7,NE Patriots @ TEN Titans,Drake Maye,Pass TDs,1.5,−124,−103,DraftKings
+7,MIA Dolphins @ CLE Browns,Tua Tagovailoa,Pass TDs,1.5,+137,−176,DraftKings
+7,MIA Dolphins @ CLE Browns,Dillon Gabriel,Pass TDs,1.5,+189,−246,DraftKings
+7,LV Raiders @ KC Chiefs,Geno Smith,Pass TDs,0.5,−250,+192,DraftKings
+7,PHI Eagles @ MIN Vikings,Jalen Hurts,Pass TDs,1.5,+161,−208,DraftKings
+7,CAR Panthers @ NY Jets,Bryce Young,Pass TDs,1.5,+128,−164,DraftKings
+7,CAR Panthers @ NY Jets,Justin Fields,Pass TDs,1.5,+192,−250,DraftKings
+7,NO Saints @ CHI Bears,Spencer Rattler,Pass TDs,1.5,+134,−172,DraftKings
+7,NY Giants @ DEN Broncos,Bo Nix,Pass TDs,1.5,+127,−162,DraftKings
+7,NY Giants @ DEN Broncos,Jaxson Dart,Pass TDs,0.5,−170,+133,DraftKings
+7,IND Colts @ LA Chargers,Justin Herbert,Pass TDs,1.5,−136,+107,DraftKings
+7,IND Colts @ LA Chargers,Daniel Jones,Pass TDs,1.5,+101,−129,DraftKings
+7,GB Packers @ ARI Cardinals,Jordan Love,Pass TDs,1.5,−146,+114,DraftKings
+7,TB Buccaneers @ DET Lions,Jared Goff,Pass TDs,1.5,−192,+150,DraftKings
+7,TB Buccaneers @ DET Lions,Baker Mayfield,Pass TDs,1.5,−162,+126,DraftKings
+7,PIT Steelers @ CIN Bengals,Ja'Marr Chase,Rec Yards,75.5,−110,−114,DraftKings
+7,PIT Steelers @ CIN Bengals,DK Metcalf,Rec Yards,63.5,−113,−111,DraftKings
+7,PIT Steelers @ CIN Bengals,Tee Higgins,Rec Yards,46.5,−114,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Noah Fant,Rec Yards,28.5,−116,−109,DraftKings
+7,PIT Steelers @ CIN Bengals,Jonnu Smith,Rec Yards,27.5,−113,−111,DraftKings
+7,PIT Steelers @ CIN Bengals,Darnell Washington,Rec Yards,25.5,−110,−114,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Rec Yards,18.5,−116,−108,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Rec Yards,17.5,−115,−109,DraftKings
+7,PIT Steelers @ CIN Bengals,Andrei Iosivas,Rec Yards,16.5,−108,−116,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Rec Yards,15.5,−112,−112,DraftKings
+7,PIT Steelers @ CIN Bengals,Roman Wilson,Rec Yards,9.5,−107,−117,DraftKings
+7,LA Rams @ JAX Jaguars,Brian Thomas Jr.,Rec Yards,66.5,−113,−111,DraftKings
+7,LA Rams @ JAX Jaguars,Travis Hunter,Rec Yards,39.5,−114,−110,DraftKings
+7,NE Patriots @ TEN Titans,Stefon Diggs,Rec Yards,50.5,−111,−113,DraftKings
+7,NE Patriots @ TEN Titans,Rhamondre Stevenson,Rec Yards,13.5,−108,−116,DraftKings
+7,MIA Dolphins @ CLE Browns,Jaylen Waddle,Rec Yards,68.5,−110,−114,DraftKings
+7,MIA Dolphins @ CLE Browns,Jerry Jeudy,Rec Yards,44.5,−110,−114,DraftKings
+7,MIA Dolphins @ CLE Browns,Darren Waller,Rec Yards,38.5,−110,−114,DraftKings
+7,MIA Dolphins @ CLE Browns,DeVon Achane,Rec Yards,30.5,−110,−115,DraftKings
+7,PHI Eagles @ MIN Vikings,A.J. Brown,Rec Yards,61.5,−110,−114,DraftKings
+7,PHI Eagles @ MIN Vikings,DeVonta Smith,Rec Yards,52.5,−111,−113,DraftKings
+7,PHI Eagles @ MIN Vikings,Dallas Goedert,Rec Yards,39.5,−113,−111,DraftKings
+7,PHI Eagles @ MIN Vikings,Saquon Barkley,Rec Yards,16.5,−107,−117,DraftKings
+7,NY Giants @ DEN Broncos,Courtland Sutton,Rec Yards,54.5,−111,−114,DraftKings
+7,NY Giants @ DEN Broncos,Evan Engram,Rec Yards,28.5,−109,−115,DraftKings
+7,NY Giants @ DEN Broncos,Cameron Skattebo,Rec Yards,14.5,−114,−110,DraftKings
+7,TB Buccaneers @ DET Lions,Amon-Ra St. Brown,Rec Yards,70.5,−114,−110,DraftKings
+7,TB Buccaneers @ DET Lions,Sam LaPorta,Rec Yards,46.5,−112,−112,DraftKings
+7,TB Buccaneers @ DET Lions,Jameson Williams,Rec Yards,43.5,−110,−114,DraftKings
+7,TB Buccaneers @ DET Lions,Jahmyr Gibbs,Rec Yards,23.5,−109,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Ja'Marr Chase,Receptions,6.5,−142,+111,DraftKings
+7,PIT Steelers @ CIN Bengals,DK Metcalf,Receptions,4.5,−104,−123,DraftKings
+7,PIT Steelers @ CIN Bengals,Tee Higgins,Receptions,4.5,+116,−149,DraftKings
+7,PIT Steelers @ CIN Bengals,Noah Fant,Receptions,3.5,−116,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Jonnu Smith,Receptions,3.5,−106,−121,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Receptions,2.5,−160,+125,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Receptions,2.5,−146,+114,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Receptions,2.5,−145,+113,DraftKings
+7,PIT Steelers @ CIN Bengals,Darnell Washington,Receptions,2.5,−127,+100,DraftKings
+7,PIT Steelers @ CIN Bengals,Andrei Iosivas,Receptions,1.5,−113,−113,DraftKings
+7,LA Rams @ JAX Jaguars,Brian Thomas Jr.,Receptions,5.5,+117,−150,DraftKings
+7,LA Rams @ JAX Jaguars,Travis Hunter,Receptions,3.5,−146,+115,DraftKings
+7,NY Giants @ DEN Broncos,Cameron Skattebo,Receptions,2.5,+123,−157,DraftKings
+7,TB Buccaneers @ DET Lions,Amon-Ra St. Brown,Receptions,6.5,−136,+107,DraftKings
+7,TB Buccaneers @ DET Lions,Sam LaPorta,Receptions,4.5,+103,−131,DraftKings
+7,TB Buccaneers @ DET Lions,Jahmyr Gibbs,Receptions,3.5,+121,−155,DraftKings
+7,TB Buccaneers @ DET Lions,Jameson Williams,Receptions,2.5,−163,+127,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers,Interceptions,0.5,+118,−150,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco,Interceptions,0.5,−177,+138,DraftKings
+7,LA Rams @ JAX Jaguars,Matthew Stafford,Interceptions,0.5,−109,−117,DraftKings
+7,LA Rams @ JAX Jaguars,Trevor Lawrence,Interceptions,0.5,−141,+111,DraftKings
+7,NY Giants @ DEN Broncos,Bo Nix,Interceptions,0.5,+103,−131,DraftKings
+7,NY Giants @ DEN Broncos,Jaxson Dart,Interceptions,0.5,−118,−108,DraftKings
+7,IND Colts @ LA Chargers,Daniel Jones,Interceptions,0.5,+122,−156,DraftKings
+7,IND Colts @ LA Chargers,Justin Herbert,Interceptions,0.5,−104,−122,DraftKings
+7,TB Buccaneers @ DET Lions,Jared Goff,Interceptions,0.5,+111,−141,DraftKings
+7,TB Buccaneers @ DET Lions,Baker Mayfield,Interceptions,0.5,−108,−118,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers,QB Fantasy Points,16.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco,QB Fantasy Points,13.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,RB Fantasy Points,13.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,RB Fantasy Points,11.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Ja'Marr Chase WR.TE Fantasy Points O/U,WR/TE Fantasy Points,15.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,DK Metcalf WR.TE Fantasy Points O/U,WR/TE Fantasy Points,12.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Tee Higgins WR.TE Fantasy Points O/U,WR/TE Fantasy Points,10.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Chris Boswell Extra Points Made O/U,PAT Made,2.5,−102,−125,DraftKings
+7,PIT Steelers @ CIN Bengals,Evan McPherson Extra Points Made O/U,PAT Made,1.5,−121,−105,DraftKings
 7,PIT Steelers @ CIN Bengals,Chris Boswell Field Goals Made O/U,FG Made,1.5,−174,+135,DraftKings
-7,PIT Steelers @ CIN Bengals,Evan McPherson Field Goals Made O/U,FG Made,1.5,−107,−120,DraftKings
-7,PIT Steelers @ CIN Bengals,Jaylen Warren Rushing Yards O/U,Rush Yards,49.5,−112,−112,DraftKings
-7,PIT Steelers @ CIN Bengals,Chase Brown Rushing Yards O/U,Rush Yards,42.5,−115,−109,DraftKings
-7,PIT Steelers @ CIN Bengals,Kenneth Gainwell Rushing Yards O/U,Rush Yards,23.5,−108,−116,DraftKings
-7,PIT Steelers @ CIN Bengals,Joe Flacco Passing Attempts O/U,Pass Attempts,36.5,−113,−113,DraftKings
-7,PIT Steelers @ CIN Bengals,Aaron Rodgers Passing Attempts O/U,Pass Attempts,29.5,−127,+100,DraftKings
-7,PIT Steelers @ CIN Bengals,Jaylen Warren Rushing Attempts O/U,Rush Attempts,13.5,−119,−107,DraftKings
-7,PIT Steelers @ CIN Bengals,Chase Brown Rushing Attempts O/U,Rush Attempts,12.5,−128,+101,DraftKings
-7,PIT Steelers @ CIN Bengals,Joe Flacco Passing,Completions,23.5,+102,−131,DraftKings
-7,PIT Steelers @ CIN Bengals,Aaron Rodgers Passing,Completions,20.5,−122,−105,DraftKings
-7,PIT Steelers @ CIN Bengals,Joe Flacco Passing Yards O/U,Pass Yards,232.5,−112,−112,DraftKings
-7,PIT Steelers @ CIN Bengals,Aaron Rodgers Passing Yards O/U,Pass Yards,217.5,−111,−113,DraftKings
-7,PIT Steelers @ CIN Bengals,Aaron Rodgers Passing Touchdowns O/U,Pass TDs,1.5,−132,+103,DraftKings
-7,PIT Steelers @ CIN Bengals,Joe Flacco Passing Touchdowns O/U,Pass TDs,1.5,+153,−196,DraftKings
-7,PIT Steelers @ CIN Bengals,Jaylen Warren,Longest Rush,12.5,−120,−110,DraftKings
-7,PIT Steelers @ CIN Bengals,Chase Brown,Longest Rush,10.5,−110,−120,DraftKings
-7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Longest Rush,9.5,−115,−115,DraftKings
-7,PIT Steelers @ CIN Bengals,DK Metcalf,Longest Reception,24.5,−115,−115,DraftKings
-7,PIT Steelers @ CIN Bengals,Ja'Marr Chase,Longest Reception,22.5,−115,−115,DraftKings
-7,PIT Steelers @ CIN Bengals,Tee Higgins,Longest Reception,19.5,−125,−105,DraftKings
-7,PIT Steelers @ CIN Bengals,Jonnu Smith,Longest Reception,13.5,−120,−110,DraftKings
-7,PIT Steelers @ CIN Bengals,Noah Fant,Longest Reception,12.5,−115,−115,DraftKings
-7,PIT Steelers @ CIN Bengals,Darnell Washington,Longest Reception,11.5,−125,−105,DraftKings
-7,PIT Steelers @ CIN Bengals,Jaylen Warren,Longest Reception,10.5,−130,+100,DraftKings
-7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Longest Reception,10.5,−125,−105,DraftKings
-7,PIT Steelers @ CIN Bengals,Andrei Iosivas,Longest Reception,10.5,−120,−110,DraftKings
-7,PIT Steelers @ CIN Bengals,Chase Brown,Longest Reception,9.5,−110,−120,DraftKings
-7,LA Rams @ JAX Jaguars,Matthew Stafford,Longest Passing Completion,36.5,−115,−115,DraftKings
-7,PIT Steelers @ CIN Bengals,Aaron Rodgers,Longest Passing Completion,35.5,−110,−120,DraftKings
+7,PIT Steelers @ CIN Bengals,Evan McPherson Field Goals Made O/U,FG Made,1.5,−104,−122,DraftKings
+7,PIT Steelers @ CIN Bengals,Chris Boswell,Kicking Pts,8.5,−103,−124,DraftKings
+7,PIT Steelers @ CIN Bengals,Evan McPherson,Kicking Pts,6.5,+103,−132,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers,Pass Yards - 1Q,46.5,−112,−116,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco,Pass Yards - 1Q,46.5,−112,−116,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Rush Yards - 1Q,9.5,−120,−108,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Rush Yards - 1Q,8.5,−120,−108,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Rush Yards - 1Q,3.5,−122,−106,DraftKings
+7,PIT Steelers @ CIN Bengals,Ja'Marr Chase,Rec Yards - 1Q,13.5,−116,−112,DraftKings
+7,PIT Steelers @ CIN Bengals,DK Metcalf,Rec Yards - 1Q,10.5,−109,−119,DraftKings
+7,PIT Steelers @ CIN Bengals,Tee Higgins,Rec Yards - 1Q,5.5,−113,−114,DraftKings
+7,PIT Steelers @ CIN Bengals,Darnell Washington,Rec Yards - 1Q,3.5,−116,−111,DraftKings
+7,PIT Steelers @ CIN Bengals,Noah Fant,Rec Yards - 1Q,2.5,−118,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Jonnu Smith,Rec Yards - 1Q,1.5,−112,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Rec Yards - 1Q,0.5,+114,−148,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Rec Yards - 1Q,0.5,+121,−158,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Rec Yards - 1Q,0.5,+122,−159,DraftKings
+7,PIT Steelers @ CIN Bengals,Andrei Iosivas,Rec Yards - 1Q,0.5,+214,−285,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers,Pass Yards - 1H,114.5,−112,−116,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco,Pass Yards - 1H,113.5,−113,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Rush Yards - 1H,23.5,−111,−117,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Rush Yards - 1H,21.5,−119,−109,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Rush Yards - 1H,10.5,−118,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Ja'Marr Chase,Rec Yards - 1H,35.5,−110,−117,DraftKings
+7,PIT Steelers @ CIN Bengals,DK Metcalf,Rec Yards - 1H,30.5,−117,−111,DraftKings
+7,PIT Steelers @ CIN Bengals,Tee Higgins,Rec Yards - 1H,20.5,−113,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Darnell Washington,Rec Yards - 1H,13.5,−118,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Noah Fant,Rec Yards - 1H,12.5,−117,−111,DraftKings
+7,PIT Steelers @ CIN Bengals,Jonnu Smith,Rec Yards - 1H,12.5,−114,−114,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Rec Yards - 1H,7.5,−117,−111,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Rec Yards - 1H,7.5,−110,−118,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Rec Yards - 1H,5.5,−124,−104,DraftKings
+7,PIT Steelers @ CIN Bengals,Andrei Iosivas,Rec Yards - 1H,4.5,−113,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco,Pass Attempts,36.5,−106,−120,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers,Pass Attempts,29.5,−106,−120,DraftKings
+7,LA Rams @ JAX Jaguars,Trevor Lawrence,Pass Attempts,34.5,−124,−103,DraftKings
+7,LA Rams @ JAX Jaguars,Matthew Stafford,Pass Attempts,34.5,−119,−107,DraftKings
+7,NY Giants @ DEN Broncos,Jaxson Dart,Pass Attempts,26.5,−104,−122,DraftKings
+7,IND Colts @ LA Chargers,Justin Herbert,Pass Attempts,35.5,−108,−118,DraftKings
+7,IND Colts @ LA Chargers,Daniel Jones,Pass Attempts,29.5,−117,−109,DraftKings
+7,TB Buccaneers @ DET Lions,Baker Mayfield,Pass Attempts,33.5,−123,−103,DraftKings
+7,TB Buccaneers @ DET Lions,Jared Goff,Pass Attempts,29.5,+101,−129,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Rush Attempts,13.5,−117,−109,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Rush Attempts,12.5,−129,+101,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Rush Attempts,6.5,−120,−107,DraftKings
+7,LA Rams @ JAX Jaguars,Kyren Williams,Rush Attempts,17.5,−106,−120,DraftKings
+7,LA Rams @ JAX Jaguars,Travis Etienne Jr.,Rush Attempts,14.5,−127,+100,DraftKings
+7,NY Giants @ DEN Broncos,Cameron Skattebo,Rush Attempts,14.5,−102,−126,DraftKings
+7,NY Giants @ DEN Broncos,Jaxson Dart,Rush Attempts,8.5,+103,−132,DraftKings
+7,TB Buccaneers @ DET Lions,Rachaad White,Rush Attempts,14.5,−122,−104,DraftKings
+7,TB Buccaneers @ DET Lions,Jahmyr Gibbs,Rush Attempts,13.5,−105,−121,DraftKings
+7,TB Buccaneers @ DET Lions,David Montgomery,Rush Attempts,10.5,−120,−106,DraftKings
+7,TB Buccaneers @ DET Lions,Baker Mayfield,Rush Attempts,3.5,−107,−120,DraftKings
+7,PIT Steelers @ CIN Bengals,Joe Flacco Passing,Completions,23.5,−104,−123,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers Passing,Completions,20.5,−121,−106,DraftKings
+7,LA Rams @ JAX Jaguars,Matthew Stafford Passing,Completions,22.5,−107,−119,DraftKings
+7,LA Rams @ JAX Jaguars,Trevor Lawrence Passing,Completions,21.5,−115,−111,DraftKings
+7,NY Giants @ DEN Broncos,Jaxson Dart Passing,Completions,15.5,−127,+100,DraftKings
+7,IND Colts @ LA Chargers,Justin Herbert Passing,Completions,23.5,−116,−109,DraftKings
+7,IND Colts @ LA Chargers,Daniel Jones Passing,Completions,19.5,−119,−107,DraftKings
+7,TB Buccaneers @ DET Lions,Baker Mayfield Passing,Completions,22.5,−129,+102,DraftKings
+7,TB Buccaneers @ DET Lions,Jared Goff Passing,Completions,21.5,−113,−113,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Rush + Rec Yards,71.5,−115,−111,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Rush + Rec Yards,64.5,−115,−111,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Rush + Rec Yards,49.5,−111,−115,DraftKings
+7,NY Giants @ DEN Broncos,Cameron Skattebo,Rush + Rec Yards,77.5,−111,−115,DraftKings
+7,TB Buccaneers @ DET Lions,Jahmyr Gibbs,Rush + Rec Yards,90.5,−114,−112,DraftKings
+7,LA Rams @ JAX Jaguars,Trevor Lawrence,Pass + Rush Yards,242.5,−112,−114,DraftKings
+7,CAR Panthers @ NY Jets,Justin Fields,Pass + Rush Yards,224.5,−111,−115,DraftKings
+7,NY Giants @ DEN Broncos,Bo Nix,Pass + Rush Yards,241.5,−114,−112,DraftKings
+7,NY Giants @ DEN Broncos,Jaxson Dart,Pass + Rush Yards,213.5,−111,−114,DraftKings
+7,IND Colts @ LA Chargers,Justin Herbert,Pass + Rush Yards,272.5,−113,−113,DraftKings
+7,IND Colts @ LA Chargers,Daniel Jones,Pass + Rush Yards,249.5,−113,−113,DraftKings
+7,TB Buccaneers @ DET Lions,Baker Mayfield,Pass + Rush Yards,269.5,−114,−112,DraftKings
+7,MIA Dolphins @ CLE Browns,Quinshon Judkins,Longest Rush,17.5,−120,−110,DraftKings
+7,IND Colts @ LA Chargers,Jonathan Taylor,Longest Rush,17.5,−105,−125,DraftKings
+7,WAS Commanders @ DAL Cowboys,Jayden Daniels,Longest Rush,16.5,−120,−110,DraftKings
+7,PHI Eagles @ MIN Vikings,Saquon Barkley,Longest Rush,16.5,−120,−110,DraftKings
+7,ATL Falcons @ SF 49ers,Bijan Robinson,Longest Rush,15.5,−120,−110,DraftKings
+7,CAR Panthers @ NY Jets,Breece Hall,Longest Rush,15.5,−115,−115,DraftKings
+7,TB Buccaneers @ DET Lions,Jahmyr Gibbs,Longest Rush,15.5,−115,−115,DraftKings
+7,CAR Panthers @ NY Jets,Justin Fields,Longest Rush,14.5,−115,−115,DraftKings
+7,GB Packers @ ARI Cardinals,Josh Jacobs,Longest Rush,14.5,+100,−130,DraftKings
+7,MIA Dolphins @ CLE Browns,DeVon Achane,Longest Rush,13.5,−120,−110,DraftKings
+7,PHI Eagles @ MIN Vikings,Jalen Hurts,Longest Rush,13.5,−120,−110,DraftKings
+7,IND Colts @ LA Chargers,Kimani Vidal,Longest Rush,13.5,−115,−115,DraftKings
+7,LV Raiders @ KC Chiefs,Ashton Jeanty,Longest Rush,13.5,+100,−130,DraftKings
+7,CAR Panthers @ NY Jets,Rico Dowdle,Longest Rush,13.5,+100,−130,DraftKings
+7,TB Buccaneers @ DET Lions,David Montgomery,Longest Rush,12.5,−125,−105,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Longest Rush,12.5,−110,−120,DraftKings
+7,NO Saints @ CHI Bears,Alvin Kamara,Longest Rush,12.5,−105,−125,DraftKings
+7,TB Buccaneers @ DET Lions,Rachaad White,Longest Rush,11.5,−115,−115,DraftKings
+7,LV Raiders @ KC Chiefs,Isiah Pacheco,Longest Rush,11.5,−110,−120,DraftKings
+7,TB Buccaneers @ DET Lions,Baker Mayfield,Longest Rush,11.5,−105,−125,DraftKings
+7,NE Patriots @ TEN Titans,Rhamondre Stevenson,Longest Rush,11.5,−105,−125,DraftKings
+7,NO Saints @ CHI Bears,Spencer Rattler,Longest Rush,11.5,−105,−125,DraftKings
+7,NE Patriots @ TEN Titans,Tony Pollard,Longest Rush,11.5,−105,−125,DraftKings
+7,NE Patriots @ TEN Titans,Drake Maye,Longest Rush,11.5,+105,−135,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Longest Rush,10.5,−115,−115,DraftKings
+7,IND Colts @ LA Chargers,Daniel Jones,Longest Rush,10.5,−110,−120,DraftKings
+7,IND Colts @ LA Chargers,Justin Herbert,Longest Rush,10.5,−105,−125,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Longest Rush,10.5,−105,−125,DraftKings
+7,LV Raiders @ KC Chiefs,Kareem Hunt,Longest Rush,9.5,−115,−115,DraftKings
+7,LA Rams @ JAX Jaguars,Trevor Lawrence,Longest Rush,9.5,−110,−120,DraftKings
+7,IND Colts @ LA Chargers,Hassan Haskins,Longest Rush,8.5,−105,−125,DraftKings
+7,PIT Steelers @ CIN Bengals,Samaje Perine,Longest Rush,7.5,−130,+100,DraftKings
+7,LV Raiders @ KC Chiefs,Geno Smith,Longest Rush,7.5,−115,−115,DraftKings
+7,CAR Panthers @ NY Jets,Bryce Young,Longest Rush,7.5,−110,−120,DraftKings
+7,NE Patriots @ TEN Titans,Cameron Ward,Longest Rush,5.5,−130,+100,DraftKings
+7,ATL Falcons @ SF 49ers,Michael Penix Jr.,Longest Rush,4.5,−125,−105,DraftKings
+7,PIT Steelers @ CIN Bengals,DK Metcalf,Longest Reception,26.5,−115,−115,DraftKings
+7,PHI Eagles @ MIN Vikings,A.J. Brown,Longest Reception,24.5,−110,−120,DraftKings
+7,ATL Falcons @ SF 49ers,Drake London,Longest Reception,23.5,−120,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Ja'Marr Chase,Longest Reception,23.5,−115,−115,DraftKings
+7,MIA Dolphins @ CLE Browns,Jaylen Waddle,Longest Reception,23.5,−115,−115,DraftKings
+7,LA Rams @ JAX Jaguars,Brian Thomas Jr.,Longest Reception,23.5,−110,−120,DraftKings
+7,TB Buccaneers @ DET Lions,Amon-Ra St. Brown,Longest Reception,22.5,−110,−120,DraftKings
+7,CAR Panthers @ NY Jets,Tetairoa McMillan,Longest Reception,21.5,−120,−110,DraftKings
+7,TB Buccaneers @ DET Lions,Jameson Williams,Longest Reception,21.5,−115,−115,DraftKings
+7,PHI Eagles @ MIN Vikings,DeVonta Smith,Longest Reception,20.5,−120,−110,DraftKings
+7,LV Raiders @ KC Chiefs,Xavier Worthy,Longest Reception,20.5,−110,−120,DraftKings
+7,NE Patriots @ TEN Titans,Stefon Diggs,Longest Reception,19.5,−120,−110,DraftKings
+7,GB Packers @ ARI Cardinals,Tucker Kraft,Longest Reception,19.5,−115,−115,DraftKings
+7,LV Raiders @ KC Chiefs,Jakobi Meyers,Longest Reception,19.5,−110,−120,DraftKings
+7,LV Raiders @ KC Chiefs,Rashee Rice,Longest Reception,19.5,−110,−120,DraftKings
+7,GB Packers @ ARI Cardinals,Trey McBride,Longest Reception,19.5,−110,−120,DraftKings
+7,MIA Dolphins @ CLE Browns,Jerry Jeudy,Longest Reception,19.5,−105,−125,DraftKings
+7,PIT Steelers @ CIN Bengals,Tee Higgins,Longest Reception,19.5,−105,−125,DraftKings
+7,TB Buccaneers @ DET Lions,Sam LaPorta,Longest Reception,18.5,−120,−110,DraftKings
+7,LV Raiders @ KC Chiefs,Tre Tucker,Longest Reception,18.5,−120,−110,DraftKings
+7,NE Patriots @ TEN Titans,Elic Ayomanor,Longest Reception,18.5,−115,−115,DraftKings
+7,NE Patriots @ TEN Titans,Kayshon Boutte,Longest Reception,18.5,−115,−115,DraftKings
+7,CAR Panthers @ NY Jets,Mason Taylor,Longest Reception,18.5,−115,−115,DraftKings
+7,IND Colts @ LA Chargers,Michael Pittman Jr.,Longest Reception,18.5,−115,−115,DraftKings
+7,LA Rams @ JAX Jaguars,Travis Hunter,Longest Reception,17.5,−120,−110,DraftKings
+7,TB Buccaneers @ DET Lions,Cade Otton,Longest Reception,17.5,−110,−120,DraftKings
+7,MIA Dolphins @ CLE Browns,Darren Waller,Longest Reception,17.5,−110,−120,DraftKings
+7,CAR Panthers @ NY Jets,Jalen Coker,Longest Reception,17.5,−110,−120,DraftKings
+7,NE Patriots @ TEN Titans,Chigoziem Okonkwo,Longest Reception,17.5,−105,−125,DraftKings
+7,LV Raiders @ KC Chiefs,Travis Kelce,Longest Reception,16.5,−125,−105,DraftKings
+7,NE Patriots @ TEN Titans,Hunter Henry,Longest Reception,16.5,−120,−110,DraftKings
+7,PHI Eagles @ MIN Vikings,Dallas Goedert,Longest Reception,15.5,−125,−105,DraftKings
+7,ATL Falcons @ SF 49ers,Bijan Robinson,Longest Reception,15.5,−110,−120,DraftKings
+7,PIT Steelers @ CIN Bengals,Jonnu Smith,Longest Reception,14.5,−115,−115,DraftKings
+7,IND Colts @ LA Chargers,Oronde Gadsden II,Longest Reception,14.5,−110,−120,DraftKings
+7,MIA Dolphins @ CLE Browns,DeVon Achane,Longest Reception,13.5,−125,−105,DraftKings
+7,PIT Steelers @ CIN Bengals,Darnell Washington,Longest Reception,13.5,−105,−125,DraftKings
+7,PIT Steelers @ CIN Bengals,Noah Fant,Longest Reception,12.5,−125,−105,DraftKings
+7,TB Buccaneers @ DET Lions,Jahmyr Gibbs,Longest Reception,12.5,−120,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Andrei Iosivas,Longest Reception,11.5,−120,−110,DraftKings
+7,CAR Panthers @ NY Jets,Breece Hall,Longest Reception,11.5,−120,−110,DraftKings
+7,NO Saints @ CHI Bears,Alvin Kamara,Longest Reception,11.5,−115,−115,DraftKings
+7,TB Buccaneers @ DET Lions,Rachaad White,Longest Reception,11.5,−115,−115,DraftKings
+7,IND Colts @ LA Chargers,Jonathan Taylor,Longest Reception,11.5,−110,−120,DraftKings
+7,LV Raiders @ KC Chiefs,Ashton Jeanty,Longest Reception,10.5,−120,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Pat Freiermuth,Longest Reception,10.5,−120,−110,DraftKings
+7,CAR Panthers @ NY Jets,Tommy Tremble,Longest Reception,10.5,−120,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Kenneth Gainwell,Longest Reception,10.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Jaylen Warren,Longest Reception,10.5,−105,−125,DraftKings
+7,IND Colts @ LA Chargers,Kimani Vidal,Longest Reception,10.5,−105,−125,DraftKings
+7,PHI Eagles @ MIN Vikings,Saquon Barkley,Longest Reception,10.5,−105,−125,DraftKings
+7,PIT Steelers @ CIN Bengals,Scott Miller,Longest Reception,9.5,−120,−110,DraftKings
+7,NE Patriots @ TEN Titans,Rhamondre Stevenson,Longest Reception,9.5,−115,−115,DraftKings
+7,PIT Steelers @ CIN Bengals,Chase Brown,Longest Reception,9.5,−105,−125,DraftKings
+7,PIT Steelers @ CIN Bengals,Samaje Perine,Longest Reception,8.5,−120,−110,DraftKings
+7,LV Raiders @ KC Chiefs,Noah Gray,Longest Reception,8.5,−105,−125,DraftKings
+7,LV Raiders @ KC Chiefs,Brashard Smith,Longest Reception,7.5,−120,−110,DraftKings
+7,PIT Steelers @ CIN Bengals,Roman Wilson,Longest Reception,7.5,−120,−110,DraftKings
+7,NE Patriots @ TEN Titans,Tony Pollard,Longest Reception,7.5,−115,−115,DraftKings
+7,TB Buccaneers @ DET Lions,David Montgomery,Longest Reception,7.5,−110,−120,DraftKings
+7,GB Packers @ ARI Cardinals,Jordan Love,Longest Passing Completion,39.5,−110,−120,DraftKings
+7,TB Buccaneers @ DET Lions,Baker Mayfield,Longest Passing Completion,36.5,−115,−115,DraftKings
+7,LA Rams @ JAX Jaguars,Matthew Stafford,Longest Passing Completion,36.5,−110,−120,DraftKings
+7,PIT Steelers @ CIN Bengals,Aaron Rodgers,Longest Passing Completion,35.5,−120,−110,DraftKings
+7,PHI Eagles @ MIN Vikings,Jalen Hurts,Longest Passing Completion,35.5,−120,−110,DraftKings
+7,IND Colts @ LA Chargers,Justin Herbert,Longest Passing Completion,35.5,−120,−110,DraftKings
+7,TB Buccaneers @ DET Lions,Jared Goff,Longest Passing Completion,35.5,−115,−115,DraftKings
+7,WAS Commanders @ DAL Cowboys,Jayden Daniels,Longest Passing Completion,35.5,−110,−120,DraftKings
+7,NE Patriots @ TEN Titans,Drake Maye,Longest Passing Completion,34.5,−120,−110,DraftKings
+7,ATL Falcons @ SF 49ers,Michael Penix Jr.,Longest Passing Completion,34.5,−120,−110,DraftKings
+7,IND Colts @ LA Chargers,Daniel Jones,Longest Passing Completion,34.5,−110,−120,DraftKings
 7,LA Rams @ JAX Jaguars,Trevor Lawrence,Longest Passing Completion,34.5,−110,−120,DraftKings
+7,NE Patriots @ TEN Titans,Cameron Ward,Longest Passing Completion,33.5,−110,−120,DraftKings
 7,PIT Steelers @ CIN Bengals,Joe Flacco,Longest Passing Completion,32.5,−120,−110,DraftKings
+7,CAR Panthers @ NY Jets,Bryce Young,Longest Passing Completion,32.5,−115,−115,DraftKings
+7,LV Raiders @ KC Chiefs,Geno Smith,Longest Passing Completion,31.5,−120,−110,DraftKings
+7,NO Saints @ CHI Bears,Spencer Rattler,Longest Passing Completion,31.5,−110,−120,DraftKings
+7,MIA Dolphins @ CLE Browns,Dillon Gabriel,Longest Passing Completion,30.5,−120,−110,DraftKings
+7,CAR Panthers @ NY Jets,Justin Fields,Longest Passing Completion,30.5,−120,−110,DraftKings

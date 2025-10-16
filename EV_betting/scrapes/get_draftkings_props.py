@@ -238,12 +238,21 @@ def parse_prop_data(data, prop_type_name):
             continue
         over_sel = outcomes['over']
         under_sel = outcomes['under']
-        player_name = re.sub(re.escape(f" {prop_type_name} O/U"), "", market['name'], flags=re.IGNORECASE).strip()
         
-        # Handle cases where the player name might be empty after regex
-        if not player_name:
-             player_name = market['name'].replace(f" {prop_type_name} O/U", "").strip()
-
+        # NEW, ROBUST LOGIC:
+        # This reliably finds the prop type in the market name and extracts the player name before it.
+        # It handles variations like "Rec Yards" vs "Receiving Yards" gracefully.
+        search_name = prop_type_name.split(' ')[0] # e.g., 'Receiving' or 'Rec' or 'Passing'
+        market_name = market['name']
+        
+        # Find the position of the prop type in the market string
+        match = re.search(r'\b' + re.escape(search_name), market_name, re.IGNORECASE)
+        if match:
+            # If a match is found, the player's name is everything before it
+            player_name = market_name[:match.start()].strip()
+        else:
+            # Fallback for safety, in case the pattern is unexpected
+            player_name = market_name.replace(f" {prop_type_name} O/U", "").strip()
 
         parsed_props.append({
             'player_name': player_name,
@@ -255,7 +264,6 @@ def parse_prop_data(data, prop_type_name):
             'sportsbook': 'DraftKings'
         })
     return parsed_props
-
 
 # ============================================================
 # 🚀 MAIN EXECUTION

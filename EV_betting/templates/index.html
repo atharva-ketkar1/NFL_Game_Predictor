@@ -42,7 +42,7 @@
         .game-nav-item a { display: flex; align-items: center; gap: 10px; padding: 12px 20px; color: var(--secondary-text); text-decoration: none; font-size: 0.9em; border-left: 3px solid transparent; transition: all 0.2s; }
         .game-nav-item a:hover { background-color: var(--hover-color); color: var(--primary-text); }
         .game-nav-item a.active { background-color: #2d405d; color: #fff; font-weight: bold; border-left-color: var(--accent-color); }
-        .game-nav-item a.filtered-out { opacity: 0.4; pointer-events: none; }
+        .game-nav-item.filtered-out a { opacity: 0.4; pointer-events: none; }
         .game-nav-logos { display: flex; align-items: center; }
         .game-nav-logos img, .game-nav-logos svg { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; background-color: #2a3038;}
         .game-nav-logos > *:first-child { margin-right: -8px; }
@@ -53,24 +53,17 @@
         .page-header { margin-bottom: 25px; }
         .page-header h1 { margin: 0 0 20px 0; }
         .controls-container { display: flex; gap: 15px; align-items: center; flex-wrap: wrap; }
-        .search-box { padding: 8px 12px; max-width: 300px; border-radius: var(--border-radius); border: 1px solid var(--border-color); background-color: var(--bg-color); color: var(--primary-text); font-size: 0.9em; }
-        .filter-dropdown { position: relative; }
-        .filter-dropdown-btn { background-color: var(--surface-color); border: 1px solid var(--border-color); color: var(--primary-text); padding: 8px 12px; border-radius: var(--border-radius); cursor: pointer; font-size: 0.9em; transition: background-color 0.2s; }
-        .filter-dropdown-btn .count { background-color: var(--accent-color); color: white; border-radius: 10px; padding: 1px 6px; font-size: 0.8em; margin-left: 5px; }
-        .filter-dropdown-content { display: none; position: absolute; background-color: var(--header-bg); border: 1px solid var(--border-color); border-radius: var(--border-radius); z-index: 100; min-width: 250px; max-height: 300px; overflow-y: auto; padding: 5px; }
-        .filter-dropdown-content.show { display: block; }
-        .filter-dropdown-content label { display: block; padding: 8px 12px; cursor: pointer; border-radius: 4px; font-size: 0.9em;}
-        .filter-dropdown-content label:hover { background-color: var(--hover-color); }
-        .filter-dropdown-content input { margin-right: 10px; }
+        .search-box, .prop-select, .btn { padding: 8px 12px; border-radius: var(--border-radius); border: 1px solid var(--border-color); background-color: var(--bg-color); color: var(--primary-text); font-size: 0.9em; }
+        .btn { background-color: var(--accent-color); color: var(--bg-color); font-weight: bold; cursor: pointer; text-decoration: none; }
+        .btn-secondary { background-color: var(--surface-color); color: var(--primary-text); }
         
-        /* New styles for week selector */
         .week-selector-container { display: flex; align-items: center; gap: 8px; margin-left: auto; }
         #weekSelector { -webkit-appearance: none; appearance: none; padding-right: 30px; background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236e7681' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e"); background-position: right 0.5rem center; background-repeat: no-repeat; background-size: 1.5em 1.5em; }
+        .filter-dropdown-btn { background-color: var(--surface-color); border: 1px solid var(--border-color); color: var(--primary-text); padding: 8px 12px; border-radius: var(--border-radius); cursor: pointer; font-size: 0.9em; transition: background-color 0.2s; }
+        .hidden { display: none; }
 
         /* --- 3. Arbitrage, Game & Team Containers --- */
         .content-section { border: 1px solid var(--border-color); border-radius: var(--border-radius); margin-bottom: 25px; background-color: var(--surface-color); }
-        .game-container, .team-section { transition: max-height 0.4s ease-in-out, margin 0.4s, padding 0.4s; overflow: hidden; }
-        .game-container.hidden, .team-section.hidden { max-height: 0 !important; margin-top: 0; margin-bottom: 0; padding-top: 0; padding-bottom: 0; border: none; }
         .section-header { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; background-color: var(--header-bg); cursor: pointer;}
         .section-header h2 { margin: 0; font-size: 1.5em; }
         .toggle-icon { font-size: 1.5em; transition: transform 0.3s ease-in-out; }
@@ -108,8 +101,8 @@
             <div class="sidebar-header">Games - Week {{ week_number }}</div>
             <ul class="game-nav-list">
                 {% for game, game_data in final_data.items()|sort %}
-                    <li class="game-nav-item">
-                        <a href="#game-{{ loop.index }}" data-target-id="game-{{ loop.index }}">
+                    <li class="game-nav-item" data-game-id="game-{{ loop.index }}">
+                        <a href="#game-{{ loop.index }}">
                             <div class="game-nav-logos">
                                 {% set logos = namespace(items=[]) %}
                                 {% for team, t_data in game_data.teams.items() %}{% set logos.items = logos.items + [t_data.logo or 'placeholder'] %}{% endfor %}
@@ -132,11 +125,15 @@
             <header class="page-header">
                 <h1>NFL Player Props Dashboard</h1>
                 <div class="controls-container">
-                    <input type="text" id="playerSearch" class="search-box" placeholder="🔍 Search players...">
-                    <div class="filter-dropdown">
-                        <button id="filterBtn" class="filter-dropdown-btn">Filter by Prop</button>
-                        <div id="propFilterDropdown" class="filter-dropdown-content"></div>
-                    </div>
+                    <input type="text" id="playerSearch" name="player_search" class="search-box" placeholder="🔍 Search players..." value="{{ player_search or '' }}">
+                    <select id="propFilter" name="prop_filter" class="prop-select filter-dropdown-btn">
+                        <option value="">All Prop Types</option>
+                        {% for prop in prop_types %}
+                            <option value="{{ prop }}" {% if prop == prop_filter %}selected{% endif %}>{{ prop }}</option>
+                        {% endfor %}
+                    </select>
+                    <a href="{{ url_for('show_week', week_num=current_week) }}" class="btn btn-secondary">Reset</a>
+                    
                     {% if available_weeks %}
                     <div class="week-selector-container">
                         <label for="weekSelector" class="secondary-text">View:</label>
@@ -152,10 +149,7 @@
                 </div>
             </header>
             
-            <!-- Display error message if any -->
-            {% if error_msg %}
-                <p style="color: #ff4d4d; text-align: center;">{{ error_msg }}</p>
-            {% endif %}
+            {% if error_msg %}<p style="color: #ff4d4d; text-align: center;">{{ error_msg }}</p>{% endif %}
 
             <section id="arbitrage-section" class="content-section">
                 <div class="section-header collapsed" data-toggle="collapse" data-target="#arbitrage-content">
@@ -163,7 +157,7 @@
                     <span class="toggle-icon">▼</span>
                 </div>
                 <div id="arbitrage-content" class="section-content hidden">
-                    {% if not arbitrage_ops %}<p style="padding: 15px;">No arbitrage opportunities found in the current data.</p>{% endif %}
+                    {% if not arbitrage_ops %}<p style="padding: 15px;">No arbitrage opportunities found.</p>{% endif %}
                 </div>
             </section>
 
@@ -189,8 +183,7 @@
                                             <table>
                                                 <thead>
                                                     <tr>
-                                                        <th>Prop</th>
-                                                        <th>Qualifier</th>
+                                                        <th>Prop</th><th>Qualifier</th>
                                                         {% for book in sportsbooks %}<th>{{ book }}</th>{% endfor %}
                                                     </tr>
                                                 </thead>
@@ -198,15 +191,12 @@
                                                 {% for main_prop, qualifiers in player_data.props.items()|sort %}
                                                     {% for qualifier, market_data in qualifiers.items()|sort %}
                                                         {% set best_over = namespace(value=-99999, book=None) %}{% set best_under = namespace(value=-99999, book=None) %}
-                                                        {% for book in sportsbooks %}
-                                                            {% if book in market_data %}
-                                                                {% set over_val = market_data[book].over|float(-99999) %}{% if over_val > best_over.value %}{% set best_over.value = over_val %}{% set best_over.book = book %}{% endif %}
-                                                                {% set under_val = market_data[book].under|float(-99999) %}{% if under_val > best_under.value %}{% set best_under.value = under_val %}{% set best_under.book = book %}{% endif %}
-                                                            {% endif %}
-                                                        {% endfor %}
+                                                        {% for book in sportsbooks %}{% if book in market_data %}
+                                                            {% set over_val = market_data[book].over|float(-99999) %}{% if over_val > best_over.value %}{% set best_over.value = over_val %}{% set best_over.book = book %}{% endif %}
+                                                            {% set under_val = market_data[book].under|float(-99999) %}{% if under_val > best_under.value %}{% set best_under.value = under_val %}{% set best_under.book = book %}{% endif %}
+                                                        {% endif %}{% endfor %}
                                                         <tr>
-                                                            <td>{{ main_prop }}</td>
-                                                            <td>{{ qualifier }}</td>
+                                                            <td>{{ main_prop }}</td><td>{{ qualifier }}</td>
                                                             {% for book in sportsbooks %}
                                                             <td class="odds-cell">
                                                                 {% if book in market_data %}<span class="line">{{ market_data[book].line }}</span> <span class="odds"><span class="{% if book == best_over.book %}best-odd{% endif %}">{{ market_data[book].over }}</span>/<span class="{% if book == best_under.book %}best-odd{% endif %}">{{ market_data[book].under }}</span></span>
@@ -228,12 +218,78 @@
                     </div>
                 </section>
             {% endfor %}
+             <div id="no-results-message" class="hidden" style="text-align:center; padding: 20px; color: var(--secondary-text);">
+                No results found for the current filter.
+            </div>
         </main>
     </div>
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // --- 0. Week Selector Logic ---
+        // --- LIVE SEARCH AND FILTER SCRIPT ---
+        const searchInput = document.getElementById('playerSearch');
+        const propFilter = document.getElementById('propFilter');
+        const noResultsMessage = document.getElementById('no-results-message');
+
+        const applyFilters = () => {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const propTerm = propFilter.value;
+            let totalVisiblePlayers = 0;
+
+            document.querySelectorAll('.game-container').forEach(gameContainer => {
+                let gameHasVisiblePlayers = false;
+                gameContainer.querySelectorAll('.team-section').forEach(teamSection => {
+                    let teamHasVisiblePlayers = false;
+                    teamSection.querySelectorAll('.player-accordion-item').forEach(item => {
+                        const playerName = item.dataset.playerName || '';
+                        let playerProps = new Set();
+                        try {
+                           playerProps = new Set(JSON.parse(item.dataset.props || '[]'));
+                        } catch(e) {
+                            console.error("Could not parse player props JSON:", item.dataset.props);
+                        }
+                        
+                        const matchesSearch = !searchTerm || playerName.includes(searchTerm);
+                        const matchesProp = !propTerm || playerProps.has(propTerm);
+
+                        // **THE FIX**: Use style.display for robust show/hide
+                        if (matchesSearch && matchesProp) {
+                            item.style.display = ''; // Show the item
+                            teamHasVisiblePlayers = true;
+                            gameHasVisiblePlayers = true;
+                            totalVisiblePlayers++;
+                        } else {
+                            item.style.display = 'none'; // Hide the item
+                        }
+                    });
+                    // Use the .hidden class for parent containers as it works fine there
+                    teamSection.classList.toggle('hidden', !teamHasVisiblePlayers);
+                });
+                gameContainer.classList.toggle('hidden', !gameHasVisiblePlayers);
+
+                // Update sidebar link visibility
+                const gameId = gameContainer.id;
+                const sidebarLink = document.querySelector(`.game-nav-item[data-game-id="${gameId}"]`);
+                if(sidebarLink) {
+                    sidebarLink.classList.toggle('filtered-out', !gameHasVisiblePlayers);
+                }
+            });
+            
+            noResultsMessage.classList.toggle('hidden', totalVisiblePlayers > 0);
+        };
+
+        // Attach event listeners
+        searchInput.addEventListener('input', applyFilters);
+        propFilter.addEventListener('change', applyFilters);
+        
+        // Apply on page load if values exist (e.g., from browser back button)
+        if (searchInput.value || propFilter.value) {
+            applyFilters();
+        }
+        // --- END LIVE SEARCH SCRIPT ---
+
+
+        // --- Existing Page Interactivity Scripts ---
         const weekSelector = document.getElementById('weekSelector');
         if (weekSelector) {
             weekSelector.addEventListener('change', function() {
@@ -242,7 +298,6 @@
             });
         }
 
-        // --- 1. Arbitrage Data & Section Logic ---
         const arbitrageOps = {{ arbitrage_ops|tojson }};
          document.querySelectorAll('[data-toggle="collapse"]').forEach(header => {
             const target = document.querySelector(header.dataset.target);
@@ -269,55 +324,6 @@
             });
         });
 
-        // --- 2. Intelligent Filtering Logic ---
-        const searchInput = document.getElementById('playerSearch');
-        const filterBtn = document.getElementById('filterBtn');
-        const propFilterDropdown = document.getElementById('propFilterDropdown');
-        let activePropTypes = new Set();
-        let propTypes = new Set();
-        document.querySelectorAll('.player-accordion-item').forEach(item => {
-            if (item.dataset.props) {
-                try { JSON.parse(item.dataset.props).forEach(prop => propTypes.add(prop)); } catch (e) { console.error("Could not parse props:", e); }
-            }
-        });
-        Array.from(propTypes).sort().forEach(prop => {
-            propFilterDropdown.innerHTML += `<label><input type="checkbox" data-prop="${prop}"> ${prop}</label>`;
-        });
-        const applyFilters = () => {
-            const searchTerm = searchInput.value.toLowerCase().trim();
-            document.querySelectorAll('.game-container').forEach(gameContainer => {
-                let gameHasVisiblePlayers = false;
-                gameContainer.querySelectorAll('.team-section').forEach(teamSection => {
-                    let teamHasVisiblePlayers = false;
-                    teamSection.querySelectorAll('.player-accordion-item').forEach(item => {
-                        const playerName = item.dataset.playerName || '';
-                        const playerProps = new Set(JSON.parse(item.dataset.props || '[]'));
-                        const matchesSearch = !searchTerm || playerName.includes(searchTerm);
-                        const matchesProp = activePropTypes.size === 0 || [...activePropTypes].some(p => playerProps.has(p));
-                        if (matchesSearch && matchesProp) {
-                            item.style.display = ''; teamHasVisiblePlayers = true; gameHasVisiblePlayers = true;
-                        } else { item.style.display = 'none'; }
-                    });
-                    teamSection.classList.toggle('hidden', !teamHasVisiblePlayers);
-                });
-                gameContainer.classList.toggle('hidden', !gameHasVisiblePlayers);
-                const gameId = gameContainer.id;
-                const sidebarLink = document.querySelector(`.game-nav-item a[href="#${gameId}"]`);
-                if(sidebarLink) sidebarLink.classList.toggle('filtered-out', !gameHasVisiblePlayers);
-            });
-        };
-        searchInput.addEventListener('input', applyFilters);
-        propFilterDropdown.addEventListener('change', (e) => {
-            if (e.target.type === 'checkbox') {
-                const prop = e.target.dataset.prop;
-                if (e.target.checked) activePropTypes.add(prop); else activePropTypes.delete(prop);
-                const count = activePropTypes.size;
-                filterBtn.innerHTML = `Filter by Prop ${count > 0 ? `<span class="count">${count}</span>` : ''}`;
-                applyFilters();
-            }
-        });
-
-        // --- 3. Player Accordion Logic ---
         document.querySelectorAll('.player-header').forEach(header => {
             header.addEventListener('click', () => {
                 header.classList.toggle('active');
@@ -327,9 +333,6 @@
             });
         });
         
-        // --- 4. Misc Event Listeners ---
-        filterBtn.addEventListener('click', (e) => { e.stopPropagation(); propFilterDropdown.classList.toggle('show'); });
-        window.addEventListener('click', () => propFilterDropdown.classList.remove('show'));
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
