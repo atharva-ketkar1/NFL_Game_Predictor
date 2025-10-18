@@ -5,6 +5,7 @@ import time
 import random
 import re
 from collections import defaultdict
+from datetime import datetime
 
 # --- CONFIGURATION ---
 REGION_CODE = "dkusoh"
@@ -293,16 +294,7 @@ def main():
     game_lines_data = fetch_game_lines(session)
     parsed_lines = parse_game_lines(game_lines_data)
 
-    if parsed_lines:
-        lines_file = os.path.join(week_dir, f"draftkings_nfl_week_{week_number}_game_lines.csv")
-        with open(lines_file, "w", newline="", encoding="utf-8") as f:
-            fieldnames = ['game', 'away_team', 'home_team', 'spread', 'spread_odds', 'total_line', 'total_odds', 'moneyline']
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            writer.writerows(parsed_lines)
-        print(f"  ✅ Game lines saved to {lines_file}")
-    else:
-        print("  ⚠️ No game lines parsed.")
+    # We will save lines at the end, along with props
 
     # --- 2️⃣ Fetch Player Props ---
     print("\n--- Starting Player Prop Scraping ---")
@@ -328,19 +320,54 @@ def main():
             print(f"  -> Found {len(props)} {prop_name} props")
         time.sleep(random.uniform(1.5, 3.0))
 
-    # --- 3️⃣ Save All Props to CSV ---
+    # --- MODIFIED: Add timestamp to all new data before saving ---
+    scrape_time = datetime.now().isoformat()
+    for prop in all_props:
+        prop['week'] = week_number
+        prop['scrape_timestamp'] = scrape_time
+        
+    for line in parsed_lines:
+        line['scrape_timestamp'] = scrape_time
+
+    # --- 3️⃣ Save All Props and Lines to CSV ---
+    
+    # --- MODIFIED: Helper function for appending ---
+    def append_to_historical_csv(new_data, output_file, default_fieldnames):
+        """Appends new data to a CSV, writing a header if the file is new."""
+        if not new_data:
+            print(f"No new data to write for {output_file}.")
+            return
+            
+        # Add timestamp to the fieldnames
+        fieldnames = default_fieldnames + ['scrape_timestamp']
+        file_exists = os.path.exists(output_file)
+        
+        try:
+            with open(output_file, "a", newline="", encoding="utf-8") as f:
+                # Use extrasaction='ignore' to be safe with any column mismatches
+                writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+                if not file_exists:
+                    writer.writeheader()  # Write header only if file is new
+                writer.writerows(new_data)
+            print(f"  Appended {len(new_data)} new rows to {output_file}")
+        except Exception as e:
+             print(f"  ERROR writing file {output_file}: {e}")
+
+    # --- MODIFIED: 1. Append Player Props ---
     if all_props:
-        props_file = os.path.join(week_dir, f"draftkings_nfl_week_{week_number}_props.csv")
-        with open(props_file, "w", newline="", encoding="utf-8") as f:
-            fieldnames = ['week', 'game', 'player_name', 'prop_type', 'line', 'over_odds', 'under_odds', 'sportsbook']
-            writer = csv.DictWriter(f, fieldnames=fieldnames)
-            writer.writeheader()
-            for prop in all_props:
-                prop['week'] = week_number
-            writer.writerows(all_props)
-        print(f"\n  ✅ All player props ({len(all_props)} total) saved to {props_file}")
+        props_file = os.path.join(week_dir, f"draftkings_nfl_week_{week_number}_props_history.csv")
+        props_fieldnames = ['week', 'game', 'player_name', 'prop_type', 'line', 'over_odds', 'under_odds', 'sportsbook']
+        append_to_historical_csv(all_props, props_file, props_fieldnames)
     else:
-        print("\n  ⚠️ No props found.")
+        print("\n  ⚠️ No new player props found.")
+
+    # --- MODIFIED: 2. Append Game Lines ---
+    if parsed_lines:
+        lines_file = os.path.join(week_dir, f"draftkings_nfl_week_{week_number}_game_lines_history.csv")
+        lines_fieldnames = ['game', 'away_team', 'home_team', 'spread', 'spread_odds', 'total_line', 'total_odds', 'moneyline']
+        append_to_historical_csv(parsed_lines, lines_file, lines_fieldnames)
+    else:
+        print("\n  ⚠️ No new game lines found.")
 
     print("\n✅ DraftKings scraping complete!")
 

@@ -3,17 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NFL Player Props Dashboard - Week {{ week_number }}</title>
+    <title>NFL Data App - Week {{ week_number }}</title>
     <style>
-        /*
-        ========================================
-        V6.2 - DYNAMIC WEEK SELECTOR
-        Author: Gemini (Senior UI/UX Engineer)
-        Date: 2025-10-14
-        Description: Added week navigation and dynamic data loading.
-        ========================================
-        */
-
         :root {
             --bg-color: #0d1117;
             --surface-color: #161b22;
@@ -32,23 +23,22 @@
 
         html { scroll-behavior: smooth; }
         body { font-family: var(--font-family); margin: 0; background-color: var(--bg-color); color: var(--primary-text); }
-
         .dashboard-container { display: flex; max-width: 1600px; margin: 0 auto; }
 
-        /* --- 1. Sidebar Navigation --- */
+        /* --- 1. Sidebar Navigation (Same as original) --- */
         .sidebar { width: 280px; height: 100vh; position: sticky; top: 0; background-color: var(--surface-color); border-right: 1px solid var(--border-color); padding: 20px 0; overflow-y: auto; flex-shrink: 0; }
         .sidebar-header { padding: 0 20px 15px 20px; font-size: 1.2em; font-weight: bold; border-bottom: 1px solid var(--border-color); }
         .game-nav-list { list-style: none; padding: 0; margin: 10px 0 0 0; }
         .game-nav-item a { display: flex; align-items: center; gap: 10px; padding: 12px 20px; color: var(--secondary-text); text-decoration: none; font-size: 0.9em; border-left: 3px solid transparent; transition: all 0.2s; }
         .game-nav-item a:hover { background-color: var(--hover-color); color: var(--primary-text); }
         .game-nav-item a.active { background-color: #2d405d; color: #fff; font-weight: bold; border-left-color: var(--accent-color); }
-        .game-nav-item.filtered-out a { opacity: 0.4; pointer-events: none; }
+        .game-nav-item.filtered-out { display: none; }
         .game-nav-logos { display: flex; align-items: center; }
         .game-nav-logos img, .game-nav-logos svg { width: 24px; height: 24px; border-radius: 50%; object-fit: cover; background-color: #2a3038;}
         .game-nav-logos > *:first-child { margin-right: -8px; }
         .placeholder-icon { fill: var(--secondary-text); }
 
-        /* --- 2. Main Content & Header Controls --- */
+        /* --- 2. Main Content & Header Controls (Same as original) --- */
         .main-content { flex-grow: 1; padding: 20px 30px; min-width: 0; }
         .page-header { margin-bottom: 25px; }
         .page-header h1 { margin: 0 0 20px 0; }
@@ -56,13 +46,11 @@
         .search-box, .prop-select, .btn { padding: 8px 12px; border-radius: var(--border-radius); border: 1px solid var(--border-color); background-color: var(--bg-color); color: var(--primary-text); font-size: 0.9em; }
         .btn { background-color: var(--accent-color); color: var(--bg-color); font-weight: bold; cursor: pointer; text-decoration: none; }
         .btn-secondary { background-color: var(--surface-color); color: var(--primary-text); }
-        
         .week-selector-container { display: flex; align-items: center; gap: 8px; margin-left: auto; }
-        #weekSelector { -webkit-appearance: none; appearance: none; padding-right: 30px; background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236e7681' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e"); background-position: right 0.5rem center; background-repeat: no-repeat; background-size: 1.5em 1.5em; }
-        .filter-dropdown-btn { background-color: var(--surface-color); border: 1px solid var(--border-color); color: var(--primary-text); padding: 8px 12px; border-radius: var(--border-radius); cursor: pointer; font-size: 0.9em; transition: background-color 0.2s; }
+        .filter-dropdown-btn { -webkit-appearance: none; appearance: none; padding-right: 30px; background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 20 20'%3e%3cpath stroke='%236e7681' stroke-linecap='round' stroke-linejoin='round' stroke-width='1.5' d='m6 8 4 4 4-4'/%3e%3c/svg%3e"); background-position: right 0.5rem center; background-repeat: no-repeat; background-size: 1.5em 1.5em; }
         .hidden { display: none; }
 
-        /* --- 3. Arbitrage, Game & Team Containers --- */
+        /* --- 3. Arbitrage, Game & Team Containers (Same as original) --- */
         .content-section { border: 1px solid var(--border-color); border-radius: var(--border-radius); margin-bottom: 25px; background-color: var(--surface-color); }
         .section-header { display: flex; justify-content: space-between; align-items: center; padding: 15px 20px; background-color: var(--header-bg); cursor: pointer;}
         .section-header h2 { margin: 0; font-size: 1.5em; }
@@ -74,7 +62,7 @@
         #arbitrage-section .section-header .badge { background-color: var(--profit-color); }
         .game-section-header { cursor: default; }
 
-        /* --- 4. Player Accordion --- */
+        /* --- 4. Player Accordion & STICKY TABLE --- */
         .team-header { padding: 15px 20px; font-size: 1.3em; font-weight: bold; border-top: 1px solid var(--border-color); background: #1a222e; }
         .player-accordion-item { border-top: 1px solid var(--border-color); }
         .player-header { display: flex; align-items: center; gap: 15px; padding: 12px 20px; cursor: pointer; transition: background-color 0.2s; }
@@ -82,17 +70,53 @@
         .player-header .toggle-icon { font-size: 1.1em; transform: rotate(-90deg); transition: transform 0.3s ease-out; }
         .player-header.active .toggle-icon { transform: rotate(0deg); }
         .player-name { font-weight: bold; font-size: 1.1em; }
-        .player-team { font-size: 0.9em; color: var(--secondary-text); }
         .player-props-content { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; background-color: var(--bg-color); }
+        
+        /* This wrapper enables horizontal scrolling */
         .player-props-content .table-wrapper { padding: 15px; overflow-x: auto;}
 
         table { width: 100%; border-collapse: collapse; }
-        th, td { padding: 12px; text-align: left; border-bottom: 1px solid var(--border-color); white-space: nowrap; }
-        th { font-size: 0.8em; color: var(--secondary-text); }
+        th, td { padding: 12px; text-align: left; border-bottom: 1px solid var(--border-color); white-space: nowrap; min-width: 120px; }
+        
+        /* --- STICKY STYLES --- */
+        th:first-child, td:first-child,
+        th:nth-child(2), td:nth-child(2) {
+            position: sticky;
+            z-index: 1;
+            background-color: var(--bg-color); /* Match accordion content bg */
+        }
+        th:first-child, td:first-child {
+            left: 0;
+            min-width: 180px; /* Give prop name space */
+        }
+        th:nth-child(2), td:nth-child(2) {
+            left: 180px; /* Position after the first column */
+        }
+        /* Add a shadow to show there's more content */
+        td:nth-child(2) {
+             border-right: 2px solid var(--border-color);
+        }
+        th:nth-child(2) {
+             border-right: 2px solid var(--header-bg);
+        }
+
+        th { font-size: 0.8em; color: var(--secondary-text); background-color: var(--header-bg); z-index: 2; }
         .odds-cell { text-align: center; }
         .line { font-weight: bold; }
         .odds { font-size: 0.9em; color: var(--secondary-text); }
         .best-odd { background-color: var(--best-odd-bg); color: var(--best-odd-text); font-weight: bold; border-radius: 4px; padding: 2px 4px; }
+        
+        @media (max-width: 768px) {
+            .dashboard-container { flex-direction: column; }
+            .sidebar { width: 100%; height: auto; position: relative; border-right: none; border-bottom: 1px solid var(--border-color); }
+            .main-content { padding: 10px; }
+            /* On mobile, un-stick columns as horizontal space is too limited */
+            th:first-child, td:first-child,
+            th:nth-child(2), td:nth-child(2) {
+                position: static;
+            }
+             td:nth-child(2), th:nth-child(2) { border-right: none; }
+        }
     </style>
 </head>
 <body>
@@ -175,7 +199,6 @@
                                         <span class="toggle-icon">▼</span>
                                         <div>
                                             <div class="player-name">{{ player }}</div>
-                                            <div class="player-team">{{ team }}</div>
                                         </div>
                                     </div>
                                     <div class="player-props-content">
@@ -226,7 +249,7 @@
 
     <script>
     document.addEventListener('DOMContentLoaded', function() {
-        // --- LIVE SEARCH AND FILTER SCRIPT ---
+        // --- LIVE SEARCH AND FILTER SCRIPT (Standard) ---
         const searchInput = document.getElementById('playerSearch');
         const propFilter = document.getElementById('propFilter');
         const noResultsMessage = document.getElementById('no-results-message');
@@ -245,14 +268,11 @@
                         let playerProps = new Set();
                         try {
                            playerProps = new Set(JSON.parse(item.dataset.props || '[]'));
-                        } catch(e) {
-                            console.error("Could not parse player props JSON:", item.dataset.props);
-                        }
+                        } catch(e) { console.error("Could not parse player props JSON:", item.dataset.props); }
                         
                         const matchesSearch = !searchTerm || playerName.includes(searchTerm);
                         const matchesProp = !propTerm || playerProps.has(propTerm);
 
-                        // **THE FIX**: Use style.display for robust show/hide
                         if (matchesSearch && matchesProp) {
                             item.style.display = ''; // Show the item
                             teamHasVisiblePlayers = true;
@@ -262,7 +282,6 @@
                             item.style.display = 'none'; // Hide the item
                         }
                     });
-                    // Use the .hidden class for parent containers as it works fine there
                     teamSection.classList.toggle('hidden', !teamHasVisiblePlayers);
                 });
                 gameContainer.classList.toggle('hidden', !gameHasVisiblePlayers);
@@ -274,27 +293,20 @@
                     sidebarLink.classList.toggle('filtered-out', !gameHasVisiblePlayers);
                 }
             });
-            
             noResultsMessage.classList.toggle('hidden', totalVisiblePlayers > 0);
         };
-
-        // Attach event listeners
         searchInput.addEventListener('input', applyFilters);
         propFilter.addEventListener('change', applyFilters);
-        
-        // Apply on page load if values exist (e.g., from browser back button)
-        if (searchInput.value || propFilter.value) {
-            applyFilters();
-        }
-        // --- END LIVE SEARCH SCRIPT ---
+        if (searchInput.value || propFilter.value) { applyFilters(); }
 
-
-        // --- Existing Page Interactivity Scripts ---
+        // --- Existing Page Interactivity Scripts (Standard) ---
         const weekSelector = document.getElementById('weekSelector');
         if (weekSelector) {
             weekSelector.addEventListener('change', function() {
                 const selectedWeek = this.value;
-                window.location.href = `/week/${selectedWeek}`;
+                const url = new URL(window.location.href);
+                url.pathname = `/week/${selectedWeek}`;
+                window.location.href = url.toString();
             });
         }
 

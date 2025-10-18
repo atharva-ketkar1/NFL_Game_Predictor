@@ -121,10 +121,14 @@ def get_combined_data(week_number):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(script_dir, '..', 'nfl_data')
     week_folder = f'week_{week_number}'
+    
+    # --- MODIFIED: Look for history files ---
     prop_files = {
-        'fanduel': os.path.join(week_folder, f'fanduel_nfl_week_{week_number}_props.csv'),
-        'draftkings': os.path.join(week_folder, f'draftkings_nfl_week_{week_number}_props.csv')
+        'fanduel': os.path.join(week_folder, f'fanduel_nfl_week_{week_number}_props_history.csv'),
+        'draftkings': os.path.join(week_folder, f'draftkings_nfl_week_{week_number}_props_history.csv')
     }
+    # --- END MODIFICATION ---
+
     if not os.path.isdir(data_dir):
         return None, f"Error: Data directory not found at '{os.path.abspath(data_dir)}'.", []
 
@@ -245,6 +249,8 @@ def index():
     latest_week = available_weeks[0]
     return redirect(url_for('show_week', week_num=latest_week))
 
+
+# --- MODIFIED: This entire function is replaced ---
 @app.route('/week/<int:week_num>')
 def show_week(week_num):
     """Displays the dashboard for a specific week."""
@@ -258,11 +264,11 @@ def show_week(week_num):
     if week_num not in available_weeks:
         return redirect(url_for('index'))
 
-    # Get all raw data
-    raw_props_df, error_msg, sportsbooks = get_combined_data(week_num)
+    # Get all raw HISTORICAL data
+    raw_historical_df, error_msg, sportsbooks = get_combined_data(week_num)
 
     # Handle errors or no data
-    if error_msg or raw_props_df is None or raw_props_df.empty:
+    if error_msg or raw_historical_df is None or raw_historical_df.empty:
          return render_template('index.html',
                            final_data={},
                            error_msg=error_msg or "No data available for this week.",
@@ -275,16 +281,28 @@ def show_week(week_num):
                            player_search=player_search,
                            prop_filter=prop_filter)
 
-    # 1. Get unique prop types for the filter dropdown
-    prop_types = sorted(raw_props_df['prop_main'].unique())
+    # === NEW: Filter historical data to get ONLY the latest props ===
+    # 1. Ensure timestamp is a datetime object to sort correctly
+    raw_historical_df['scrape_timestamp'] = pd.to_datetime(raw_historical_df['scrape_timestamp'])
+    
+    # 2. These keys define a unique prop market.
+    group_keys = ['player_name_norm', 'prop_main', 'prop_qualifier', 'line', 'sportsbook', 'game_norm']
+    
+    # 3. Sort by time, group by the unique market, and take the LAST record.
+    #    This gives you the most recent snapshot of every prop.
+    latest_props_df = raw_historical_df.sort_values('scrape_timestamp') \
+                                       .groupby(group_keys) \
+                                       .last() \
+                                       .reset_index()
 
-    # 2. Find arbitrage opportunities on the full dataset
-    arbitrage_ops = find_arbitrage_opportunities(raw_props_df)
+    # 1. Get unique prop types for the filter dropdown (from latest data)
+    prop_types = sorted(latest_props_df['prop_main'].unique())
 
-    # 3. IMPORTANT: We no longer filter the DataFrame here.
-    #    We pass the full, unfiltered dataset to the template.
-    #    JavaScript will handle the filtering on the client-side.
-    final_data = structure_props_for_template(raw_props_df)
+    # 2. Find arbitrage opportunities on the latest dataset
+    arbitrage_ops = find_arbitrage_opportunities(latest_props_df)
+
+    # 3. Structure the LATEST data for the template.
+    final_data = structure_props_for_template(latest_props_df)
 
     return render_template('index.html',
                            final_data=final_data,
@@ -297,6 +315,7 @@ def show_week(week_num):
                            prop_types=prop_types,
                            player_search=player_search,
                            prop_filter=prop_filter)
+# --- END MODIFICATION ---
 
 
 if __name__ == '__main__':

@@ -23,7 +23,8 @@ def get_nfl_main_page_data():
 
 def get_player_props(event_id, prop_tab):
     """Fetches the player props for a specific game (event_id) and prop tab."""
-    url = f"https://api.sportsbook.fanduel.com/sbapi/event-page?_ak=FhMFpcPWXMeyZxOx&eventId={event_id}&tab={prop_tab}"
+    cache_buster = int(time.time())
+    url = f"https://api.sportsbook.fanduel.com/sbapi/event-page?_ak=FhMFpcPWXMeyZxOx&eventId={event_id}&tab={prop_tab}&_={cache_buster}"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
         'x-sportsbook-region': 'OH'
@@ -166,8 +167,8 @@ def main():
                 if len(runners) != 2:
                     continue
 
-                over_runner = next((r for r in runners if any(s in r.get('runnerName', '').lower() for s in ['over', 'yes'])), None)
-                under_runner = next((r for r in runners if any(s in r.get('runnerName', '').lower() for s in ['under', 'no'])), None)
+                over_runner = next((r for r in runners if r.get('result', {}).get('type') == 'OVER'), None)
+                under_runner = next((r for r in runners if r.get('result', {}).get('type') == 'UNDER'), None)
                 if not over_runner or not under_runner:
                     continue
 
@@ -180,32 +181,66 @@ def main():
                     'team_logo': logo_url,
                     'prop_type': prop_type,
                     'line': over_runner.get('handicap'),
-                    'over_odds': over_runner.get('winRunnerOdds', {}).get('americanDisplayOdds', {}).get('americanOdds'),
-                    'under_odds': under_runner.get('winRunnerOdds', {}).get('americanDisplayOdds', {}).get('americanOdds'),
+                    'over_odds': over_runner.get('winRunnerOdds', {}).get('americanDisplayOdds', {}).get('americanOdds') if over_runner else None,
+                    'under_odds': under_runner.get('winRunnerOdds', {}).get('americanDisplayOdds', {}).get('americanOdds') if under_runner else None,
                     'sportsbook': 'FanDuel'
                 })
             time.sleep(0.5)
 
-    # --- Updated: Write to week_{week_number} subfolder ---
+    # --- MODIFIED: Add timestamp to all new data before saving ---
+    scrape_time = datetime.now().isoformat()
+    for prop in all_props_data:
+        prop['scrape_timestamp'] = scrape_time
+    for line in all_game_lines_data:
+        line['scrape_timestamp'] = scrape_time
+
+    # --- MODIFIED: Write to week_{week_number} subfolder ---
     base_dir = "nfl_data"
     week_dir = os.path.join(base_dir, f"week_{week_number}")
     os.makedirs(week_dir, exist_ok=True)
 
-    if all_props_data:
-        props_file = os.path.join(week_dir, f"fanduel_nfl_week_{week_number}_props.csv")
-        print(f"\nWriting {len(all_props_data)} props to {props_file}...")
-        with open(props_file, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=all_props_data[0].keys())
-            writer.writeheader()
-            writer.writerows(all_props_data)
+    # --- MODIFIED: Helper function for appending ---
+    def append_to_historical_csv(new_data, output_file, default_fieldnames):
+        """Appends new data to a CSV, writing a header if the file is new."""
+        if not new_data:
+            print(f"No new data to write for {output_file}.")
+            return
+            
+        # Add timestamp to the fieldnames
+        fieldnames = default_fieldnames + ['scrape_timestamp']
+        file_exists = os.path.exists(output_file)
+        
+        try:
+            with open(output_file, "a", newline="", encoding="utf-8") as f:
+                # Use extrasaction='ignore' to be safe with any column mismatches
+                writer = csv.DictWriter(f, fieldnames=fieldnames, extrasaction='ignore')
+                if not file_exists:
+                    writer.writeheader()  # Write header only if file is new
+                writer.writerows(new_data)
+            print(f"  Appended {len(new_data)} new rows to {output_file}")
+        except Exception as e:
+             print(f"  ERROR writing file {output_file}: {e}")
 
+    # --- MODIFIED: 1. Append Player Props ---
+    if all_props_data:
+        props_file = os.path.join(week_dir, f"fanduel_nfl_week_{week_number}_props_history.csv")
+        # Define fieldnames *without* timestamp (it's added by the helper)
+        props_fieldnames = ['week', 'game', 'player_name', 'team_name', 'team_logo', 
+                            'prop_type', 'line', 'over_odds', 'under_odds', 'sportsbook']
+        append_to_historical_csv(all_props_data, props_file, props_fieldnames)
+    else:
+        print("\nNo new player props found.")
+
+    # --- MODIFIED: 2. Append Game Lines ---
     if all_game_lines_data:
-        lines_file = os.path.join(week_dir, f"fanduel_nfl_week_{week_number}_game_lines.csv")
-        print(f"Writing {len(all_game_lines_data)} game lines to {lines_file}...")
-        with open(lines_file, "w", newline="", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, fieldnames=all_game_lines_data[0].keys())
-            writer.writeheader()
-            writer.writerows(all_game_lines_data)
+        lines_file = os.path.join(week_dir, f"fanduel_nfl_week_{week_number}_game_lines_history.csv")
+        lines_fieldnames = ['week', 'game', 'away_team', 'home_team', 'away_spread_line', 
+                            'away_spread_odds', 'home_spread_line', 'home_spread_odds', 
+                            'away_moneyline', 'home_moneyline', 'total_line', 
+                            'over_odds', 'under_odds']
+        append_to_historical_csv(all_game_lines_data, lines_file, lines_fieldnames)
+    else:
+        print("\nNo new game lines found.")
 
     print("\n✅ Scraping complete! Files saved in:", week_dir)
 
