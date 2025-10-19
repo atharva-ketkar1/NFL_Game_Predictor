@@ -71,6 +71,192 @@ def find_arbitrage_opportunities(props_df):
             })
     return opportunities
 
+ODDS_DIFF_THRESHOLD = 20 # Minimum difference in odds (e.g., -110 vs -130) to be flagged
+LINE_DIFF_THRESHOLDS = {
+    'Passing Yards': 10.0,
+    'Rushing Yards': 5.0,
+    'Receiving Yards': 5.0,
+    'Rushing + Receiving Yards': 5.0,
+    'Passing + Rushing Yards': 10.0,
+    'Receptions': 1.0,
+    'Passing Completions': 1.0,
+    'Passing Attempts': 2.0,
+    'Rushing Attempts': 2.0,
+    'Passing Touchdowns': 0.5,
+    'Interceptions Thrown': 0.5,
+    'Field Goals Made': 0.5,
+    'Kicking Points': 1.0
+}
+DEFAULT_LINE_THRESHOLD = 1.0
+
+def find_value_bets(props_df):
+    """
+    Finds two types of value opportunities:
+    1. Odds Shopping: Same prop/line, but significant odds differences.
+    2. Line Shopping: Same prop, but different lines (middling opportunity).
+    """
+    if props_df is None or props_df.empty:
+        return {'odds_shopping': [], 'line_shopping': []}
+
+    df = props_df.copy()
+    df.dropna(subset=['over_odds', 'under_odds', 'line', 'player_name_norm', 'prop_main', 'prop_qualifier'], inplace=True)
+
+    odds_ops = []
+    line_ops = []
+
+    grouped = df.groupby(['player_name_norm', 'prop_main', 'prop_qualifier'])
+
+    for (player_norm, prop_main, prop_qual), group in grouped:
+        if len(group['sportsbook'].unique()) < 2:
+            continue # Need at least two books to compare
+
+        player_name = group['player_name'].iloc[0]
+        prop_display = f"{prop_main} ({prop_qual})" if prop_qual and prop_qual != 'Full Game' else prop_main
+
+        # --- Logic 1: Odds Shopping (Same Line, Different Odds) ---
+        line_grouped = group.groupby('line')
+        for line, line_group in line_grouped:
+            if len(line_group['sportsbook'].unique()) < 2:
+                continue
+
+            # Check OVERs for value
+            overs = line_group.dropna(subset=['over_odds'])
+            if len(overs) > 1:
+                best_over = overs.loc[overs['over_odds'].idxmax()]
+                worst_over = overs.loc[overs['over_odds'].idxmin()]
+                diff = best_over['over_odds'] - worst_over['over_odds']
+                if diff >= ODDS_DIFF_THRESHOLD:
+                    odds_ops.append({
+                        'type': 'Over',
+                        'player_name': player_name,
+                        'prop_type': prop_display,
+                        'line': line,
+                        'best_book': best_over['sportsbook'],
+                        'best_odds': int(best_over['over_odds']),
+                        'worst_book': worst_over['sportsbook'],
+                        'worst_odds': int(worst_over['over_odds']),
+                        'diff': int(diff)
+                    })
+            
+            # Check UNDERs for value
+            unders = line_group.dropna(subset=['under_odds'])
+            if len(unders) > 1:
+                best_under = unders.loc[unders['under_odds'].idxmax()]
+                worst_under = unders.loc[unders['under_odds'].idxmin()]
+                diff = best_under['under_odds'] - worst_under['under_odds']
+                if diff >= ODDS_DIFF_THRESHOLD:
+                    odds_ops.append({
+                        'type': 'Under',
+                        'player_name': player_name,
+                        'prop_type': prop_display,
+                        'line': line,
+                        'best_book': best_under['sportsbook'],
+                        'best_odds': int(best_under['under_odds']),
+                        'worst_book': worst_under['sportsbook'],
+                        'worst_odds': int(worst_under['under_odds']),
+                        'diff': int(diff)
+                    })
+
+        # --- Logic 2: Line Shopping (Different Lines, Same Prop) ---
+        unique_lines = group['line'].dropna().unique()
+        if len(unique_lines) > 1:
+            try:
+                max_line_row = group.loc[group['line'].idxmax()]
+                min_line_row = group.loc[group['line'].idxmin()]
+                
+                line_diff = max_line_row['line'] - min_line_row['line']
+                threshold = LINE_DIFF_THRESHOLDS.get(prop_main, DEFAULT_LINE_THRESHOLD)
+
+                if line_diff >= threshold:
+                    def format_odds(odds):
+                        try: return f"+{int(odds)}" if int(odds) > 0 else str(int(odds));
+                        except: return str(odds)
+                    
+                    line_ops.append({
+                        'player_name': player_name,
+                        'prop_type': prop_display,
+                        'bet_over_book': min_line_row['sportsbook'],
+                        'bet_over_line': min_line_row['line'],
+                        'bet_over_odds': format_odds(min_line_row['over_odds']),
+                        'bet_under_book': max_line_row['sportsbook'],
+                        'bet_under_line': max_line_row['line'],
+                        'bet_under_odds': format_odds(max_line_row['under_odds']),
+                        'line_diff': line_diff
+                    })
+            except Exception as e:
+                print(f"Error processing line shopping for {player_name} - {prop_display}: {e}")
+
+    # Sort lists for better display (e.g., biggest diffs first)
+    odds_ops.sort(key=lambda x: x['diff'], reverse=True)
+    line_ops.sort(key=lambda x: x['line_diff'], reverse=True)
+    
+    return {'odds_shopping': odds_ops, 'line_shopping': line_ops}
+
+
+# --- (MODIFIED) This entire function is replaced ---
+def find_biggest_line_moves(props_df):
+    """
+    Finds the props with the largest line movement from their first recorded
+    point to their last, grouped by player, prop, and sportsbook.
+    """
+    if props_df is None or props_df.empty or 'scrape_timestamp' not in props_df.columns:
+        return []
+
+    df = props_df.copy()
+    
+    # Ensure timestamp is datetime for proper sorting
+    df['scrape_timestamp'] = pd.to_datetime(df['scrape_timestamp'])
+    
+    # We group by the unique prop AND the sportsbook, as lines move
+    # independently on different books.
+    grouped = df.groupby(['player_name_norm', 'prop_main', 'prop_qualifier', 'sportsbook'])
+
+    moves = []
+
+    for (player_norm, prop_main, prop_qual, sportsbook), group in grouped:
+        if len(group) < 2:
+            continue # Need at least two data points to show movement
+
+        # Sort by time to find the first and last entry
+        group = group.sort_values('scrape_timestamp')
+        
+        start_row = group.iloc[0]
+        end_row = group.iloc[-1]
+
+        start_line = start_row['line']
+        end_line = end_row['line']
+
+        line_change = end_line - start_line
+
+        # Use the same thresholds as the "middles" to find significant moves
+        threshold = LINE_DIFF_THRESHOLDS.get(prop_main, DEFAULT_LINE_THRESHOLD)
+
+        if abs(line_change) >= threshold:
+            player_name = start_row['player_name']
+            prop_display = f"{prop_main} ({prop_qual})" if prop_qual and prop_qual != 'Full Game' else prop_main
+
+            moves.append({
+                'player_name': player_name,
+                'prop_type': prop_display,
+                'sportsbook': sportsbook,
+                'start_line': start_line,
+                'end_line': end_line,
+                'line_change': line_change,
+                'start_time': start_row['scrape_timestamp'].strftime('%a, %b %d %I:%M%p'),
+                'end_time': end_row['scrape_timestamp'].strftime('%a, %b %d %I:%M%p'),
+                'abs_change': abs(line_change), # Helper for sorting
+                # (NEW) Add keys for history lookup
+                'player_name_norm': player_norm,
+                'prop_main': prop_main,
+                'prop_qualifier': prop_qual,
+            })
+
+    # Sort the final list by the largest absolute change
+    moves.sort(key=lambda x: x['abs_change'], reverse=True)
+    return moves
+# --- END MODIFICATION ---
+
+
 def parse_prop_type(prop_string: str) -> dict:
     prop_string = str(prop_string).strip()
     if not prop_string:
@@ -117,49 +303,39 @@ def extract_player_name(text, known_players):
             best_match = player; break
     return best_match if best_match else text
 
-# --- MODIFIED: This entire function is replaced ---
 def get_combined_data(week_number):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(script_dir, '..', 'nfl_data')
     week_folder = f'week_{week_number}'
     
-    # Define the specific week directory path
     week_path = os.path.join(data_dir, week_folder)
 
     if not os.path.isdir(data_dir):
         return None, f"Error: Base data directory not found at '{os.path.abspath(data_dir)}'.", []
     
-    # Check for the specific week directory
     if not os.path.isdir(week_path):
          return None, f"Error: Week directory not found at '{os.path.abspath(week_path)}'.", []
 
-    # Flexible file finding logic
-    
-    # 1. Define all possible file paths
     fd_history_path = os.path.join(week_path, f'fanduel_nfl_week_{week_number}_props_history.csv')
     dk_history_path = os.path.join(week_path, f'draftkings_nfl_week_{week_number}_props_history.csv')
     fd_legacy_path = os.path.join(week_path, f'fanduel_nfl_week_{week_number}_props.csv')
     dk_legacy_path = os.path.join(week_path, f'draftkings_nfl_week_{week_number}_props.csv')
 
-    # 2. Find the correct Fanduel file (prefer history)
     fanduel_path_to_load = None
     if os.path.exists(fd_history_path):
         fanduel_path_to_load = fd_history_path
     elif os.path.exists(fd_legacy_path):
         fanduel_path_to_load = fd_legacy_path
         
-    # 3. Find the correct Draftkings file (prefer history)
     draftkings_path_to_load = None
     if os.path.exists(dk_history_path):
         draftkings_path_to_load = dk_history_path
     elif os.path.exists(dk_legacy_path):
         draftkings_path_to_load = dk_legacy_path
 
-    # 4. Load the files that were found
     fanduel_df = pd.read_csv(fanduel_path_to_load) if fanduel_path_to_load else pd.DataFrame()
     draftkings_df = pd.read_csv(draftkings_path_to_load) if draftkings_path_to_load else pd.DataFrame()
     
-    # 5. Improved error message
     if fanduel_df.empty and draftkings_df.empty:
         error_msg = f"No prop data files (e.g., ..._props.csv or ..._props_history.csv) found for Week {week_number} in '{os.path.abspath(week_path)}'."
         return None, error_msg, []
@@ -227,17 +403,14 @@ def get_combined_data(week_number):
     props_df['grouping_team'] = props_df['team_name'].replace('', 'Unknown')
 
     return props_df, None, sportsbooks
-# --- END MODIFICATION ---
 
 
-# --- MODIFIED: This entire function is replaced ---
 def structure_props_for_template(props_df, history_map): # MODIFIED SIGNATURE
     """Takes a DataFrame of props and structures it into a nested dict for the template."""
     output_structure = defaultdict(lambda: {'game_lines': None, 'teams': {}})
     if props_df is None or props_df.empty:
         return output_structure
 
-    # ADDED 'player_name_norm' to the groupby
     grouped = props_df.groupby(['game_norm', 'grouping_team', 'player_name', 'prop_main', 'prop_qualifier', 'player_name_norm'])
 
     for (game, team, player, prop_main, prop_qualifier, player_norm), group in grouped: # ADDED player_norm
@@ -253,8 +426,6 @@ def structure_props_for_template(props_df, history_map): # MODIFIED SIGNATURE
             output_structure[game]['teams'][team] = {'logo': team_logo_url, 'players': {}}
         player_props = output_structure[game]['teams'][team]['players'].setdefault(player, {'props': {}})
         
-        # === MODIFIED SECTION ===
-        # Get the pre-computed history JSON for this prop (player, main, qualifier)
         prop_history_json = history_map.get((player_norm, prop_main, prop_qualifier), '[]') # Default to empty JSON array
         
         market_data = {}
@@ -269,7 +440,6 @@ def structure_props_for_template(props_df, history_map): # MODIFIED SIGNATURE
                 'under': format_odds(row['under_odds']),
                 'history': prop_history_json # Attach the SAME history JSON to all books for this prop
             }
-        # === END MODIFICATION ===
         
         player_props['props'].setdefault(prop_main, {})[prop_qualifier] = market_data
 
@@ -277,7 +447,6 @@ def structure_props_for_template(props_df, history_map): # MODIFIED SIGNATURE
         if 'Unknown' in data['teams']: data['teams']['Players'] = data['teams'].pop('Unknown')
 
     return output_structure
-# --- END MODIFICATION ---
 
 
 @app.route('/')
@@ -292,7 +461,7 @@ def index():
     return redirect(url_for('show_week', week_num=latest_week))
 
 
-# --- MODIFIED: This entire function is replaced ---
+# --- (MODIFIED) This entire function is replaced ---
 @app.route('/week/<int:week_num>')
 def show_week(week_num):
     """Displays the dashboard for a specific week."""
@@ -308,6 +477,9 @@ def show_week(week_num):
     # Get all raw data (could be history or legacy)
     raw_historical_df, error_msg, sportsbooks = get_combined_data(week_num)
 
+    # (NEW) Initialize biggest_moves
+    biggest_moves = []
+
     # Handle errors or no data
     if error_msg or raw_historical_df is None or raw_historical_df.empty:
          return render_template('index.html',
@@ -315,6 +487,8 @@ def show_week(week_num):
                            error_msg=error_msg or "No data available for this week.",
                            week_number=str(week_num),
                            arbitrage_ops=[],
+                           value_bets={'odds_shopping': [], 'line_shopping': []},
+                           biggest_moves=biggest_moves, # ADDED
                            sportsbooks=[],
                            available_weeks=available_weeks,
                            current_week=week_num,
@@ -329,6 +503,9 @@ def show_week(week_num):
     if 'scrape_timestamp' in raw_historical_df.columns:
         # --- A) NEW LOGIC: File has history (Week 7+) ---
         
+        # (NEW) Find biggest line moves using the FULL history
+        biggest_moves = find_biggest_line_moves(raw_historical_df)
+
         # 1. Pre-process history map
         raw_historical_df['scrape_timestamp'] = pd.to_datetime(raw_historical_df['scrape_timestamp'])
         history_cols = ['scrape_timestamp', 'line', 'over_odds', 'under_odds', 'sportsbook']
@@ -338,6 +515,11 @@ def show_week(week_num):
         for (player_norm, prop_main, prop_qual), group in history_groups:
             history_json = group[valid_history_cols].to_json(orient='records', date_format='iso')
             history_map[(player_norm, prop_main, prop_qual)] = history_json
+
+        # (NEW) Inject history JSON into biggest_moves
+        for move in biggest_moves:
+            history_key = (move['player_name_norm'], move['prop_main'], move['prop_qualifier'])
+            move['history_json'] = history_map.get(history_key, '[]')
 
         # 2. Filter to get ONLY the latest props
         group_keys = ['player_name_norm', 'prop_main', 'prop_qualifier', 'line', 'sportsbook', 'game_norm']
@@ -350,6 +532,7 @@ def show_week(week_num):
         # The raw data *is* the latest data, and history map remains empty.
         latest_props_df = raw_historical_df
         # history_map is already {}
+        # biggest_moves is already []
         
     # --- END MODIFICATION ---
 
@@ -359,7 +542,10 @@ def show_week(week_num):
     # 2. Find arbitrage opportunities on the latest dataset
     arbitrage_ops = find_arbitrage_opportunities(latest_props_df)
 
-    # 3. Structure the LATEST data for the template, passing the (possibly empty) history map
+    # 3. Find value bets / line discrepancies
+    value_bets = find_value_bets(latest_props_df)
+
+    # 4. Structure the LATEST data for the template, passing the (possibly empty) history map
     final_data = structure_props_for_template(latest_props_df, history_map)
 
     return render_template('index.html',
@@ -367,6 +553,8 @@ def show_week(week_num):
                            error_msg=None,
                            week_number=str(week_num),
                            arbitrage_ops=arbitrage_ops,
+                           value_bets=value_bets,
+                           biggest_moves=biggest_moves, # ADDED
                            sportsbooks=sportsbooks,
                            available_weeks=available_weeks,
                            current_week=week_num,
