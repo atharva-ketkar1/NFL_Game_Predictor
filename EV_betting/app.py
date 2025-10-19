@@ -13,7 +13,7 @@ TEAM_MAP = {
 }
 
 FANDUEL_LOGO_MAP = {
-    'Arizona Cardinals': 'arizona_cardinals', 'Atlanta Falcons': 'atlanta_falcons', 'Baltimore Ravens': 'baltimore_ravens', 'Buffalo Bills': 'buffalo_bills', 'Carolina Panthers': 'carolina_panthers', 'Chicago Bears': 'chicago_bears', 'Cincinnati Bengals': 'cincinnati_bengals', 'Cleveland Browns': 'cleveland_browns', 'Dallas Cowboys': 'dallas_cowboys', 'Denver Broncos': 'denver_broncos', 'Detroit Lions': 'detroit_lions', 'Green Bay Packers': 'green_bay_packers', 'Houston Texans': 'houston_texans', 'Indianapolis Colts': 'indianapolis_colts', 'Jacksonville Jaguars': 'jacksonville_jaguars', 'Kansas City Chiefs': 'kansas_city_chiefs', 'Las Vegas Raiders': 'las_vegas_raiders', 'Los Angeles Chargers': 'los_angeles_chargers', 'Los Angeles Rams': 'los_angeles_rams', 'Miami Dolphins': 'miami_dolphins', 'Minnesota Vikings': 'minnesota_vikings', 'New England Patriots': 'new_england_patriots', 'New Orleans Saints': 'new_orleans_saints', 'New York Giants': 'new_york_giants', 'New York Jets': 'new_york_jets', 'Philadelphia Eagles': 'philadelphia_eagles', 'Pittsburgh Steelers': 'pittsburgh_steelers', 'San Francisco 49ers': 'san_francisco_49ers', 'Seattle Seahawks': 'seattle_seahawks', 'Tampa Bay Buccaneers': 'tampa_bay_buccaneers', 'Tennessee Titans': 'tennessee_titans', 'Washington Commanders': 'washington_commanders'
+    'Arizona Cardinals': 'arizona_cardinals', 'Atlanta Falcons': 'atlanta_falcons', 'Baltimore Ravens': 'baltimore_ravens', 'Buffalo Bills': 'buffalo_bills', 'Carolina Panthers': 'carolina_panthers', 'Chicago Bears': 'chicago_bears', 'Cincinnati Bengals': 'cincinnati_bengals', 'Cleveland Browns': 'cleveland_browns', 'Dallas Cowboys': 'dallas_cowboys', 'Denver Broncos': 'denver_broncos', 'Detroit Lions': 'detroit_lions', 'Green Bay Packers': 'green_bay_packers', 'Houston Texans': 'houston_texans', 'Indianapolis Colts': 'indianapolis_colts', 'Jacksonville Jaguars': 'jacksonville_jaguar', 'Kansas City Chiefs': 'kansas_city_chiefs', 'Las Vegas Raiders': 'las_vegas_raiders', 'Los Angeles Chargers': 'los_angeles_chargers', 'Los Angeles Rams': 'los_angeles_rams', 'Miami Dolphins': 'miami_dolphins', 'Minnesota Vikings': 'minnesota_vikings', 'New England Patriots': 'new_england_patriots', 'New Orleans Saints': 'new_orleans_saints', 'New York Giants': 'new_york_giants', 'New York Jets': 'new_york_jets', 'Philadelphia Eagles': 'philadelphia_eagles', 'Pittsburgh Steelers': 'pittsburgh_steelers', 'San Francisco 49ers': 'san_francisco_49ers', 'Seattle Seahawks': 'seattle_seahawks', 'Tampa Bay Buccaneers': 'tampa_bay_buccaneers', 'Tennessee Titans': 'tennessee_titans', 'Washington Commanders': 'washington_commanders'
 }
 
 
@@ -190,10 +190,13 @@ def find_value_bets(props_df):
     odds_ops.sort(key=lambda x: x['diff'], reverse=True)
     line_ops.sort(key=lambda x: x['line_diff'], reverse=True)
     
-    return {'odds_shopping': odds_ops, 'line_shopping': line_ops}
+    # --- (MODIFIED) Limit to the top 25 for each category ---
+    top_odds_ops = odds_ops[:25]
+    top_line_ops = line_ops[:25]
+    
+    return {'odds_shopping': top_odds_ops, 'line_shopping': top_line_ops}
 
 
-# --- (MODIFIED) This entire function is replaced ---
 def find_biggest_line_moves(props_df):
     """
     Finds the props with the largest line movement from their first recorded
@@ -253,31 +256,61 @@ def find_biggest_line_moves(props_df):
 
     # Sort the final list by the largest absolute change
     moves.sort(key=lambda x: x['abs_change'], reverse=True)
-    return moves
-# --- END MODIFICATION ---
+    
+    # --- (MODIFIED) Return only the top 25 biggest moves ---
+    return moves[:25]
 
 
 def parse_prop_type(prop_string: str) -> dict:
     prop_string = str(prop_string).strip()
     if not prop_string:
         return {'main': 'Unknown Prop', 'qualifier': ''}
+    
+    # --- THIS IS THE CORRECTED DICTIONARY ---
     PROP_TYPE_MAP = {
+        # Passing Touchdowns
         'Passing Touchdowns': 'Passing Touchdowns', 'Passing TDs': 'Passing Touchdowns', 'Pass TDs': 'Passing Touchdowns', 'TDs': 'Passing Touchdowns',
-        'Passing Yards': 'Passing Yards', 'Passing Yds': 'Passing Yards', 'Pass Yds': 'Passing Yards', 'Yds': 'Passing Yards',
-        'Passing Completions': 'Passing Completions', 'Completions': 'Passing Completions', 'Pass Completions': 'Passing Completions', 'Passing': 'Passing Completions',
+        
+        # Passing Yards (FIXED)
+        'Passing Yards': 'Passing Yards', 'Passing Yds': 'Passing Yards', 'Pass Yds': 'Passing Yards', 'Pass Yards': 'Passing Yards', 'Yds': 'Passing Yards',
+        
+        # Passing Completions (FIXED)
+        'Passing Completions': 'Passing Completions', 'Completions': 'Passing Completions', 'Pass Completions': 'Passing Completions', 'Passing Completion': 'Passing Completions', 'Passing': 'Passing Completions',
+        
+        # Passing Attempts
         'Passing Attempts': 'Passing Attempts', 'Pass Attempts': 'Passing Attempts',
+        
+        # Interceptions
         'Interceptions Thrown': 'Interceptions Thrown', 'Interceptions': 'Interceptions Thrown', 'Interception': 'Interceptions Thrown',
-        'Receiving Yards': 'Receiving Yards', 'Receiving Yds': 'Receiving Yards', 'Rec Yards': 'Receiving Yards',
+        
+        # Receiving Yards (FIXED)
+        'Receiving Yards': 'Receiving Yards', 'Receiving Yds': 'Receiving Yards', 'Rec Yards': 'Receiving Yards', 'Rec Yds': 'Receiving Yards',
+        
+        # Receptions
         'Receptions': 'Receptions', 'Total Receptions': 'Receptions', 'Reception': 'Receptions',
-        'Rushing Yards': 'Rushing Yards', 'Rushing Yds': 'Rushing Yards', 'Rush Yards': 'Rushing Yards',
+        
+        # Rushing Yards (FIXED)
+        'Rushing Yards': 'Rushing Yards', 'Rushing Yds': 'Rushing Yards', 'Rush Yards': 'Rushing Yards', 'Rush Yds': 'Rushing Yards',
+        
+        # Rushing Attempts
         'Rushing Attempts': 'Rushing Attempts', 'Rush Attempts': 'Rushing Attempts',
-        'Rushing + Receiving Yards': 'Rushing + Receiving Yards', 'Rushing + Receiving Yds': 'Rushing + Receiving Yards', 'Rush + Rec Yards': 'Rushing + Receiving Yards',
-        'Passing + Rushing Yards': 'Passing + Rushing Yards', 'Passing + Rushing Yds': 'Passing + Rushing Yards',
+        
+        # Combo Props (Rushing + Receiving) (FIXED)
+        'Rushing + Receiving Yards': 'Rushing + Receiving Yards', 'Rushing + Receiving Yds': 'Rushing + Receiving Yards', 'Rush + Rec Yards': 'Rushing + Receiving Yards', 'Rush + Rec Yds': 'Rushing + Receiving Yards',
+        
+        # Combo Props (Passing + Rushing) (FIXED)
+        'Passing + Rushing Yards': 'Passing + Rushing Yards', 'Passing + Rushing Yds': 'Passing + Rushing Yards', 'Pass + Rush Yards': 'Passing + Rushing Yards',
+        
+        # Kicking
         'Field Goals Made': 'Field Goals Made', 'FG Made': 'Field Goals Made',
         'Kicking Points': 'Kicking Points', 'Kicking Pts': 'Kicking Points',
         'Extra Points Made': 'Extra Points Made', 'PAT Made': 'Extra Points Made',
+        
+        # Fantasy
         'Fantasy Points': 'Fantasy Points', 'WR/TE Fantasy Points': 'Fantasy Points', 'RB Fantasy Points': 'Fantasy Points', 'QB Fantasy Points': 'Fantasy Points',
     }
+    # --- END OF CORRECTIONS ---
+    
     qualifiers = { ' - 1st Half': '1st Half', ' - 1H': '1st Half', ' - 1st Quarter': '1st Quarter', ' - 1Q': '1st Quarter', '1st Qtr': '1st Quarter', 'Longest': 'Longest' }
     prop_qualifier = 'Full Game'; main_prop_str = prop_string
     if 'Longest' in main_prop_str:
@@ -287,7 +320,10 @@ def parse_prop_type(prop_string: str) -> dict:
             if key in main_prop_str:
                 prop_qualifier = val; main_prop_str = main_prop_str.replace(key, '').strip(); break
     main_prop_str = main_prop_str.replace(' O/U', '').strip()
-    main_prop = PROP_TYPE_MAP.get(main_prop_str, main_prop_str)
+    
+    # This line now correctly maps all variations to one canonical name
+    main_prop = PROP_TYPE_MAP.get(main_prop_str, main_prop_str) 
+    
     if prop_qualifier == 'Longest':
         if main_prop in ['Receiving Yards', 'Receptions']: main_prop = 'Longest Reception'
         elif main_prop in ['Rushing Yards', 'Rush']: main_prop = 'Longest Rush'
@@ -461,7 +497,6 @@ def index():
     return redirect(url_for('show_week', week_num=latest_week))
 
 
-# --- (MODIFIED) This entire function is replaced ---
 @app.route('/week/<int:week_num>')
 def show_week(week_num):
     """Displays the dashboard for a specific week."""
@@ -561,7 +596,6 @@ def show_week(week_num):
                            prop_types=prop_types,
                            player_search=player_search,
                            prop_filter=prop_filter)
-# --- END MODIFICATION ---
 
 
 if __name__ == '__main__':
