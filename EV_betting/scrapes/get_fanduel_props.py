@@ -91,12 +91,9 @@ def get_upcoming_nfl_games(main_page_data):
     return upcoming_events
 
 
-def main():
-    try:
-        week_number = int(input("Please enter the current NFL week number (e.g., 6): "))
-    except ValueError:
-        print("Invalid input. Please enter a whole number.")
-        return
+def run_scraper(week_number):
+    # This function now accepts 'week_number' as an argument
+    # The input() call has been removed
 
     print("\nFetching all upcoming NFL games...")
     main_page_data = get_nfl_main_page_data()
@@ -246,4 +243,9 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    # This block now runs ONLY if you run this file directly
+    try:
+        week_num = int(input("Please enter the current NFL week number (e.g., 6): "))
+        run_scraper(week_num) # Call the refactored function
+    except ValueError:
+        print("Invalid input. Please enter a whole number.")

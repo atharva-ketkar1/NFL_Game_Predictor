@@ -117,28 +117,52 @@ def extract_player_name(text, known_players):
             best_match = player; break
     return best_match if best_match else text
 
+# --- MODIFIED: This entire function is replaced ---
 def get_combined_data(week_number):
     script_dir = os.path.dirname(os.path.abspath(__file__))
     data_dir = os.path.join(script_dir, '..', 'nfl_data')
     week_folder = f'week_{week_number}'
     
-    # --- MODIFIED: Look for history files ---
-    prop_files = {
-        'fanduel': os.path.join(week_folder, f'fanduel_nfl_week_{week_number}_props_history.csv'),
-        'draftkings': os.path.join(week_folder, f'draftkings_nfl_week_{week_number}_props_history.csv')
-    }
-    # --- END MODIFICATION ---
+    # Define the specific week directory path
+    week_path = os.path.join(data_dir, week_folder)
 
     if not os.path.isdir(data_dir):
-        return None, f"Error: Data directory not found at '{os.path.abspath(data_dir)}'.", []
+        return None, f"Error: Base data directory not found at '{os.path.abspath(data_dir)}'.", []
+    
+    # Check for the specific week directory
+    if not os.path.isdir(week_path):
+         return None, f"Error: Week directory not found at '{os.path.abspath(week_path)}'.", []
 
-    fanduel_path = os.path.join(data_dir, prop_files['fanduel'])
-    draftkings_path = os.path.join(data_dir, prop_files['draftkings'])
-    fanduel_df = pd.read_csv(fanduel_path) if os.path.exists(fanduel_path) else pd.DataFrame()
-    draftkings_df = pd.read_csv(draftkings_path) if os.path.exists(draftkings_path) else pd.DataFrame()
+    # Flexible file finding logic
+    
+    # 1. Define all possible file paths
+    fd_history_path = os.path.join(week_path, f'fanduel_nfl_week_{week_number}_props_history.csv')
+    dk_history_path = os.path.join(week_path, f'draftkings_nfl_week_{week_number}_props_history.csv')
+    fd_legacy_path = os.path.join(week_path, f'fanduel_nfl_week_{week_number}_props.csv')
+    dk_legacy_path = os.path.join(week_path, f'draftkings_nfl_week_{week_number}_props.csv')
 
+    # 2. Find the correct Fanduel file (prefer history)
+    fanduel_path_to_load = None
+    if os.path.exists(fd_history_path):
+        fanduel_path_to_load = fd_history_path
+    elif os.path.exists(fd_legacy_path):
+        fanduel_path_to_load = fd_legacy_path
+        
+    # 3. Find the correct Draftkings file (prefer history)
+    draftkings_path_to_load = None
+    if os.path.exists(dk_history_path):
+        draftkings_path_to_load = dk_history_path
+    elif os.path.exists(dk_legacy_path):
+        draftkings_path_to_load = dk_legacy_path
+
+    # 4. Load the files that were found
+    fanduel_df = pd.read_csv(fanduel_path_to_load) if fanduel_path_to_load else pd.DataFrame()
+    draftkings_df = pd.read_csv(draftkings_path_to_load) if draftkings_path_to_load else pd.DataFrame()
+    
+    # 5. Improved error message
     if fanduel_df.empty and draftkings_df.empty:
-        return None, f"No prop data files found for Week {week_number} in '{os.path.abspath(data_dir)}'.", []
+        error_msg = f"No prop data files (e.g., ..._props.csv or ..._props_history.csv) found for Week {week_number} in '{os.path.abspath(week_path)}'."
+        return None, error_msg, []
 
     if not fanduel_df.empty: fanduel_df['sportsbook'] = 'Fanduel'
     if not draftkings_df.empty:
@@ -203,16 +227,20 @@ def get_combined_data(week_number):
     props_df['grouping_team'] = props_df['team_name'].replace('', 'Unknown')
 
     return props_df, None, sportsbooks
+# --- END MODIFICATION ---
 
-def structure_props_for_template(props_df):
+
+# --- MODIFIED: This entire function is replaced ---
+def structure_props_for_template(props_df, history_map): # MODIFIED SIGNATURE
     """Takes a DataFrame of props and structures it into a nested dict for the template."""
     output_structure = defaultdict(lambda: {'game_lines': None, 'teams': {}})
     if props_df is None or props_df.empty:
         return output_structure
 
-    grouped = props_df.groupby(['game_norm', 'grouping_team', 'player_name', 'prop_main', 'prop_qualifier'])
+    # ADDED 'player_name_norm' to the groupby
+    grouped = props_df.groupby(['game_norm', 'grouping_team', 'player_name', 'prop_main', 'prop_qualifier', 'player_name_norm'])
 
-    for (game, team, player, prop_main, prop_qualifier), group in grouped:
+    for (game, team, player, prop_main, prop_qualifier, player_norm), group in grouped: # ADDED player_norm
         if not all([game, player]): continue
 
         team_logo_url = ''
@@ -224,18 +252,32 @@ def structure_props_for_template(props_df):
         if team not in output_structure[game]['teams']:
             output_structure[game]['teams'][team] = {'logo': team_logo_url, 'players': {}}
         player_props = output_structure[game]['teams'][team]['players'].setdefault(player, {'props': {}})
+        
+        # === MODIFIED SECTION ===
+        # Get the pre-computed history JSON for this prop (player, main, qualifier)
+        prop_history_json = history_map.get((player_norm, prop_main, prop_qualifier), '[]') # Default to empty JSON array
+        
         market_data = {}
         for _, row in group.iterrows():
             def format_odds(odds):
                 try: return f"+{int(odds)}" if int(odds) > 0 else str(int(odds));
                 except: return str(odds)
-            market_data[row['sportsbook']] = {'line': row['line'], 'over': format_odds(row['over_odds']), 'under': format_odds(row['under_odds'])}
+            
+            market_data[row['sportsbook']] = {
+                'line': row['line'], 
+                'over': format_odds(row['over_odds']), 
+                'under': format_odds(row['under_odds']),
+                'history': prop_history_json # Attach the SAME history JSON to all books for this prop
+            }
+        # === END MODIFICATION ===
+        
         player_props['props'].setdefault(prop_main, {})[prop_qualifier] = market_data
 
     for game_name, data in output_structure.items():
         if 'Unknown' in data['teams']: data['teams']['Players'] = data['teams'].pop('Unknown')
 
     return output_structure
+# --- END MODIFICATION ---
 
 
 @app.route('/')
@@ -254,7 +296,6 @@ def index():
 @app.route('/week/<int:week_num>')
 def show_week(week_num):
     """Displays the dashboard for a specific week."""
-    # Get filter criteria from URL to pre-populate the form
     player_search = request.args.get('player_search', '').strip()
     prop_filter = request.args.get('prop_filter', '').strip()
 
@@ -264,7 +305,7 @@ def show_week(week_num):
     if week_num not in available_weeks:
         return redirect(url_for('index'))
 
-    # Get all raw HISTORICAL data
+    # Get all raw data (could be history or legacy)
     raw_historical_df, error_msg, sportsbooks = get_combined_data(week_num)
 
     # Handle errors or no data
@@ -281,19 +322,36 @@ def show_week(week_num):
                            player_search=player_search,
                            prop_filter=prop_filter)
 
-    # === NEW: Filter historical data to get ONLY the latest props ===
-    # 1. Ensure timestamp is a datetime object to sort correctly
-    raw_historical_df['scrape_timestamp'] = pd.to_datetime(raw_historical_df['scrape_timestamp'])
-    
-    # 2. These keys define a unique prop market.
-    group_keys = ['player_name_norm', 'prop_main', 'prop_qualifier', 'line', 'sportsbook', 'game_norm']
-    
-    # 3. Sort by time, group by the unique market, and take the LAST record.
-    #    This gives you the most recent snapshot of every prop.
-    latest_props_df = raw_historical_df.sort_values('scrape_timestamp') \
-                                       .groupby(group_keys) \
-                                       .last() \
-                                       .reset_index()
+    # --- MODIFIED: Handle both history and legacy files ---
+    history_map = {}
+    latest_props_df = None
+
+    if 'scrape_timestamp' in raw_historical_df.columns:
+        # --- A) NEW LOGIC: File has history (Week 7+) ---
+        
+        # 1. Pre-process history map
+        raw_historical_df['scrape_timestamp'] = pd.to_datetime(raw_historical_df['scrape_timestamp'])
+        history_cols = ['scrape_timestamp', 'line', 'over_odds', 'under_odds', 'sportsbook']
+        valid_history_cols = [col for col in history_cols if col in raw_historical_df.columns]
+        history_groups = raw_historical_df.groupby(['player_name_norm', 'prop_main', 'prop_qualifier'])
+        
+        for (player_norm, prop_main, prop_qual), group in history_groups:
+            history_json = group[valid_history_cols].to_json(orient='records', date_format='iso')
+            history_map[(player_norm, prop_main, prop_qual)] = history_json
+
+        # 2. Filter to get ONLY the latest props
+        group_keys = ['player_name_norm', 'prop_main', 'prop_qualifier', 'line', 'sportsbook', 'game_norm']
+        latest_props_df = raw_historical_df.sort_values('scrape_timestamp') \
+                                           .groupby(group_keys) \
+                                           .last() \
+                                           .reset_index()
+    else:
+        # --- B) FALLBACK LOGIC: File is legacy (Week 6) ---
+        # The raw data *is* the latest data, and history map remains empty.
+        latest_props_df = raw_historical_df
+        # history_map is already {}
+        
+    # --- END MODIFICATION ---
 
     # 1. Get unique prop types for the filter dropdown (from latest data)
     prop_types = sorted(latest_props_df['prop_main'].unique())
@@ -301,8 +359,8 @@ def show_week(week_num):
     # 2. Find arbitrage opportunities on the latest dataset
     arbitrage_ops = find_arbitrage_opportunities(latest_props_df)
 
-    # 3. Structure the LATEST data for the template.
-    final_data = structure_props_for_template(latest_props_df)
+    # 3. Structure the LATEST data for the template, passing the (possibly empty) history map
+    final_data = structure_props_for_template(latest_props_df, history_map)
 
     return render_template('index.html',
                            final_data=final_data,

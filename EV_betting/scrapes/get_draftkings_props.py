@@ -270,12 +270,9 @@ def parse_prop_data(data, prop_type_name):
 # 🚀 MAIN EXECUTION
 # ============================================================
 
-def main():
-    try:
-        week_number = int(input("Enter the current NFL week number (e.g., 6): "))
-    except ValueError:
-        print("Invalid week number.")
-        return
+def run_scraper(week_number):
+    # This function now accepts 'week_number' as an argument
+    # The input() call has been removed
 
     session = requests.Session()
     session.headers.update({
@@ -372,4 +369,9 @@ def main():
     print("\n✅ DraftKings scraping complete!")
 
 if __name__ == "__main__":
-    main()
+    # This block now runs ONLY if you run this file directly
+    try:
+        week_num = int(input("Enter the current NFL week number (e.g., 6): "))
+        run_scraper(week_num) # Call the refactored function
+    except ValueError:
+        print("Invalid input. Please enter a whole number.")
