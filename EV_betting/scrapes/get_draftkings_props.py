@@ -24,6 +24,20 @@ LONGEST_PROP_SUBCATEGORIES = {
     'Longest Passing Completion': '9526'
 }
 
+def create_fresh_session():
+    """Create a new session with fresh headers to avoid caching"""
+    session = requests.Session()
+    session.headers.update({
+        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
+        "Referer": "https://sportsbook.draftkings.com/",
+        "Origin": "https://sportsbook.draftkings.com",
+        "Accept": "*/*",
+        "Cache-Control": "no-cache, no-store, must-revalidate",
+        "Pragma": "no-cache",
+        "Expires": "0",
+    })
+    return session
+
 # ============================================================
 # 🏈 GAME LINES FETCH + PARSE (Merged from your working snippet)
 # ============================================================
@@ -274,13 +288,7 @@ def run_scraper(week_number):
     # This function now accepts 'week_number' as an argument
     # The input() call has been removed
 
-    session = requests.Session()
-    session.headers.update({
-        "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36",
-        "Referer": "https://sportsbook.draftkings.com/",
-        "Origin": "https://sportsbook.draftkings.com",
-        "Accept": "*/*",
-    })
+    session = create_fresh_session()
 
     # --- Create week-specific output folder ---
     base_dir = "nfl_data"

@@ -10,7 +10,10 @@ def get_nfl_main_page_data():
     url = "https://api.sportsbook.fanduel.com/sbapi/content-managed-page?page=CUSTOM&customPageId=nfl&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
-        'x-sportsbook-region': 'OH'
+        'x-sportsbook-region': 'OH',
+        'Cache-Control': 'no-cache, no-store, must-revalidate',  # Add this
+        'Pragma': 'no-cache',  # Add this
+        'Expires': '0'  # Add this
     }
     try:
         response = requests.get(url, headers=headers)
@@ -27,7 +30,10 @@ def get_player_props(event_id, prop_tab):
     url = f"https://api.sportsbook.fanduel.com/sbapi/event-page?_ak=FhMFpcPWXMeyZxOx&eventId={event_id}&tab={prop_tab}&_={cache_buster}"
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
-        'x-sportsbook-region': 'OH'
+        'x-sportsbook-region': 'OH',
+        'Cache-Control': 'no-cache, no-store, must-revalidate',  # Add this
+        'Pragma': 'no-cache',  # Add this
+        'Expires': '0'  # Add this
     }
     try:
         response = requests.get(url, headers=headers)
