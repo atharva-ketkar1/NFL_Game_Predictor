@@ -1,0 +1,332 @@
+week,game,player_name,prop_type,line,over_odds,under_odds,sportsbook,scrape_timestamp
+9,BAL Ravens @ MIA Dolphins,Zay Flowers,Rec Yards,68.5,−114,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Jaylen Waddle,Rec Yards,63.5,−114,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Rashod Bateman,Rec Yards,32.5,−114,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Rec Yards,32.5,−112,−112,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Malik Washington,Rec Yards,28.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Mark Andrews,Rec Yards,27.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Isaiah Likely,Rec Yards,21.5,−114,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Justice Hill,Rec Yards,17.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeAndre Hopkins,Rec Yards,16.5,−116,−108,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Nick Westbrook-Ikhine,Rec Yards,16.5,−116,−108,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Amon-Ra St. Brown,Rec Yards,75.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Justin Jefferson,Rec Yards,73.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jameson Williams,Rec Yards,44.5,−114,−111,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jordan Addison,Rec Yards,43.5,−115,−109,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Sam LaPorta,Rec Yards,43.5,−114,−110,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,T.J. Hockenson,Rec Yards,30.5,−110,−115,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rec Yards,23.5,−109,−115,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jalen Nailor,Rec Yards,18.5,−110,−114,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Aaron Jones,Rec Yards,15.5,−108,−117,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,DK Metcalf,Rec Yards,61.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Tyler Warren,Rec Yards,55.5,−112,−112,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Michael Pittman Jr.,Rec Yards,54.5,−114,−110,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Alec Pierce,Rec Yards,43.5,−110,−114,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Rashee Rice,Rec Yards,70.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Khalil Shakir,Rec Yards,49.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Xavier Worthy,Rec Yards,46.5,−114,−110,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Travis Kelce,Rec Yards,46.5,−112,−112,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Keon Coleman,Rec Yards,37.5,−110,−114,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Dalton Kincaid,Rec Yards,36.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Marquise Brown,Rec Yards,16.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,JuJu Smith-Schuster,Rec Yards,12.5,−110,−114,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,James Cook,Rec Yards,11.5,−112,−112,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Trey McBride,Rec Yards,67.5,−112,−112,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Marvin Harrison Jr.,Rec Yards,57.5,−110,−114,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Zay Flowers,Receptions,5.5,+101,−129,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Receptions,5.5,+123,−158,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Jaylen Waddle,Receptions,4.5,−151,+118,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Malik Washington,Receptions,3.5,−130,+102,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Mark Andrews,Receptions,2.5,−158,+124,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Justice Hill,Receptions,2.5,−107,−119,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Rashod Bateman,Receptions,2.5,+114,−145,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Isaiah Likely,Receptions,2.5,+129,−165,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Nick Westbrook-Ikhine,Receptions,1.5,−161,+126,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeAndre Hopkins,Receptions,1.5,+114,−145,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Amon-Ra St. Brown,Receptions,6.5,−118,−108,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Justin Jefferson,Receptions,5.5,+101,−129,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Sam LaPorta,Receptions,4.5,+108,−137,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,T.J. Hockenson,Receptions,3.5,−140,+109,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jordan Addison,Receptions,3.5,−130,+102,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Receptions,3.5,+103,−132,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jameson Williams,Receptions,3.5,+141,−182,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Aaron Jones,Receptions,2.5,+108,−138,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jalen Nailor,Receptions,1.5,−105,−122,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Rashee Rice,Receptions,6.5,−105,−122,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Khalil Shakir,Receptions,4.5,−145,+114,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Travis Kelce,Receptions,4.5,+100,−128,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Xavier Worthy,Receptions,3.5,−153,+120,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Keon Coleman,Receptions,3.5,−104,−123,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Dalton Kincaid,Receptions,3.5,+112,−143,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Marquise Brown,Receptions,2.5,+171,−222,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,James Cook,Receptions,1.5,−151,+118,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,JuJu Smith-Schuster,Receptions,1.5,+117,−150,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Pass Yards - 1Q,49.5,−116,−112,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa,Pass Yards - 1Q,45.5,−111,−116,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jared Goff,Pass Yards - 1Q,54.5,−114,−114,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass Yards - 1Q,36.5,−111,−117,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Pass Yards - 1Q,56.5,−115,−113,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen,Pass Yards - 1Q,47.5,−114,−114,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Derrick Henry,Rush Yards - 1Q,19.5,−118,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Rush Yards - 1Q,15.5,−113,−114,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Rush Yards - 1Q,5.5,−111,−116,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rush Yards - 1Q,17.5,−116,−112,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jordan Mason,Rush Yards - 1Q,8.5,−119,−109,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,David Montgomery,Rush Yards - 1Q,8.5,−113,−114,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Aaron Jones,Rush Yards - 1Q,6.5,−122,−106,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,James Cook,Rush Yards - 1Q,22.5,−113,−114,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen,Rush Yards - 1Q,6.5,−113,−114,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Rush Yards - 1Q,4.5,−115,−112,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Zay Flowers,Rec Yards - 1Q,12.5,−118,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Jaylen Waddle,Rec Yards - 1Q,10.5,−111,−116,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Rec Yards - 1Q,4.5,−113,−114,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Malik Washington,Rec Yards - 1Q,1.5,−115,−113,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Mark Andrews,Rec Yards - 1Q,0.5,−114,−113,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Rashod Bateman,Rec Yards - 1Q,0.5,+109,−141,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Isaiah Likely,Rec Yards - 1Q,0.5,+130,−170,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Amon-Ra St. Brown,Rec Yards - 1Q,16.5,−112,−116,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Justin Jefferson,Rec Yards - 1Q,10.5,−112,−116,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jameson Williams,Rec Yards - 1Q,8.5,−112,−115,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Sam LaPorta,Rec Yards - 1Q,8.5,−110,−118,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jordan Addison,Rec Yards - 1Q,2.5,−115,−112,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,T.J. Hockenson,Rec Yards - 1Q,2.5,−113,−115,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Rashee Rice,Rec Yards - 1Q,12.5,−118,−109,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Khalil Shakir,Rec Yards - 1Q,8.5,−112,−116,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Travis Kelce,Rec Yards - 1Q,7.5,−112,−115,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Xavier Worthy,Rec Yards - 1Q,7.5,−110,−117,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Dalton Kincaid,Rec Yards - 1Q,2.5,−115,−113,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Marquise Brown,Rec Yards - 1Q,0.5,+151,−198,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,James Cook,Rec Yards - 1Q,0.5,+175,−231,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Derrick Henry,Rush Yards,89.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Rush Yards,57.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Rush Yards,37.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Ollie Gordon II,Rush Yards,18.5,−114,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Keaton Mitchell,Rush Yards,13.5,−115,−109,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa,Rush Yards,2.5,−119,−106,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rush Yards,72.5,−114,−110,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,David Montgomery,Rush Yards,48.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jordan Mason,Rush Yards,37.5,−110,−114,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Aaron Jones,Rush Yards,32.5,−115,−109,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Rush Yards,20.5,−108,−116,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Rush Yards,98.5,−112,−112,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Jaylen Warren,Rush Yards,52.5,−115,−109,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,James Cook,Rush Yards,74.5,−110,−114,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen,Rush Yards,37.5,−110,−114,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Rush Yards,27.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa,Pass Attempts,32.5,−111,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Pass Attempts,27.5,−110,−116,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass Attempts,30.5,−114,−111,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jared Goff,Pass Attempts,28.5,−113,−113,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Cameron Ward,Pass Attempts,34.5,−123,−104,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Justin Herbert,Pass Attempts,32.5,−128,+100,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Pass Attempts,33.5,−102,−125,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Daniel Jones,Pass Attempts,32.5,−105,−122,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Pass Attempts,35.5,−117,−109,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen,Pass Attempts,31.5,−107,−119,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Derrick Henry,Rush Attempts,17.5,−130,+102,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Rush Attempts,12.5,−114,−111,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Rush Attempts,6.5,+102,−130,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rush Attempts,15.5,+103,−132,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,David Montgomery,Rush Attempts,12.5,−109,−117,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Rush Attempts,3.5,−150,+117,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,James Cook,Rush Attempts,16.5,−128,+100,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen,Rush Attempts,7.5,−101,−127,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Rush Attempts,4.5,−127,+100,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa Passing,Completions,21.5,−127,−101,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson Passing,Completions,19.5,−120,−107,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jared Goff Passing,Completions,21.5,−122,−105,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy Passing,Completions,18.5,−130,+102,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Justin Herbert Passing,Completions,22.5,−125,−102,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Cameron Ward Passing,Completions,21.5,−102,−125,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Daniel Jones Passing,Completions,22.5,−114,−111,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Aaron Rodgers Passing,Completions,22.5,−103,−124,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes Passing,Completions,23.5,−129,+102,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen Passing,Completions,21.5,−101,−127,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Rush + Rec Yards,95.5,−112,−114,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rush + Rec Yards,101.5,−111,−115,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,James Cook,Rush + Rec Yards,92.5,−112,−114,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Pass Yards,234.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa,Pass Yards,216.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jared Goff,Pass Yards,236.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass Yards,208.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Justin Herbert,Pass Yards,243.5,−114,−111,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Cameron Ward,Pass Yards,225.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Daniel Jones,Pass Yards,241.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Pass Yards,237.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Pass Yards,229.5,−113,−111,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Pass Yards,271.5,−112,−112,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen,Pass Yards,231.5,−112,−112,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Pass Yards,261.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Kyler Murray,Pass Yards,251.5,−111,−113,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Pass TDs,1.5,−198,+154,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa,Pass TDs,1.5,+112,−142,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jared Goff,Pass TDs,1.5,−192,+149,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass TDs,1.5,+168,−218,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Justin Herbert,Pass TDs,1.5,−191,+149,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Cameron Ward,Pass TDs,0.5,−204,+158,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Daniel Jones,Pass TDs,1.5,−151,+118,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Pass TDs,1.5,−117,−109,DraftKings,2025-10-29T16:20:05.771097
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Pass TDs,1.5,−106,−120,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Pass TDs,2.5,+161,−207,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen,Pass TDs,1.5,−115,−111,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Pass TDs,2.5,+165,−213,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Kyler Murray,Pass TDs,1.5,−150,+117,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Pass + Rush Yards,277.5,−113,−113,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa,Pass + Rush Yards,222.5,−112,−114,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass + Rush Yards,233.5,−112,−114,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Pass + Rush Yards,303.5,−113,−113,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen,Pass + Rush Yards,275.5,−112,−113,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Interceptions,0.5,+164,−211,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa,Interceptions,0.5,−134,+105,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jared Goff,Interceptions,0.5,+127,−162,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Interceptions,0.5,−147,+115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tyler Loop Extra Points Made O/U,PAT Made,3.5,+113,−145,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Riley,PAT Made,1.5,−209,+162,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tyler Loop Field Goals Made O/U,FG Made,1.5,−133,+104,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Riley Patterson Field Goals Made O/U,FG Made,1.5,−107,−119,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tyler Loop,Kicking Pts,8.5,−111,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Riley Patterson,Kicking Pts,6.5,−116,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Pass Yards - 1H,121.5,−112,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa,Pass Yards - 1H,102.5,−112,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Derrick Henry,Rush Yards - 1H,43.5,−115,−113,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Rush Yards - 1H,31.5,−116,−112,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Rush Yards - 1H,15.5,−113,−114,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Zay Flowers,Rec Yards - 1H,35.5,−113,−114,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Jaylen Waddle,Rec Yards - 1H,28.5,−115,−112,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Rashod Bateman,Rec Yards - 1H,15.5,−118,−109,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Rec Yards - 1H,14.5,−109,−118,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Mark Andrews,Rec Yards - 1H,12.5,−113,−114,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Malik Washington,Rec Yards - 1H,11.5,−110,−118,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Isaiah Likely,Rec Yards - 1H,8.5,−119,−108,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Derrick Henry,Longest Rush,19.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Longest Rush,17.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Longest Rush,17.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Kimani Vidal,Longest Rush,15.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Longest Rush,15.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,James Cook,Longest Rush,15.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,NO Saints @ LA Rams,Kyren Williams,Longest Rush,14.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Longest Rush,14.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,SF 49ers @ NY Giants,Christian McCaffrey,Longest Rush,14.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen,Longest Rush,14.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Longest Rush,14.5,+100,−130,DraftKings,2025-10-29T16:20:05.771097
+9,SF 49ers @ NY Giants,Jaxson Dart,Longest Rush,13.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Javonte Williams,Longest Rush,13.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Longest Rush,13.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Josh Jacobs,Longest Rush,13.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Jaylen Warren,Longest Rush,12.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Longest Rush,12.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Rico Dowdle,Longest Rush,12.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,David Montgomery,Longest Rush,12.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jordan Mason,Longest Rush,12.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Longest Rush,11.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Emanuel Wilson,Longest Rush,11.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Longest Rush,11.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,DEN Broncos @ HOU Texans,Bo Nix,Longest Rush,11.5,+100,−130,DraftKings,2025-10-29T16:20:05.771097
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Longest Rush,10.5,−130,+100,DraftKings,2025-10-29T16:20:05.771097
+9,DEN Broncos @ HOU Texans,Nick Chubb,Longest Rush,10.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Tony Pollard,Longest Rush,10.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Aaron Jones,Longest Rush,9.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Justin Herbert,Longest Rush,9.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Longest Rush,9.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Chuba Hubbard,Longest Rush,8.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Daniel Jones,Longest Rush,8.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Jordan Love,Longest Rush,8.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Ollie Gordon II,Longest Rush,8.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Longest Rush,4.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,NO Saints @ LA Rams,Puka Nacua,Longest Reception,27.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,DK Metcalf,Longest Reception,25.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Justin Jefferson,Longest Reception,25.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Zay Flowers,Longest Reception,25.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,CeeDee Lamb,Longest Reception,24.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,NO Saints @ LA Rams,Davante Adams,Longest Reception,23.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,George Pickens,Longest Reception,23.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Marvin Harrison Jr.,Longest Reception,23.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Jaylen Waddle,Longest Reception,22.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,DEN Broncos @ HOU Texans,Nico Collins,Longest Reception,22.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,JAX Jaguars @ LV Raiders,Brian Thomas Jr.,Longest Reception,22.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,DEN Broncos @ HOU Texans,Courtland Sutton,Longest Reception,22.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Rashee Rice,Longest Reception,22.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Amon-Ra St. Brown,Longest Reception,22.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Tucker Kraft,Longest Reception,21.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,SF 49ers @ NY Giants,Darius Slayton,Longest Reception,21.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,SF 49ers @ NY Giants,George Kittle,Longest Reception,21.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jameson Williams,Longest Reception,21.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Trey McBride,Longest Reception,20.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Xavier Worthy,Longest Reception,20.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Khalil Shakir,Longest Reception,20.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Ladd McConkey,Longest Reception,20.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Romeo Doubs,Longest Reception,20.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Tetairoa McMillan,Longest Reception,20.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Alec Pierce,Longest Reception,20.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Christian Watson,Longest Reception,19.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jordan Addison,Longest Reception,19.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Michael Pittman Jr.,Longest Reception,19.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Tyler Warren,Longest Reception,19.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,NO Saints @ LA Rams,Chris Olave,Longest Reception,19.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,SEA Seahawks @ WAS Commanders,Deebo Samuel,Longest Reception,19.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Keon Coleman,Longest Reception,19.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Matthew Golden,Longest Reception,18.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Calvin Austin III,Longest Reception,18.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Travis Kelce,Longest Reception,18.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,NO Saints @ LA Rams,Rashid Shaheed,Longest Reception,18.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Oronde Gadsden II,Longest Reception,17.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Sam LaPorta,Longest Reception,17.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,SEA Seahawks @ WAS Commanders,Cooper Kupp,Longest Reception,17.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Keenan Allen,Longest Reception,17.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Rashod Bateman,Longest Reception,17.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,SF 49ers @ NY Giants,Christian McCaffrey,Longest Reception,17.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Dalton Kincaid,Longest Reception,17.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Calvin Ridley,Longest Reception,16.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Josh Downs,Longest Reception,16.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,SF 49ers @ NY Giants,Theo Johnson,Longest Reception,16.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Chigoziem Okonkwo,Longest Reception,15.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Mark Andrews,Longest Reception,15.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,SEA Seahawks @ WAS Commanders,Zach Ertz,Longest Reception,14.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Malik Washington,Longest Reception,14.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,SEA Seahawks @ WAS Commanders,A.J. Barner,Longest Reception,14.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Jalen Coker,Longest Reception,14.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeVon Achane,Longest Reception,13.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,DEN Broncos @ HOU Texans,Evan Engram,Longest Reception,13.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Isaiah Likely,Longest Reception,13.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,T.J. Hockenson,Longest Reception,12.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Marquise Brown,Longest Reception,12.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Pat Freiermuth,Longest Reception,12.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Xavier Legette,Longest Reception,12.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Longest Reception,12.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,DeAndre Hopkins,Longest Reception,11.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jalen Nailor,Longest Reception,11.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Justice Hill,Longest Reception,11.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Nick Westbrook-Ikhine,Longest Reception,11.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Longest Reception,11.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Jaylen Warren,Longest Reception,10.5,−130,+100,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Ja'Tavion Sanders,Longest Reception,10.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Longest Reception,10.5,−125,−105,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,JuJu Smith-Schuster,Longest Reception,10.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Kimani Vidal,Longest Reception,9.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Aaron Jones,Longest Reception,9.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Josh Jacobs,Longest Reception,9.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Javonte Williams,Longest Reception,9.5,+100,−130,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,James Cook,Longest Reception,8.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Tony Pollard,Longest Reception,8.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Rico Dowdle,Longest Reception,8.5,−105,−125,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Jordan Love,Longest Passing Completion,38.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,NO Saints @ LA Rams,Matthew Stafford,Longest Passing Completion,37.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Longest Passing Completion,37.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Lamar Jackson,Longest Passing Completion,37.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Longest Passing Completion,36.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,ARI Cardinals @ DAL Cowboys,Kyler Murray,Longest Passing Completion,36.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Longest Passing Completion,36.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Josh Allen,Longest Passing Completion,36.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Longest Passing Completion,36.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,SF 49ers @ NY Giants,Jaxson Dart,Longest Passing Completion,35.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Longest Passing Completion,35.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Longest Passing Completion,35.5,−110,−120,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Jared Goff,Longest Passing Completion,34.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,IND Colts @ PIT Steelers,Daniel Jones,Longest Passing Completion,34.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Justin Herbert,Longest Passing Completion,34.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,DEN Broncos @ HOU Texans,Bo Nix,Longest Passing Completion,33.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Longest Passing Completion,33.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,LA Chargers @ TEN Titans,Cameron Ward,Longest Passing Completion,33.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa,Longest Passing Completion,32.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,CAR Panthers @ GB Packers,Bryce Young,Longest Passing Completion,30.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
+9,NO Saints @ LA Rams,Tyler Shough,Longest Passing Completion,30.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097

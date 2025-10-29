@@ -47,12 +47,16 @@ def fetch_game_lines(session):
     Fetches all game line data (spreads, totals, moneylines)
     from the new working DraftKings API endpoint.
     """
+    # --- MODIFIED: Added cache-buster ---
+    cache_buster = int(time.time() * 1000)
+    
     url = (
         "https://sportsbook-nash.draftkings.com/sites/US-OH-SB/api/sportscontent/controldata/league/leagueSubcategory/v1/markets"
         "?isBatchable=false&templateVars=88808%2C4518"
         "&eventsQuery=%24filter%3DleagueId%20eq%20%2788808%27%20AND%20clientMetadata%2FSubcategories%2Fany%28s%3A%20s%2FId%20eq%20%274518%27%29"
         "&marketsQuery=%24filter%3DclientMetadata%2FsubCategoryId%20eq%20%274518%27%20AND%20tags%2Fall%28t%3A%20t%20ne%20%27SportcastBetBuilder%27%29"
         "&include=Events&entity=events"
+        f"&_={cache_buster}"  # <-- Cache-buster added here
     )
 
     print("\nFetching NFL game lines from DraftKings...")
@@ -163,12 +167,16 @@ def fetch_direct_prop_data(session, subcategory_id, prop_name):
     Fetches prop data from a direct subcategory endpoint that returns
     events, markets, and selections directly.
     """
+    # --- MODIFIED: Added cache-buster ---
+    cache_buster = int(time.time() * 1000)
+    
     url = (
         f"https://sportsbook-nash.draftkings.com/sites/US-OH-SB/api/sportscontent/controldata/league/leagueSubcategory/v1/markets"
         f"?isBatchable=false&templateVars=88808%2C{subcategory_id}"
         f"&eventsQuery=%24filter%3DleagueId%20eq%20%2788808%27%20AND%20clientMetadata%2FSubcategories%2Fany%28s%3A%20s%2FId%20eq%20%27{subcategory_id}%27%29"
         f"&marketsQuery=%24filter%3DclientMetadata%2FsubCategoryId%20eq%20%27{subcategory_id}%27%20AND%20tags%2Fall%28t%3A%20t%20ne%20%27SportcastBetBuilder%27%29"
         f"&include=Events&entity=events"
+        f"&_={cache_buster}"  # <-- Cache-buster added here
     )
     print(f"Fetching '{prop_name}' props from DraftKings...")
     try:
@@ -198,7 +206,11 @@ def find_subcategories_in_response(data):
     return []
 
 def get_prop_subcategories(session, category_name, category_id):
-    url = f"https://sportsbook-nash.draftkings.com/api/sportscontent/{REGION_CODE}/v1/leagues/88808/categories/{category_id}?format=json"
+    
+    # --- MODIFIED: Added cache-buster ---
+    cache_buster = int(time.time() * 1000)
+    url = f"https://sportsbook-nash.draftkings.com/api/sportscontent/{REGION_CODE}/v1/leagues/88808/categories/{category_id}?format=json&_={cache_buster}"
+    
     print(f"\nDiscovering subcategories for '{category_name}'...")
     try:
         response = session.get(url, timeout=30)
@@ -213,7 +225,11 @@ def get_prop_subcategories(session, category_name, category_id):
         return []
 
 def fetch_subcategory_data(session, category_id, sub_id):
-    url = f"https://sportsbook-nash.draftkings.com/api/sportscontent/{REGION_CODE}/v1/leagues/88808/categories/{category_id}/subcategories/{sub_id}?format=json"
+    
+    # --- MODIFIED: Added cache-buster ---
+    cache_buster = int(time.time() * 1000)
+    url = f"https://sportsbook-nash.draftkings.com/api/sportscontent/{REGION_CODE}/v1/leagues/88808/categories/{category_id}/subcategories/{sub_id}?format=json&_={cache_buster}"
+    
     try:
         response = session.get(url, timeout=30)
         response.raise_for_status()

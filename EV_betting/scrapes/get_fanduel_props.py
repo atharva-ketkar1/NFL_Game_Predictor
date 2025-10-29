@@ -7,7 +7,11 @@ from datetime import datetime, timedelta, timezone
 
 def get_nfl_main_page_data():
     """Fetches the main NFL page and returns the raw data needed for parsing."""
-    url = "https://api.sportsbook.fanduel.com/sbapi/content-managed-page?page=CUSTOM&customPageId=nfl&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York"
+    
+    # --- MODIFIED: Added cache-buster ---
+    cache_buster = int(time.time())
+    url = f"https://api.sportsbook.fanduel.com/sbapi/content-managed-page?page=CUSTOM&customPageId=nfl&pbHorizontal=false&_ak=FhMFpcPWXMeyZxOx&timezone=America%2FNew_York&_={cache_buster}"
+    
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36',
         'x-sportsbook-region': 'OH',
@@ -150,7 +154,7 @@ def run_scraper(week_number):
                 })
             elif market_name == 'Total Match Points':
                 game_line.update({
-                    'total_line': runners[0].get('handicap'),
+                    'total_line': runners[0].get('handicac'),
                     'over_odds': runners[0].get('winRunnerOdds', {}).get('americanDisplayOdds', {}).get('americanOdds'),
                     'under_odds': runners[1].get('winRunnerOdds', {}).get('americanDisplayOdds', {}).get('americanOdds')
                 })
