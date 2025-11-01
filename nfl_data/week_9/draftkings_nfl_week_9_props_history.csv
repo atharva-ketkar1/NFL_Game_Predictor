@@ -330,3 +330,1523 @@ week,game,player_name,prop_type,line,over_odds,under_odds,sportsbook,scrape_time
 9,BAL Ravens @ MIA Dolphins,Tua Tagovailoa,Longest Passing Completion,32.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
 9,CAR Panthers @ GB Packers,Bryce Young,Longest Passing Completion,30.5,−120,−110,DraftKings,2025-10-29T16:20:05.771097
 9,NO Saints @ LA Rams,Tyler Shough,Longest Passing Completion,30.5,−115,−115,DraftKings,2025-10-29T16:20:05.771097
+9,MIN Vikings @ DET Lions,Amon-Ra St. Brown,Rec Yards,78.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Justin Jefferson,Rec Yards,74.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jameson Williams,Rec Yards,45.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jordan Addison,Rec Yards,45.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Sam LaPorta,Rec Yards,42.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,T.J. Hockenson,Rec Yards,29.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rec Yards,22.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jalen Nailor,Rec Yards,18.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aaron Jones,Rec Yards,15.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Kalif Raymond,Rec Yards,10.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,David Montgomery,Rec Yards,9.5,−116,−108,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Ladd McConkey,Rec Yards,60.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Oronde Gadsden II,Rec Yards,46.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Keenan Allen,Rec Yards,46.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Elic Ayomanor,Rec Yards,40.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Chimere Dike,Rec Yards,37.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Quentin Johnston,Rec Yards,36.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Chigoziem Okonkwo,Rec Yards,28.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Van Jefferson,Rec Yards,26.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Gunnar Helm,Rec Yards,17.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tyjae Spears,Rec Yards,14.5,−116,−108,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tony Pollard,Rec Yards,13.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Kimani Vidal,Rec Yards,11.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tre Harris,Rec Yards,9.5,−118,−107,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,DK Metcalf,Rec Yards,59.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Tyler Warren,Rec Yards,58.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Michael Pittman Jr.,Rec Yards,55.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Alec Pierce,Rec Yards,44.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Josh Downs,Rec Yards,38.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Calvin Austin III,Rec Yards,35.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonnu Smith,Rec Yards,26.5,−109,−116,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,Rec Yards,21.5,−116,−108,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Pat Freiermuth,Rec Yards,19.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Rec Yards,18.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Kenneth Gainwell,Rec Yards,14.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Roman Wilson,Rec Yards,13.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Darnell Washington,Rec Yards,12.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tetairoa McMillan,Rec Yards,56.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tucker Kraft,Rec Yards,55.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Romeo Doubs,Rec Yards,46.5,−110,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Christian Watson,Rec Yards,36.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Matthew Golden,Rec Yards,29.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jalen Coker,Rec Yards,25.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Xavier Legette,Rec Yards,21.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Ja'Tavion Sanders,Rec Yards,18.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rico Dowdle,Rec Yards,13.5,−117,−108,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Josh Jacobs,Rec Yards,13.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tommy Tremble,Rec Yards,7.5,−108,−116,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake London,Rec Yards,61.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Stefon Diggs,Rec Yards,49.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kyle Pitts,Rec Yards,44.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Rec Yards,38.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Darnell Mooney,Rec Yards,37.5,−110,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kayshon Boutte,Rec Yards,36.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Hunter Henry,Rec Yards,31.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Mack Hollins,Rec Yards,21.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Demario Douglas,Rec Yards,20.5,−110,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Rec Yards,15.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nico Collins,Rec Yards,64.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Courtland Sutton,Rec Yards,55.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Troy Franklin,Rec Yards,41.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Dalton Schultz,Rec Yards,30.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Evan Engram,Rec Yards,28.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Christian Kirk,Rec Yards,27.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Jaylin Noel,Rec Yards,19.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Pat Bryant,Rec Yards,17.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Rec Yards,15.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Xavier Hutchinson,Rec Yards,14.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,RJ Harvey,Rec Yards,9.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Rec Yards,3.5,−118,−107,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Ja'Marr Chase,Rec Yards,93.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Rome Odunze,Rec Yards,62.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Tee Higgins,Rec Yards,53.5,−115,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,D.J. Moore,Rec Yards,50.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Olamide Zaccheaus,Rec Yards,31.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Colston Loveland,Rec Yards,23.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Noah Fant,Rec Yards,21.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Andrei Iosivas,Rec Yards,18.5,−117,−108,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Cole Kmet,Rec Yards,18.5,−108,−116,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Rec Yards,15.5,−108,−116,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Rec Yards,13.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,George Kittle,Rec Yards,51.5,−115,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Rec Yards,49.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Wan'Dale Robinson,Rec Yards,49.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jauan Jennings,Rec Yards,49.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Darius Slayton,Rec Yards,40.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Kendrick Bourne,Rec Yards,39.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Theo Johnson,Rec Yards,37.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Demarcus Robinson,Rec Yards,18.5,−108,−116,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Rec Yards,17.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Puka Nacua,Rec Yards,94.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Chris Olave,Rec Yards,57.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Davante Adams,Rec Yards,57.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Rashid Shaheed,Rec Yards,44.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Juwan Johnson,Rec Yards,35.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Jordan Whittington,Rec Yards,19.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Higbee,Rec Yards,16.5,−108,−116,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Alvin Kamara,Rec Yards,15.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kyren Williams,Rec Yards,14.5,−116,−108,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Brandin Cooks,Rec Yards,9.5,−118,−107,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brian Thomas Jr.,Rec Yards,68.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brock Bowers,Rec Yards,55.5,−110,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Jakobi Meyers,Rec Yards,47.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Parker Washington,Rec Yards,41.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Tre Tucker,Rec Yards,40.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Dyami Brown,Rec Yards,40.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Hunter Long,Rec Yards,19.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,Rec Yards,15.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Rec Yards,14.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Rashee Rice,Rec Yards,74.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Khalil Shakir,Rec Yards,51.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Xavier Worthy,Rec Yards,47.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Travis Kelce,Rec Yards,45.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Keon Coleman,Rec Yards,41.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Dalton Kincaid,Rec Yards,35.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Marquise Brown,Rec Yards,18.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Brashard Smith,Rec Yards,17.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Elijah Moore,Rec Yards,17.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,James Cook,Rec Yards,13.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,JuJu Smith-Schuster,Rec Yards,11.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Noah Gray,Rec Yards,10.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Dawson Knox,Rec Yards,9.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Kareem Hunt,Rec Yards,7.5,−105,−119,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jaxon Smith-Njigba,Rec Yards,99.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Deebo Samuel,Rec Yards,52.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Ertz,Rec Yards,34.5,−110,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Tory Horton,Rec Yards,31.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,A.J. Barner,Rec Yards,27.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Elijah Arroyo,Rec Yards,22.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Luke McCaffrey,Rec Yards,22.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Chris Moore,Rec Yards,17.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jeremy McNichols,Rec Yards,15.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jaylin Lane,Rec Yards,14.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Charbonnet,Rec Yards,7.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jacory Croskey-Merritt,Rec Yards,7.5,−107,−117,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Kenneth Walker III,Rec Yards,5.5,−120,−104,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,CeeDee Lamb,Rec Yards,80.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Trey McBride,Rec Yards,69.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,George Pickens,Rec Yards,62.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Marvin Harrison Jr.,Rec Yards,57.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jake Ferguson,Rec Yards,41.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Michael Wilson,Rec Yards,25.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Zay Jones,Rec Yards,20.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,KaVontae Turpin,Rec Yards,16.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Javonte Williams,Rec Yards,13.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Amon-Ra St. Brown,Receptions,6.5,−133,+104,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Justin Jefferson,Receptions,5.5,+100,−128,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Sam LaPorta,Receptions,4.5,+106,−135,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,T.J. Hockenson,Receptions,3.5,−139,+109,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jordan Addison,Receptions,3.5,−132,+104,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Receptions,3.5,+114,−146,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jameson Williams,Receptions,3.5,+136,−174,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aaron Jones,Receptions,2.5,+112,−142,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,David Montgomery,Receptions,1.5,−115,−111,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jalen Nailor,Receptions,1.5,−106,−120,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Ladd McConkey,Receptions,5.5,−121,−105,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Oronde Gadsden II,Receptions,4.5,−111,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Keenan Allen,Receptions,4.5,+101,−129,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Elic Ayomanor,Receptions,3.5,−105,−121,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Chimere Dike,Receptions,3.5,+101,−128,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Chigoziem Okonkwo,Receptions,3.5,+128,−164,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Quentin Johnston,Receptions,2.5,−146,+114,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Van Jefferson,Receptions,2.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tyjae Spears,Receptions,2.5,−108,−118,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Kimani Vidal,Receptions,2.5,+118,−151,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tony Pollard,Receptions,2.5,+141,−181,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Gunnar Helm,Receptions,1.5,−177,+138,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tre Harris,Receptions,1.5,+122,−156,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Michael Pittman Jr.,Receptions,5.5,+114,−145,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Tyler Warren,Receptions,5.5,+124,−158,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,DK Metcalf,Receptions,4.5,−103,−124,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Josh Downs,Receptions,3.5,−154,+120,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Calvin Austin III,Receptions,3.5,+117,−150,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonnu Smith,Receptions,3.5,+121,−155,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,Receptions,3.5,+125,−160,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Receptions,2.5,−132,+104,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Alec Pierce,Receptions,2.5,−131,+103,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Pat Freiermuth,Receptions,2.5,+126,−162,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Kenneth Gainwell,Receptions,2.5,+132,−169,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Darnell Washington,Receptions,1.5,−108,−118,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Roman Wilson,Receptions,1.5,+111,−142,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tetairoa McMillan,Receptions,4.5,−101,−126,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tucker Kraft,Receptions,4.5,+106,−135,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Romeo Doubs,Receptions,3.5,−148,+116,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jalen Coker,Receptions,2.5,−140,+110,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Xavier Legette,Receptions,2.5,−126,−101,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Matthew Golden,Receptions,2.5,−125,−102,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rico Dowdle,Receptions,2.5,+107,−136,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Ja'Tavion Sanders,Receptions,2.5,+108,−138,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Christian Watson,Receptions,2.5,+109,−139,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Josh Jacobs,Receptions,2.5,+140,−180,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tommy Tremble,Receptions,1.5,+140,−180,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake London,Receptions,5.5,+107,−136,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Stefon Diggs,Receptions,4.5,−111,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Receptions,4.5,−103,−124,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kyle Pitts,Receptions,4.5,+117,−149,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Hunter Henry,Receptions,3.5,+127,−163,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Darnell Mooney,Receptions,3.5,+131,−167,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kayshon Boutte,Receptions,2.5,−124,−102,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Receptions,2.5,−111,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Mack Hollins,Receptions,1.5,−178,+139,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Demario Douglas,Receptions,1.5,−163,+128,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nico Collins,Receptions,4.5,−153,+120,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Courtland Sutton,Receptions,4.5,−109,−117,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Troy Franklin,Receptions,3.5,−150,+117,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Evan Engram,Receptions,3.5,−145,+113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Dalton Schultz,Receptions,3.5,+116,−148,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Christian Kirk,Receptions,2.5,−122,−105,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Receptions,2.5,+127,−163,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Jaylin Noel,Receptions,1.5,−177,+138,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Pat Bryant,Receptions,1.5,−154,+120,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Xavier Hutchinson,Receptions,1.5,−145,+113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,RJ Harvey,Receptions,1.5,−137,+108,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Receptions,0.5,−235,+181,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Ja'Marr Chase,Receptions,8.5,−122,−105,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Rome Odunze,Receptions,4.5,−107,−119,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Tee Higgins,Receptions,4.5,+102,−131,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,D.J. Moore,Receptions,4.5,+120,−153,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Olamide Zaccheaus,Receptions,3.5,−126,−101,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Receptions,2.5,−119,−107,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Noah Fant,Receptions,2.5,−116,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Receptions,2.5,−106,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Colston Loveland,Receptions,2.5,+119,−152,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Andrei Iosivas,Receptions,1.5,−181,+141,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Cole Kmet,Receptions,1.5,−156,+122,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Receptions,5.5,−117,−109,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Wan'Dale Robinson,Receptions,5.5,+116,−149,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,George Kittle,Receptions,4.5,−103,−124,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jauan Jennings,Receptions,4.5,+118,−151,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Theo Johnson,Receptions,3.5,−121,−105,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Kendrick Bourne,Receptions,3.5,−106,−121,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Darius Slayton,Receptions,3.5,+130,−166,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Receptions,2.5,−134,+105,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Demarcus Robinson,Receptions,1.5,−130,+102,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Puka Nacua,Receptions,7.5,−147,+115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Chris Olave,Receptions,5.5,−134,+105,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Davante Adams,Receptions,4.5,−115,−111,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Rashid Shaheed,Receptions,4.5,+121,−155,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Juwan Johnson,Receptions,3.5,−160,+125,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Alvin Kamara,Receptions,2.5,−125,−102,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kyren Williams,Receptions,2.5,+112,−143,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Jordan Whittington,Receptions,2.5,+127,−162,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Higbee,Receptions,1.5,−163,+127,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brian Thomas Jr.,Receptions,5.5,−106,−121,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brock Bowers,Receptions,5.5,+117,−150,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Jakobi Meyers,Receptions,4.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Parker Washington,Receptions,3.5,−128,+100,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Dyami Brown,Receptions,3.5,−123,−104,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Tre Tucker,Receptions,3.5,+126,−162,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,Receptions,2.5,−163,+127,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Receptions,2.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Hunter Long,Receptions,2.5,+128,−164,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Rashee Rice,Receptions,7.5,+116,−148,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Khalil Shakir,Receptions,4.5,−146,+114,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Travis Kelce,Receptions,4.5,+119,−152,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Xavier Worthy,Receptions,3.5,−151,+118,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Keon Coleman,Receptions,3.5,−126,−101,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Dalton Kincaid,Receptions,3.5,−101,−126,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Brashard Smith,Receptions,2.5,−104,−122,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Marquise Brown,Receptions,2.5,+138,−177,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,James Cook,Receptions,1.5,−178,+138,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Elijah Moore,Receptions,1.5,−177,+138,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Noah Gray,Receptions,1.5,+104,−133,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,JuJu Smith-Schuster,Receptions,1.5,+131,−168,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Dawson Knox,Receptions,1.5,+134,−171,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Kareem Hunt,Receptions,1.5,+135,−173,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jaxon Smith-Njigba,Receptions,7.5,+110,−140,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Deebo Samuel,Receptions,5.5,−107,−119,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Ertz,Receptions,3.5,−145,+114,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,A.J. Barner,Receptions,2.5,−130,+102,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Tory Horton,Receptions,2.5,−102,−125,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jeremy McNichols,Receptions,2.5,−101,−126,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Luke McCaffrey,Receptions,2.5,+123,−158,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Chris Moore,Receptions,1.5,−176,+137,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Elijah Arroyo,Receptions,1.5,−164,+128,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jaylin Lane,Receptions,1.5,+100,−128,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jacory Croskey-Merritt,Receptions,1.5,+120,−154,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Charbonnet,Receptions,1.5,+125,−160,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Kenneth Walker III,Receptions,1.5,+180,−233,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Trey McBride,Receptions,6.5,−150,+117,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,CeeDee Lamb,Receptions,6.5,−119,−107,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jake Ferguson,Receptions,4.5,−153,+119,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,George Pickens,Receptions,4.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Marvin Harrison Jr.,Receptions,3.5,−158,+124,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Michael Wilson,Receptions,2.5,−133,+104,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Javonte Williams,Receptions,2.5,−128,+101,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,KaVontae Turpin,Receptions,1.5,−149,+117,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Zay Jones,Receptions,1.5,−140,+110,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jared Goff,Interceptions,0.5,+133,−170,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Interceptions,0.5,−156,+122,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Interceptions,0.5,+130,−167,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,Interceptions,0.5,−169,+132,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Interceptions,0.5,+108,−138,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Interceptions,0.5,−123,−104,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Interceptions,0.5,+129,−166,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,Interceptions,0.5,−131,+103,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Interceptions,0.5,+123,−158,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,Interceptions,0.5,−110,−116,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Interceptions,0.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Interceptions,0.5,−126,−101,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Interceptions,0.5,−108,−119,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Joe Flacco,Interceptions,0.5,−128,+100,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones,Interceptions,0.5,−121,−106,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Interceptions,0.5,−133,+104,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Matthew Stafford,Interceptions,0.5,+101,−129,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,Interceptions,0.5,−176,+137,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Interceptions,0.5,−111,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,Interceptions,0.5,−138,+108,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Interceptions,0.5,+134,−171,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Interceptions,0.5,+129,−165,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Interceptions,0.5,+106,−135,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Interceptions,0.5,+101,−129,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jacoby Brissett,Interceptions,0.5,+103,−132,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Interceptions,0.5,−118,−108,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jared Goff,QB Fantasy Points,17.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,QB Fantasy Points,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,QB Fantasy Points,21.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,QB Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,QB Fantasy Points,18.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Aaron Rodgers,QB Fantasy Points,16.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,QB Fantasy Points,19.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,QB Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,QB Fantasy Points,20.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,QB Fantasy Points,14.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,QB Fantasy Points,16.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,QB Fantasy Points,16.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,QB Fantasy Points,19.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,QB Fantasy Points,18.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Brock Purdy,QB Fantasy Points,17.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Matthew Stafford,QB Fantasy Points,18.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,QB Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,QB Fantasy Points,17.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,QB Fantasy Points,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,QB Fantasy Points,23.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,QB Fantasy Points,23.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,QB Fantasy Points,21.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,QB Fantasy Points,18.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,QB Fantasy Points,21.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jacoby Brissett,QB Fantasy Points,19.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,RB Fantasy Points,18.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Kimani Vidal,RB Fantasy Points,16.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,RB Fantasy Points,22.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,RB Fantasy Points,14.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Josh Jacobs,RB Fantasy Points,16.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,RB Fantasy Points,20.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,RB Fantasy Points,11.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,RB Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,D'Andre Swift,RB Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,RB Fantasy Points,24.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,RB Fantasy Points,14.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kyren Williams,RB Fantasy Points,16.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Alvin Kamara,RB Fantasy Points,10.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,RB Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,RB Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,James Cook,RB Fantasy Points,16.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jacory Croskey-Merritt,RB Fantasy Points,9.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Kenneth Walker III,RB Fantasy Points,9.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Javonte Williams,RB Fantasy Points,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Amon-Ra St. Brown WR.TE Fantasy Points O/U,WR/TE Fantasy Points,19.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Justin Jefferson WR.TE Fantasy Points O/U,WR/TE Fantasy Points,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jordan Addison WR.TE Fantasy Points O/U,WR/TE Fantasy Points,11.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jameson Williams WR.TE Fantasy Points O/U,WR/TE Fantasy Points,10.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Keenan Allen WR.TE Fantasy Points O/U,WR/TE Fantasy Points,11.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Quentin Johnston WR.TE Fantasy Points O/U,WR/TE Fantasy Points,11.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Michael Pittman Jr. WR.TE Fantasy Points O/U,WR/TE Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,DK Metcalf WR.TE Fantasy Points O/U,WR/TE Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Tyler Warren WR.TE Fantasy Points O/U,WR/TE Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tucker Kraft WR.TE Fantasy Points O/U,WR/TE Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Romeo Doubs WR.TE Fantasy Points O/U,WR/TE Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tetairoa McMillan WR.TE Fantasy Points O/U,WR/TE Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake London WR.TE Fantasy Points O/U,WR/TE Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nico Collins WR.TE Fantasy Points O/U,WR/TE Fantasy Points,14.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Courtland Sutton WR.TE Fantasy Points O/U,WR/TE Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Ja'Marr Chase WR.TE Fantasy Points O/U,WR/TE Fantasy Points,22.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Rome Odunze WR.TE Fantasy Points O/U,WR/TE Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Wan'Dale Robinson WR.TE Fantasy Points O/U,WR/TE Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,George Kittle WR.TE Fantasy Points O/U,WR/TE Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Puka Nacua WR.TE Fantasy Points O/U,WR/TE Fantasy Points,21.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Davante Adams WR.TE Fantasy Points O/U,WR/TE Fantasy Points,14.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Chris Olave WR.TE Fantasy Points O/U,WR/TE Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brian Thomas Jr. WR.TE Fantasy Points O/U,WR/TE Fantasy Points,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brock Bowers WR.TE Fantasy Points O/U,WR/TE Fantasy Points,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Rashee Rice WR.TE Fantasy Points O/U,WR/TE Fantasy Points,18.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Khalil Shakir WR.TE Fantasy Points O/U,WR/TE Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Travis Kelce WR.TE Fantasy Points O/U,WR/TE Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jaxon Smith-Njigba WR.TE Fantasy Points O/U,WR/TE Fantasy Points,22.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Deebo Samuel WR.TE Fantasy Points O/U,WR/TE Fantasy Points,13.5,−120,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,CeeDee Lamb WR.TE Fantasy Points O/U,WR/TE Fantasy Points,19.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Trey McBride WR.TE Fantasy Points O/U,WR/TE Fantasy Points,17.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,George Pickens WR.TE Fantasy Points O/U,WR/TE Fantasy Points,14.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Marvin Harrison Jr. WR.TE Fantasy Points O/U,WR/TE Fantasy Points,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jake Bates Extra Points Made O/U,PAT Made,3.5,+121,−154,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Will Reichard Extra Points Made O/U,PAT Made,1.5,−156,+122,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Dicker Extra Points Made O/U,PAT Made,2.5,−171,+133,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Joey Slye Extra Points Made O/U,PAT Made,1.5,+111,−142,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Michael Badgley Extra Points Made O/U,PAT Made,2.5,−147,+115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Chris Boswell Extra Points Made O/U,PAT Made,2.5,+148,−190,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Brandon McManus Extra Points Made O/U,PAT Made,3.5,+136,−174,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Ryan Fitzgerald Extra Points Made O/U,PAT Made,1.5,+112,−143,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Andres Borregales Extra Points Made O/U,PAT Made,2.5,−112,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,John Parker Romo Extra Points Made O/U,PAT Made,1.5,−209,+162,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Ka'imi Fairbairn Extra Points Made O/U,PAT Made,1.5,−193,+150,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Wil Lutz Extra Points Made O/U,PAT Made,1.5,−151,+118,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Cairo Santos Extra Points Made O/U,PAT Made,2.5,−138,+108,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Evan McPherson Extra Points Made O/U,PAT Made,2.5,+110,−141,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Eddy Pineiro Extra Points Made O/U,PAT Made,2.5,−121,−105,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Graham Gano Extra Points Made O/U,PAT Made,2.5,+135,−172,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Joshua Karty Extra Points Made O/U,PAT Made,2.5,−190,+148,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Blake Grupe Extra Points Made O/U,PAT Made,1.5,+128,−164,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Cam Little Extra Points Made O/U,PAT Made,2.5,+108,−138,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Daniel Carlson Extra Points Made O/U,PAT Made,1.5,−208,+161,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Matt Prater Extra Points Made O/U,PAT Made,2.5,−157,+123,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Harrison Butker Extra Points Made O/U,PAT Made,2.5,−153,+120,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jason Myers Extra Points Made O/U,PAT Made,2.5,−127,−101,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Matt Gay Extra Points Made O/U,PAT Made,2.5,+158,−204,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Brandon Aubrey Extra Points Made O/U,PAT Made,2.5,−174,+135,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Chad Ryland Extra Points Made O/U,PAT Made,2.5,+104,−133,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jake Bates Field Goals Made O/U,FG Made,1.5,−118,−108,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Will Reichard Field Goals Made O/U,FG Made,1.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Dicker Field Goals Made O/U,FG Made,1.5,−146,+114,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Joey Slye Field Goals Made O/U,FG Made,1.5,+102,−129,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Chris Boswell Field Goals Made O/U,FG Made,1.5,−143,+112,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Michael Badgley Field Goals Made O/U,FG Made,1.5,−125,−102,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Brandon McManus Field Goals Made O/U,FG Made,1.5,−111,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Ryan Fitzgerald Field Goals Made O/U,FG Made,1.5,+107,−137,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Andres Borregales Field Goals Made O/U,FG Made,1.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,John Parker Romo Field Goals Made O/U,FG Made,1.5,+119,−152,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Ka'imi Fairbairn Field Goals Made O/U,FG Made,1.5,−181,+141,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Wil Lutz Field Goals Made O/U,FG Made,1.5,−130,+102,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Cairo Santos Field Goals Made O/U,FG Made,1.5,−108,−118,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Evan McPherson Field Goals Made O/U,FG Made,1.5,−102,−124,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Eddy Pineiro Field Goals Made O/U,FG Made,1.5,−140,+110,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Graham Gano Field Goals Made O/U,FG Made,1.5,−118,−108,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Joshua Karty Field Goals Made O/U,FG Made,1.5,−151,+118,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Blake Grupe Field Goals Made O/U,FG Made,1.5,+110,−141,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Daniel Carlson Field Goals Made O/U,FG Made,1.5,−152,+119,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Cam Little Field Goals Made O/U,FG Made,1.5,−138,+108,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Harrison Butker Field Goals Made O/U,FG Made,1.5,+102,−130,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Matt Prater Field Goals Made O/U,FG Made,1.5,+114,−146,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jason Myers Field Goals Made O/U,FG Made,1.5,−145,+113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Matt Gay Field Goals Made O/U,FG Made,1.5,−119,−107,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Brandon Aubrey Field Goals Made O/U,FG Made,1.5,−194,+151,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Chad Ryland Field Goals Made O/U,FG Made,1.5,+101,−129,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jake Bates,Kicking Pts,8.5,+100,−128,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Will Reichard,Kicking Pts,6.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Dicker,Kicking Pts,8.5,−103,−124,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Joey Slye,Kicking Pts,5.5,−121,−105,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Michael Badgley,Kicking Pts,7.5,−126,−101,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Chris Boswell,Kicking Pts,7.5,−108,−118,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Brandon McManus,Kicking Pts,7.5,−134,+105,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Ryan Fitzgerald,Kicking Pts,5.5,−121,−105,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Andres Borregales,Kicking Pts,7.5,−103,−124,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,John Parker Romo,Kicking Pts,5.5,−136,+107,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Ka'imi Fairbairn,Kicking Pts,7.5,−128,+100,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Wil Lutz,Kicking Pts,6.5,−130,+102,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Cairo Santos,Kicking Pts,7.5,−106,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Evan McPherson,Kicking Pts,6.5,−124,−103,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Eddy Pineiro,Kicking Pts,7.5,−130,+102,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Graham Gano,Kicking Pts,7.5,+105,−134,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Joshua Karty,Kicking Pts,8.5,−111,−114,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Blake Grupe,Kicking Pts,5.5,−110,−116,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Cam Little,Kicking Pts,7.5,−117,−109,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Daniel Carlson,Kicking Pts,7.5,−108,−118,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Harrison Butker,Kicking Pts,7.5,+100,−128,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Matt Prater,Kicking Pts,6.5,−131,+103,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jason Myers,Kicking Pts,8.5,+107,−137,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Matt Gay,Kicking Pts,6.5,−133,+104,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Brandon Aubrey,Kicking Pts,9.5,+107,−136,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Chad Ryland,Kicking Pts,6.5,−129,+101,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jared Goff,Pass Yards - 1Q,56.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass Yards - 1Q,37.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Pass Yards - 1Q,55.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,Pass Yards - 1Q,35.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Pass Yards - 1Q,55.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Pass Yards - 1Q,43.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Pass Yards - 1Q,55.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,Pass Yards - 1Q,32.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,Pass Yards - 1Q,48.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Pass Yards - 1Q,46.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Pass Yards - 1Q,47.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Pass Yards - 1Q,42.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Pass Yards - 1Q,53.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Joe Flacco,Pass Yards - 1Q,47.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones,Pass Yards - 1Q,50.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Pass Yards - 1Q,41.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Matthew Stafford,Pass Yards - 1Q,59.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,Pass Yards - 1Q,35.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Pass Yards - 1Q,48.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,Pass Yards - 1Q,43.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Pass Yards - 1Q,57.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Pass Yards - 1Q,45.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Pass Yards - 1Q,49.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Pass Yards - 1Q,44.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Pass Yards - 1Q,58.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rush Yards - 1Q,18.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jordan Mason,Rush Yards - 1Q,8.5,−121,−107,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,David Montgomery,Rush Yards - 1Q,7.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aaron Jones,Rush Yards - 1Q,6.5,−108,−120,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Rush Yards - 1Q,1.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Kimani Vidal,Rush Yards - 1Q,17.5,−109,−119,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tony Pollard,Rush Yards - 1Q,9.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Rush Yards - 1Q,23.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,Rush Yards - 1Q,12.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Rush Yards - 1Q,0.5,−101,−128,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Josh Jacobs,Rush Yards - 1Q,15.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rico Dowdle,Rush Yards - 1Q,12.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Emanuel Wilson,Rush Yards - 1Q,3.5,−126,−103,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Rush Yards - 1Q,17.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Rush Yards - 1Q,11.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Rush Yards - 1Q,4.5,−106,−122,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Rush Yards - 1Q,16.5,−108,−120,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nick Chubb,Rush Yards - 1Q,8.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Rush Yards - 1Q,6.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Rush Yards - 1Q,0.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Rush Yards - 1Q,0.5,+116,−151,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Rush Yards - 1Q,18.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Rush Yards - 1Q,10.5,−122,−106,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Rush Yards - 1Q,1.5,−118,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Rush Yards - 1Q,18.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Rush Yards - 1Q,14.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Rush Yards - 1Q,6.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kyren Williams,Rush Yards - 1Q,15.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Alvin Kamara,Rush Yards - 1Q,9.5,−123,−105,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Rush Yards - 1Q,14.5,−108,−120,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,Rush Yards - 1Q,13.5,−120,−108,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,James Cook,Rush Yards - 1Q,21.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Kareem Hunt,Rush Yards - 1Q,8.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Rush Yards - 1Q,7.5,−110,−117,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Rush Yards - 1Q,3.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Kenneth Walker III,Rush Yards - 1Q,12.5,−121,−107,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jacory Croskey-Merritt,Rush Yards - 1Q,9.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Rush Yards - 1Q,8.5,−108,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Charbonnet,Rush Yards - 1Q,6.5,−118,−110,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Amon-Ra St. Brown,Rec Yards - 1Q,17.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Justin Jefferson,Rec Yards - 1Q,11.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Sam LaPorta,Rec Yards - 1Q,7.5,−118,−110,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jameson Williams,Rec Yards - 1Q,6.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jordan Addison,Rec Yards - 1Q,4.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,T.J. Hockenson,Rec Yards - 1Q,2.5,−111,−117,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rec Yards - 1Q,1.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aaron Jones,Rec Yards - 1Q,0.5,+159,−209,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Ladd McConkey,Rec Yards - 1Q,11.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Keenan Allen,Rec Yards - 1Q,8.5,−109,−119,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Oronde Gadsden II,Rec Yards - 1Q,7.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Elic Ayomanor,Rec Yards - 1Q,4.5,−111,−116,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Quentin Johnston,Rec Yards - 1Q,4.5,−111,−116,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Chimere Dike,Rec Yards - 1Q,2.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Chigoziem Okonkwo,Rec Yards - 1Q,1.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Van Jefferson,Rec Yards - 1Q,0.5,+132,−171,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Tyler Warren,Rec Yards - 1Q,10.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Michael Pittman Jr.,Rec Yards - 1Q,9.5,−111,−117,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,DK Metcalf,Rec Yards - 1Q,8.5,−111,−117,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Josh Downs,Rec Yards - 1Q,4.5,−117,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Alec Pierce,Rec Yards - 1Q,1.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Calvin Austin III,Rec Yards - 1Q,0.5,−103,−126,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Rec Yards - 1Q,0.5,−103,−126,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonnu Smith,Rec Yards - 1Q,0.5,+104,−135,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,Rec Yards - 1Q,0.5,+109,−141,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Pat Freiermuth,Rec Yards - 1Q,0.5,+156,−204,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Darnell Washington,Rec Yards - 1Q,0.5,+231,−309,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tucker Kraft,Rec Yards - 1Q,11.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Romeo Doubs,Rec Yards - 1Q,8.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tetairoa McMillan,Rec Yards - 1Q,7.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Christian Watson,Rec Yards - 1Q,2.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Matthew Golden,Rec Yards - 1Q,0.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jalen Coker,Rec Yards - 1Q,0.5,+128,−167,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Xavier Legette,Rec Yards - 1Q,0.5,+129,−167,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rico Dowdle,Rec Yards - 1Q,0.5,+168,−221,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake London,Rec Yards - 1Q,12.5,−118,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Rec Yards - 1Q,6.5,−131,+101,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Stefon Diggs,Rec Yards - 1Q,6.5,−118,−109,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kyle Pitts,Rec Yards - 1Q,5.5,−111,−116,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Darnell Mooney,Rec Yards - 1Q,1.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Hunter Henry,Rec Yards - 1Q,0.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kayshon Boutte,Rec Yards - 1Q,0.5,−109,−119,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Rec Yards - 1Q,0.5,+124,−162,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Mack Hollins,Rec Yards - 1Q,0.5,+135,−176,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Demario Douglas,Rec Yards - 1Q,0.5,+159,−208,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nico Collins,Rec Yards - 1Q,11.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Courtland Sutton,Rec Yards - 1Q,9.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Troy Franklin,Rec Yards - 1Q,5.5,−118,−110,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Evan Engram,Rec Yards - 1Q,3.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Dalton Schultz,Rec Yards - 1Q,2.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Christian Kirk,Rec Yards - 1Q,0.5,+105,−136,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Rec Yards - 1Q,0.5,+136,−177,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Rec Yards - 1Q,0.5,+329,−456,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Ja'Marr Chase,Rec Yards - 1Q,17.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Rome Odunze,Rec Yards - 1Q,10.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Tee Higgins,Rec Yards - 1Q,7.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,D.J. Moore,Rec Yards - 1Q,7.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Olamide Zaccheaus,Rec Yards - 1Q,3.5,−108,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Rec Yards - 1Q,0.5,+108,−140,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Colston Loveland,Rec Yards - 1Q,0.5,+118,−153,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Noah Fant,Rec Yards - 1Q,0.5,+132,−172,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Cole Kmet,Rec Yards - 1Q,0.5,+140,−183,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Rec Yards - 1Q,0.5,+151,−197,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Andrei Iosivas,Rec Yards - 1Q,0.5,+160,−211,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,George Kittle,Rec Yards - 1Q,8.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Rec Yards - 1Q,7.5,−108,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jauan Jennings,Rec Yards - 1Q,6.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Wan'Dale Robinson,Rec Yards - 1Q,6.5,−118,−109,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Kendrick Bourne,Rec Yards - 1Q,5.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Theo Johnson,Rec Yards - 1Q,4.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Darius Slayton,Rec Yards - 1Q,1.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Rec Yards - 1Q,0.5,+116,−151,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Demarcus Robinson,Rec Yards - 1Q,0.5,+190,−252,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Puka Nacua,Rec Yards - 1Q,22.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Davante Adams,Rec Yards - 1Q,10.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Chris Olave,Rec Yards - 1Q,8.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Juwan Johnson,Rec Yards - 1Q,3.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Alvin Kamara,Rec Yards - 1Q,0.5,+146,−191,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brian Thomas Jr.,Rec Yards - 1Q,11.5,−109,−118,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brock Bowers,Rec Yards - 1Q,8.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Jakobi Meyers,Rec Yards - 1Q,7.5,−111,−116,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Dyami Brown,Rec Yards - 1Q,4.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Tre Tucker,Rec Yards - 1Q,0.5,−109,−119,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,Rec Yards - 1Q,0.5,+115,−149,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Rec Yards - 1Q,0.5,+121,−157,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Hunter Long,Rec Yards - 1Q,0.5,+141,−184,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Rashee Rice,Rec Yards - 1Q,15.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Khalil Shakir,Rec Yards - 1Q,8.5,−109,−118,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Xavier Worthy,Rec Yards - 1Q,7.5,−111,−116,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Travis Kelce,Rec Yards - 1Q,7.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Keon Coleman,Rec Yards - 1Q,5.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Dalton Kincaid,Rec Yards - 1Q,4.5,−111,−117,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Marquise Brown,Rec Yards - 1Q,0.5,+137,−178,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Brashard Smith,Rec Yards - 1Q,0.5,+155,−204,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,James Cook,Rec Yards - 1Q,0.5,+169,−222,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jaxon Smith-Njigba,Rec Yards - 1Q,20.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Deebo Samuel,Rec Yards - 1Q,8.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Ertz,Rec Yards - 1Q,3.5,−118,−109,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,A.J. Barner,Rec Yards - 1Q,0.5,+110,−143,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Luke McCaffrey,Rec Yards - 1Q,0.5,+143,−187,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,CeeDee Lamb,Rec Yards - 1Q,16.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,George Pickens,Rec Yards - 1Q,9.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jake Ferguson,Rec Yards - 1Q,5.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Blake Cashman,Tackles + Assists,8.5,+101,−131,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Alex Anzalone,Tackles + Assists,7.5,+114,−148,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Brian Branch,Tackles + Assists,5.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Byron Murphy Jr.,Tackles + Assists,4.5,+105,−136,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Isaiah Rodgers,Tackles + Assists,3.5,−137,+105,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aidan Hutchinson,Tackles + Assists,2.5,−121,−107,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cedric Gray,Tackles + Assists,8.5,−129,+100,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Daiyan Henley,Tackles + Assists,6.5,−118,−110,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Derwin James Jr.,Tackles + Assists,6.5,+103,−134,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Amani Hooker,Tackles + Assists,5.5,−149,+115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Patrick Queen,Tackles + Assists,7.5,−144,+111,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Germaine Pratt,Tackles + Assists,6.5,−144,+111,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Zaire Franklin,Tackles + Assists,6.5,−135,+104,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Payton Wilson,Tackles + Assists,6.5,−126,−102,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Christian Rozeboom,Tackles + Assists,8.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Edgerrin Cooper,Tackles + Assists,7.5,+111,−144,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Trevon Moehrig,Tackles + Assists,7.5,+113,−147,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Xavier McKinney,Tackles + Assists,5.5,−105,−124,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Keisean Nixon,Tackles + Assists,4.5,+120,−156,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Derrick Brown,Tackles + Assists,3.5,−128,−101,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Robert Spillane,Tackles + Assists,8.5,−129,+100,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kaden Elliss,Tackles + Assists,8.5,+100,−129,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Xavier Watts,Tackles + Assists,6.5,+104,−135,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Christian Gonzalez,Tackles + Assists,4.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,A.J. Terrell,Tackles + Assists,3.5,−157,+121,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Carlton Davis III,Tackles + Assists,3.5,−123,−105,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Alex Singleton,Tackles + Assists,7.5,−136,+105,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Azeez Al-Shaair,Tackles + Assists,7.5,+110,−143,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Kamari Lassiter,Tackles + Assists,6.5,−109,−118,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Talanoa Hufanga,Tackles + Assists,5.5,−155,+119,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Jalen Pitre,Tackles + Assists,5.5,−139,+107,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Riley Moss,Tackles + Assists,4.5,−150,+115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Tremaine Edmunds,Tackles + Assists,8.5,+104,−134,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Demetrius Knight,Tackles + Assists,7.5,−135,+104,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,T.J. Edwards,Tackles + Assists,7.5,−132,+102,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Jordan Battle,Tackles + Assists,6.5,−129,−101,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kevin Byard,Tackles + Assists,6.5,−103,−126,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Geno Stone,Tackles + Assists,5.5,−148,+114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tatum Bethune,Tackles + Assists,8.5,−131,+101,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Bobby Okereke,Tackles + Assists,8.5,−107,−121,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyler Nubin,Tackles + Assists,6.5,−104,−125,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Malik Mustapha,Tackles + Assists,5.5,−137,+106,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Brian Burns,Tackles + Assists,4.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Renardo Green,Tackles + Assists,4.5,+121,−158,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Demario Davis,Tackles + Assists,9.5,+110,−143,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Nate Landman,Tackles + Assists,8.5,−105,−124,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kamren Curl,Tackles + Assists,6.5,−122,−106,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Quentin Lake,Tackles + Assists,5.5,−147,+113,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Justin Reid,Tackles + Assists,5.5,−103,−126,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kool-Aid McKinstry,Tackles + Assists,4.5,+130,−169,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Foyesade Oluokun,Tackles + Assists,8.5,+107,−139,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Devin White,Tackles + Assists,7.5,−134,+104,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Jeremy Chinn,Tackles + Assists,6.5,−110,−117,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Isaiah Pola-Mao,Tackles + Assists,5.5,−139,+107,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Andrew Wingard,Tackles + Assists,5.5,+111,−144,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Nick Bolton,Tackles + Assists,7.5,−144,+111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Chamarri Conner,Tackles + Assists,6.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Trent McDuffie,Tackles + Assists,5.5,−156,+120,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Christian Benford,Tackles + Assists,4.5,−148,+114,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Cole Bishop,Tackles + Assists,4.5,−147,+113,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Tre'Davious White,Tackles + Assists,4.5,+116,−151,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Frankie Luvu,Tackles + Assists,6.5,+121,−158,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Blake Cashman,Tackles,4.5,−143,+110,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Alex Anzalone,Tackles,4.5,+121,−158,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Brian Branch,Tackles,3.5,−135,+104,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Byron Murphy Jr.,Tackles,3.5,+136,−177,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Isaiah Rodgers,Tackles,2.5,−151,+117,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aidan Hutchinson,Tackles,1.5,−127,−102,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cedric Gray,Tackles,4.5,−147,+113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Derwin James Jr.,Tackles,3.5,−165,+127,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Amani Hooker,Tackles,3.5,−140,+108,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Daiyan Henley,Tackles,3.5,+130,−169,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Patrick Queen,Tackles,4.5,−117,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Germaine Pratt,Tackles,3.5,−158,+122,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Zaire Franklin,Tackles,3.5,−150,+116,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Payton Wilson,Tackles,3.5,−131,+101,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Edgerrin Cooper,Tackles,4.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Trevon Moehrig,Tackles,4.5,+111,−143,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Christian Rozeboom,Tackles,4.5,+129,−168,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Keisean Nixon,Tackles,3.5,+119,−154,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Xavier McKinney,Tackles,3.5,+132,−172,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Derrick Brown,Tackles,1.5,−170,+131,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Robert Spillane,Tackles,4.5,−153,+118,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kaden Elliss,Tackles,4.5,+101,−131,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Xavier Watts,Tackles,3.5,−150,+116,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Christian Gonzalez,Tackles,3.5,−110,−117,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,A.J. Terrell,Tackles,2.5,−125,−104,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Carlton Davis III,Tackles,2.5,+131,−171,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Kamari Lassiter,Tackles,4.5,−109,−118,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Alex Singleton,Tackles,4.5,−107,−121,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Azeez Al-Shaair,Tackles,3.5,−163,+125,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Talanoa Hufanga,Tackles,3.5,−157,+121,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Jalen Pitre,Tackles,3.5,−135,+105,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Riley Moss,Tackles,3.5,−121,−107,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Tremaine Edmunds,Tackles,4.5,−117,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Demetrius Knight,Tackles,4.5,−109,−118,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,T.J. Edwards,Tackles,4.5,+100,−130,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kevin Byard,Tackles,3.5,−159,+122,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Geno Stone,Tackles,3.5,−152,+117,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Jordan Battle,Tackles,3.5,−147,+113,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Bobby Okereke,Tackles,4.5,−126,−103,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyler Nubin,Tackles,3.5,−159,+122,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Malik Mustapha,Tackles,3.5,+102,−132,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tatum Bethune,Tackles,2.5,−177,+135,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Brian Burns,Tackles,2.5,−168,+129,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Renardo Green,Tackles,2.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Demario Davis,Tackles,4.5,+106,−137,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kamren Curl,Tackles,4.5,+116,−150,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Nate Landman,Tackles,3.5,−108,−119,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kool-Aid McKinstry,Tackles,3.5,−104,−125,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Quentin Lake,Tackles,3.5,−103,−125,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Justin Reid,Tackles,3.5,+114,−149,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Devin White,Tackles,4.5,−145,+112,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Foyesade Oluokun,Tackles,4.5,−138,+107,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Jeremy Chinn,Tackles,4.5,+100,−129,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Isaiah Pola-Mao,Tackles,3.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Andrew Wingard,Tackles,3.5,+107,−139,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Trent McDuffie,Tackles,4.5,−136,+105,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Nick Bolton,Tackles,4.5,−134,+103,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Chamarri Conner,Tackles,4.5,−103,−126,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Christian Benford,Tackles,3.5,−144,+111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Cole Bishop,Tackles,3.5,−136,+105,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Tre'Davious White,Tackles,3.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Frankie Luvu,Tackles,2.5,−154,+118,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Blake Cashman,Assists,3.5,+109,−141,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Alex Anzalone,Assists,2.5,−147,+113,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Brian Branch,Assists,1.5,−135,+104,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Byron Murphy Jr.,Assists,1.5,+158,−207,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aidan Hutchinson,Assists,0.5,−190,+145,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Isaiah Rodgers,Assists,0.5,−176,+135,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cedric Gray,Assists,3.5,−131,+101,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Daiyan Henley,Assists,3.5,+102,−133,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Derwin James Jr.,Assists,2.5,+136,−178,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Amani Hooker,Assists,2.5,+149,−195,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Patrick Queen,Assists,3.5,+118,−153,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Payton Wilson,Assists,2.5,−149,+115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Germaine Pratt,Assists,2.5,−147,+113,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Zaire Franklin,Assists,2.5,−145,+112,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Christian Rozeboom,Assists,4.5,+106,−137,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Trevon Moehrig,Assists,2.5,−131,+101,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Edgerrin Cooper,Assists,2.5,−104,−125,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Xavier McKinney,Assists,2.5,+117,−153,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Derrick Brown,Assists,1.5,−130,+100,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Keisean Nixon,Assists,0.5,−174,+133,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kaden Elliss,Assists,3.5,−139,+107,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Robert Spillane,Assists,3.5,−137,+105,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Xavier Watts,Assists,2.5,+120,−155,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Carlton Davis III,Assists,1.5,+112,−145,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,A.J. Terrell,Assists,1.5,+150,−196,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Christian Gonzalez,Assists,0.5,−190,+145,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Alex Singleton,Assists,3.5,+112,−146,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Azeez Al-Shaair,Assists,3.5,+137,−178,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Jalen Pitre,Assists,1.5,−183,+140,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Talanoa Hufanga,Assists,1.5,−183,+140,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Kamari Lassiter,Assists,1.5,−165,+127,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Riley Moss,Assists,1.5,+151,−197,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Tremaine Edmunds,Assists,3.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,T.J. Edwards,Assists,3.5,+107,−138,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Demetrius Knight,Assists,3.5,+110,−143,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Jordan Battle,Assists,2.5,−141,+109,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kevin Byard,Assists,2.5,+115,−149,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Geno Stone,Assists,1.5,−175,+134,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tatum Bethune,Assists,5.5,−129,+100,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Bobby Okereke,Assists,3.5,−121,−107,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Malik Mustapha,Assists,2.5,+108,−140,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyler Nubin,Assists,2.5,+109,−142,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Brian Burns,Assists,1.5,−105,−123,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Renardo Green,Assists,1.5,+100,−130,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Nate Landman,Assists,4.5,−132,+102,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Demario Davis,Assists,4.5,−123,−105,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kamren Curl,Assists,2.5,+105,−136,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Quentin Lake,Assists,2.5,+107,−138,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Justin Reid,Assists,2.5,+149,−195,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kool-Aid McKinstry,Assists,0.5,+104,−135,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Foyesade Oluokun,Assists,3.5,+110,−143,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Devin White,Assists,2.5,−148,+114,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Isaiah Pola-Mao,Assists,2.5,+129,−168,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Jeremy Chinn,Assists,1.5,−190,+145,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Andrew Wingard,Assists,1.5,−142,+110,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Nick Bolton,Assists,3.5,+131,−171,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Chamarri Conner,Assists,1.5,−193,+147,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Trent McDuffie,Assists,1.5,+170,−224,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Cole Bishop,Assists,0.5,−230,+175,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Christian Benford,Assists,0.5,−213,+162,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Tre'Davious White,Assists,0.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Frankie Luvu,Assists,3.5,+137,−178,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rush Yards,76.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,David Montgomery,Rush Yards,49.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jordan Mason,Rush Yards,36.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aaron Jones,Rush Yards,30.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Rush Yards,20.5,−116,−108,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jared Goff,Rush Yards,0.5,+117,−147,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Kimani Vidal,Rush Yards,74.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tony Pollard,Rush Yards,39.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tyjae Spears,Rush Yards,28.5,−108,−117,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Rush Yards,15.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,Rush Yards,5.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Rush Yards,96.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,Rush Yards,56.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Kenneth Gainwell,Rush Yards,20.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Rush Yards,14.5,−117,−107,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Rush Yards,0.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Josh Jacobs,Rush Yards,63.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rico Dowdle,Rush Yards,52.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Emanuel Wilson,Rush Yards,28.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Chuba Hubbard,Rush Yards,19.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Rush Yards,10.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,Rush Yards,7.5,−107,−117,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Rush Yards,60.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Rush Yards,55.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Rush Yards,28.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Tyler Allgeier,Rush Yards,24.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,Rush Yards,5.5,−107,−118,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Rush Yards,63.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nick Chubb,Rush Yards,38.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Rush Yards,35.5,−108,−116,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Rush Yards,21.5,−111,−114,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,RJ Harvey,Rush Yards,17.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Rush Yards,15.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Rush Yards,75.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Rush Yards,51.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Samaje Perine,Rush Yards,28.5,−108,−116,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Rush Yards,18.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,D.J. Moore,Rush Yards,9.5,−108,−116,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Rush Yards,77.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Rush Yards,53.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Rush Yards,36.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Devin Singletary,Rush Yards,17.5,−116,−108,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Brian Robinson Jr.,Rush Yards,15.5,−117,−107,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones,Rush Yards,6.5,−120,−105,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kyren Williams,Rush Yards,70.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Alvin Kamara,Rush Yards,39.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Blake Corum,Rush Yards,30.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,Rush Yards,19.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Matthew Stafford,Rush Yards,0.5,+127,−160,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,Rush Yards,60.5,−109,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Rush Yards,56.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Bhayshul Tuten,Rush Yards,21.5,−116,−109,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Rush Yards,14.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,Rush Yards,10.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,James Cook,Rush Yards,75.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Kareem Hunt,Rush Yards,45.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Rush Yards,42.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Rush Yards,28.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Brashard Smith,Rush Yards,14.5,−106,−118,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Xavier Worthy,Rush Yards,4.5,−118,−106,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Rashee Rice,Rush Yards,3.5,−124,−101,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Kenneth Walker III,Rush Yards,53.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jacory Croskey-Merritt,Rush Yards,43.5,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Rush Yards,42.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Charbonnet,Rush Yards,40.5,−115,−109,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Rush Yards,5.5,−105,−119,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Deebo Samuel,Rush Yards,4.5,−104,−120,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Javonte Williams,Rush Yards,65.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jacoby Brissett,Rush Yards,14.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Rush Yards,7.5,−110,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass Attempts,30.5,−126,−101,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jared Goff,Pass Attempts,28.5,−119,−107,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,Pass Attempts,33.5,−109,−117,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Pass Attempts,32.5,−122,−105,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Pass Attempts,33.5,−118,−108,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Pass Attempts,33.5,−108,−118,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,Pass Attempts,32.5,+102,−130,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Pass Attempts,29.5,−117,−109,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,Pass Attempts,32.5,−109,−117,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Pass Attempts,28.5,−127,−101,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Pass Attempts,32.5,−113,−112,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Pass Attempts,32.5,−101,−126,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Joe Flacco,Pass Attempts,34.5,−109,−117,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Pass Attempts,33.5,−107,−119,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones,Pass Attempts,34.5,−116,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Pass Attempts,31.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,Pass Attempts,34.5,−116,−110,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Matthew Stafford,Pass Attempts,32.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Pass Attempts,34.5,−102,−126,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,Pass Attempts,31.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Pass Attempts,36.5,−106,−121,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Pass Attempts,31.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Pass Attempts,32.5,+100,−127,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Pass Attempts,28.5,−128,+101,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Pass Attempts,37.5,−103,−123,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jacoby Brissett,Pass Attempts,34.5,−120,−106,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rush Attempts,15.5,+100,−127,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,David Montgomery,Rush Attempts,12.5,+102,−130,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Rush Attempts,3.5,−145,+114,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Kimani Vidal,Rush Attempts,17.5,+103,−132,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tony Pollard,Rush Attempts,10.5,−116,−110,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Rush Attempts,3.5,−135,+106,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Rush Attempts,19.5,−108,−118,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,Rush Attempts,14.5,−104,−123,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Josh Jacobs,Rush Attempts,15.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rico Dowdle,Rush Attempts,13.5,−126,−101,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Rush Attempts,3.5,+110,−141,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Rush Attempts,15.5,−123,−104,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Rush Attempts,12.5,−135,+106,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Rush Attempts,5.5,−137,+107,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Rush Attempts,15.5,−104,−122,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nick Chubb,Rush Attempts,11.5,−118,−108,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Rush Attempts,9.5,−116,−110,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Rush Attempts,5.5,+103,−131,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Rush Attempts,16.5,−126,−101,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Rush Attempts,11.5,−128,+100,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Rush Attempts,18.5,−108,−118,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Rush Attempts,14.5,+101,−129,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Rush Attempts,6.5,−136,+106,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Devin Singletary,Rush Attempts,5.5,−104,−123,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kyren Williams,Rush Attempts,16.5,−117,−109,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Blake Corum,Rush Attempts,7.5,−107,−119,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,Rush Attempts,15.5,−127,+100,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Rush Attempts,13.5,−110,−116,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,James Cook,Rush Attempts,16.5,−121,−106,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Kareem Hunt,Rush Attempts,12.5,−101,−126,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Rush Attempts,8.5,+106,−136,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Rush Attempts,4.5,−143,+112,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Kenneth Walker III,Rush Attempts,13.5,+101,−129,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jacory Croskey-Merritt,Rush Attempts,12.5,−119,−107,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Charbonnet,Rush Attempts,11.5,−111,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Rush Attempts,7.5,−133,+104,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Javonte Williams,Rush Attempts,15.5,−108,−118,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Rush Attempts,2.5,−103,−124,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jared Goff Passing,Completions,21.5,−106,−120,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy Passing,Completions,19.5,+101,−129,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert Passing,Completions,22.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward Passing,Completions,19.5,−131,+103,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Aaron Rodgers Passing,Completions,22.5,−111,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones Passing,Completions,22.5,−109,−117,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love Passing,Completions,20.5,−111,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young Passing,Completions,18.5,−131,+102,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye Passing,Completions,20.5,−102,−125,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr. Passing,Completions,19.5,−128,+100,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud Passing,Completions,20.5,−105,−122,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix Passing,Completions,20.5,+103,−131,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Joe Flacco Passing,Completions,23.5,+103,−132,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams Passing,Completions,20.5,−105,−122,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones Passing,Completions,21.5,−130,+102,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart Passing,Completions,19.5,−107,−120,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Matthew Stafford Passing,Completions,22.5,−104,−122,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough Passing,Completions,20.5,−111,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence Passing,Completions,21.5,−120,−106,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith Passing,Completions,21.5,+102,−130,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes Passing,Completions,25.5,+101,−129,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen Passing,Completions,21.5,−109,−117,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels Passing,Completions,20.5,−119,−107,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold Passing,Completions,19.5,−122,−105,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott Passing,Completions,25.5,−122,−104,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jacoby Brissett Passing,Completions,22.5,−116,−110,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rush + Rec Yards,103.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,David Montgomery,Rush + Rec Yards,64.5,−114,−111,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aaron Jones,Rush + Rec Yards,50.5,−111,−114,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Kimani Vidal,Rush + Rec Yards,91.5,−115,−111,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tony Pollard,Rush + Rec Yards,57.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tyjae Spears,Rush + Rec Yards,47.5,−110,−116,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Rush + Rec Yards,121.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,Rush + Rec Yards,82.5,−115,−111,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Kenneth Gainwell,Rush + Rec Yards,39.5,−111,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Josh Jacobs,Rush + Rec Yards,81.5,−103,−124,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rico Dowdle,Rush + Rec Yards,70.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Rush + Rec Yards,104.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Rush + Rec Yards,76.5,−111,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Rush + Rec Yards,70.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Rush + Rec Yards,54.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,RJ Harvey,Rush + Rec Yards,30.5,−116,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Rush + Rec Yards,95.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Rush + Rec Yards,70.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,D.J. Moore,Rush + Rec Yards,65.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Rush + Rec Yards,132.5,−113,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Rush + Rec Yards,76.5,−116,−110,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kyren Williams,Rush + Rec Yards,89.5,−115,−111,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Alvin Kamara,Rush + Rec Yards,58.5,−116,−110,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,Rush + Rec Yards,80.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Rush + Rec Yards,76.5,+103,−131,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,James Cook,Rush + Rec Yards,94.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Rashee Rice,Rush + Rec Yards,80.5,−115,−111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Kareem Hunt,Rush + Rec Yards,57.5,−115,−111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Xavier Worthy,Rush + Rec Yards,55.5,−111,−114,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Brashard Smith,Rush + Rec Yards,36.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Kenneth Walker III,Rush + Rec Yards,64.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Deebo Samuel,Rush + Rec Yards,59.5,−115,−111,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Charbonnet,Rush + Rec Yards,53.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Javonte Williams,Rush + Rec Yards,83.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jared Goff,Pass Yards,239.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass Yards,211.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Pass Yards,243.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,Pass Yards,203.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Pass Yards,254.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Pass Yards,235.5,−110,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Pass Yards,232.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,Pass Yards,185.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Pass Yards,230.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,Pass Yards,227.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Pass Yards,227.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Pass Yards,205.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Joe Flacco,Pass Yards,245.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Pass Yards,240.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones,Pass Yards,242.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Pass Yards,209.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Matthew Stafford,Pass Yards,255.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,Pass Yards,194.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Pass Yards,228.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,Pass Yards,222.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Pass Yards,272.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Pass Yards,232.5,−111,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Pass Yards,241.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Pass Yards,227.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Pass Yards,269.5,−112,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jacoby Brissett,Pass Yards,244.5,−113,−111,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jared Goff,Pass TDs,1.5,−187,+145,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass TDs,1.5,+164,−212,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Pass TDs,1.5,−180,+140,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,Pass TDs,0.5,−217,+168,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Pass TDs,1.5,−139,+109,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Pass TDs,1.5,−123,−104,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Pass TDs,1.5,−210,+162,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,Pass TDs,0.5,−269,+206,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Pass TDs,1.5,−169,+132,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,Pass TDs,1.5,+143,−184,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Pass TDs,1.5,+124,−159,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Pass TDs,1.5,+147,−189,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Joe Flacco,Pass TDs,1.5,−182,+141,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Pass TDs,1.5,−159,+125,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones,Pass TDs,1.5,−160,+125,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Pass TDs,1.5,+104,−133,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Matthew Stafford,Pass TDs,1.5,−212,+164,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,Pass TDs,0.5,−160,+125,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Pass TDs,1.5,−103,−123,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,Pass TDs,1.5,+121,−154,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Pass TDs,2.5,+163,−211,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Pass TDs,1.5,−125,−102,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Pass TDs,1.5,−157,+122,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Pass TDs,1.5,−109,−117,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Pass TDs,2.5,+161,−207,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jacoby Brissett,Pass TDs,1.5,−142,+111,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass + Rush Yards,237.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Pass + Rush Yards,264.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,Pass + Rush Yards,212.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Pass + Rush Yards,276.5,−112,−113,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Pass + Rush Yards,248.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,Pass + Rush Yards,196.5,−113,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Pass + Rush Yards,264.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,Pass + Rush Yards,237.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Pass + Rush Yards,247.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Pass + Rush Yards,231.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Pass + Rush Yards,265.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones,Pass + Rush Yards,254.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Pass + Rush Yards,252.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,Pass + Rush Yards,217.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Pass + Rush Yards,248.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,Pass + Rush Yards,237.5,−113,−113,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Pass + Rush Yards,305.5,−113,−112,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Pass + Rush Yards,281.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Pass + Rush Yards,276.5,−112,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Pass + Rush Yards,250.5,−112,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Pass + Rush Yards,281.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jacoby Brissett,Pass + Rush Yards,263.5,−114,−112,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aidan Hutchinson Total,Sacks,0.75,−144,+114,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jonathan Greenard Total,Sacks,0.25,+104,−131,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Al-Quadin Muhammad Total,Sacks,0.25,+158,−202,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Dallas Turner Total,Sacks,0.25,+159,−204,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Javon Hargrave Total,Sacks,0.25,+181,−233,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Alim McNeill Total,Sacks,0.25,+210,−272,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jonathan Allen Total,Sacks,0.25,+218,−283,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tuli Tuipulotu Total,Sacks,0.25,−122,−103,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Khalil Mack Total,Sacks,0.25,+112,−141,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Odafe Oweh Total,Sacks,0.25,+133,−169,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Dre'Mont Jones Total,Sacks,0.25,+170,−220,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,T.J. Watt Total,Sacks,0.25,−114,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Laiatu Latu Total,Sacks,0.25,+119,−150,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,DeForest Buckner Total,Sacks,0.25,+121,−153,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Kwity Paye Total,Sacks,0.25,+123,−155,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Alex Highsmith Total,Sacks,0.25,+158,−203,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Cameron Heyward Total,Sacks,0.25,+360,−487,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Derrick Harmon Total,Sacks,0.25,+396,−543,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Micah Parsons Total,Sacks,0.75,−167,+132,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rashan Gary Total,Sacks,0.75,+107,−135,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Derrick Brown Total,Sacks,0.25,+226,−294,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Kingsley Enagbare Total,Sacks,0.25,+226,−294,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Devonte Wyatt Total,Sacks,0.25,+288,−381,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Harold Landry Total,Sacks,0.25,+118,−149,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Leonard Floyd Total,Sacks,0.25,+151,−193,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,K'lavon Chaisson Total,Sacks,0.25,+170,−219,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kaden Elliss Total,Sacks,0.25,+171,−221,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Christian Barmore Total,Sacks,0.25,+181,−234,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Milton Williams Total,Sacks,0.25,+210,−272,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nik Bonitto Total,Sacks,0.25,+108,−136,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Will Anderson Jr. Total,Sacks,0.25,+120,−151,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Danielle Hunter Total,Sacks,0.25,+124,−157,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Zach Allen Total,Sacks,0.25,+151,−192,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Jonathon Cooper Total,Sacks,0.25,+153,−196,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,John Franklin-Myers Total,Sacks,0.25,+241,−314,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Denico Autry Total,Sacks,0.25,+281,−370,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Joseph Ossai Total,Sacks,0.25,+136,−173,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Montez Sweat Total,Sacks,0.25,+142,−181,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Shemar Stewart Total,Sacks,0.25,+194,−251,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Grady Jarrett Total,Sacks,0.25,+228,−297,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Myles Murphy Total,Sacks,0.25,+241,−315,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Dayo Odeyingbo Total,Sacks,0.25,+266,−349,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Gervon Dexter Total,Sacks,0.25,+301,−400,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Abdul Carter Total,Sacks,0.25,+102,−128,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Brian Burns Total,Sacks,0.25,+116,−147,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mykel Williams Total,Sacks,0.25,+169,−218,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Kayvon Thibodeaux Total,Sacks,0.25,+189,−244,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Sam Okuayinonu Total,Sacks,0.25,+213,−276,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Dexter Lawrence II Total,Sacks,0.25,+271,−357,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Jared Verse Total,Sacks,0.75,+106,−134,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Byron Young (LAR) Total,Sacks,0.75,+108,−136,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kobie Turner Total,Sacks,0.25,+154,−197,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Braden Fiske Total,Sacks,0.25,+183,−236,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Chase Young Total,Sacks,0.25,+205,−266,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Bryan Bresee Total,Sacks,0.25,+319,−425,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Maxx Crosby Total,Sacks,0.25,−122,−103,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Josh Hines-Allen Total,Sacks,0.25,+124,−157,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travon Walker Total,Sacks,0.25,+134,−170,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Leonard Williams Total,Sacks,0.25,+107,−135,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Boye Mafe Total,Sacks,0.25,+144,−184,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,DeMarcus Lawrence Total,Sacks,0.25,+151,−194,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Von Miller Total,Sacks,0.25,+243,−318,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Daron Payne Total,Sacks,0.25,+327,−437,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Josh Sweat Total,Sacks,0.25,+162,−208,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dante Fowler Jr. Total,Sacks,0.25,+163,−209,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Donovan Ezeiruaku Total,Sacks,0.25,+197,−255,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Osa Odighizuwa Total,Sacks,0.25,+238,−311,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Kenny Clark Total,Sacks,0.25,+243,−317,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Calais Campbell Total,Sacks,0.25,+258,−338,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jared Goff,Pass Yards - 1H,131.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Pass Yards - 1H,97.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Pass Yards - 1H,131.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,Pass Yards - 1H,91.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Pass Yards - 1H,131.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Pass Yards - 1H,114.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Pass Yards - 1H,130.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,Pass Yards - 1H,82.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Pass Yards - 1H,117.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,Pass Yards - 1H,111.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Pass Yards - 1H,112.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Pass Yards - 1H,100.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Pass Yards - 1H,122.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Joe Flacco,Pass Yards - 1H,119.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones,Pass Yards - 1H,124.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Pass Yards - 1H,103.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Matthew Stafford,Pass Yards - 1H,137.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,Pass Yards - 1H,87.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Pass Yards - 1H,116.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,Pass Yards - 1H,107.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Pass Yards - 1H,124.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Pass Yards - 1H,110.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Pass Yards - 1H,137.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rush Yards - 1H,35.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,David Montgomery,Rush Yards - 1H,20.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jordan Mason,Rush Yards - 1H,19.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aaron Jones,Rush Yards - 1H,15.5,−109,−119,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Rush Yards - 1H,9.5,−109,−119,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Kimani Vidal,Rush Yards - 1H,33.5,−111,−117,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tony Pollard,Rush Yards - 1H,21.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Rush Yards - 1H,48.5,−111,−116,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,Rush Yards - 1H,30.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Josh Jacobs,Rush Yards - 1H,30.5,−111,−117,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rico Dowdle,Rush Yards - 1H,26.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Emanuel Wilson,Rush Yards - 1H,10.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Rush Yards - 1H,34.5,−110,−117,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Rush Yards - 1H,26.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Rush Yards - 1H,12.5,−119,−108,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Rush Yards - 1H,33.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nick Chubb,Rush Yards - 1H,19.5,−111,−117,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Rush Yards - 1H,16.5,−108,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Rush Yards - 1H,37.5,−110,−117,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Rush Yards - 1H,25.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Rush Yards - 1H,8.5,−109,−119,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Rush Yards - 1H,41.5,−111,−117,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Rush Yards - 1H,29.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Rush Yards - 1H,17.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,Rush Yards - 1H,30.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Rush Yards - 1H,27.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Kenneth Walker III,Rush Yards - 1H,28.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jacory Croskey-Merritt,Rush Yards - 1H,22.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Charbonnet,Rush Yards - 1H,18.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Amon-Ra St. Brown,Rec Yards - 1H,41.5,−111,−116,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Justin Jefferson,Rec Yards - 1H,33.5,−111,−117,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jameson Williams,Rec Yards - 1H,22.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Sam LaPorta,Rec Yards - 1H,22.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jordan Addison,Rec Yards - 1H,20.5,−110,−117,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,T.J. Hockenson,Rec Yards - 1H,12.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Rec Yards - 1H,10.5,−110,−117,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aaron Jones,Rec Yards - 1H,5.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Ladd McConkey,Rec Yards - 1H,32.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Keenan Allen,Rec Yards - 1H,25.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Oronde Gadsden II,Rec Yards - 1H,24.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Quentin Johnston,Rec Yards - 1H,19.5,−109,−118,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Tyler Warren,Rec Yards - 1H,29.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,DK Metcalf,Rec Yards - 1H,27.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Michael Pittman Jr.,Rec Yards - 1H,27.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Alec Pierce,Rec Yards - 1H,21.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Calvin Austin III,Rec Yards - 1H,14.5,−118,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tucker Kraft,Rec Yards - 1H,31.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Romeo Doubs,Rec Yards - 1H,25.5,−110,−117,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tetairoa McMillan,Rec Yards - 1H,24.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jalen Coker,Rec Yards - 1H,9.5,−117,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Xavier Legette,Rec Yards - 1H,8.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake London,Rec Yards - 1H,30.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Stefon Diggs,Rec Yards - 1H,23.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kyle Pitts,Rec Yards - 1H,19.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Rec Yards - 1H,18.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kayshon Boutte,Rec Yards - 1H,16.5,−114,−113,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Darnell Mooney,Rec Yards - 1H,15.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Hunter Henry,Rec Yards - 1H,13.5,−118,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Mack Hollins,Rec Yards - 1H,8.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Demario Douglas,Rec Yards - 1H,7.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Rec Yards - 1H,5.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nico Collins,Rec Yards - 1H,29.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Courtland Sutton,Rec Yards - 1H,26.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Troy Franklin,Rec Yards - 1H,19.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Evan Engram,Rec Yards - 1H,13.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Dalton Schultz,Rec Yards - 1H,13.5,−109,−119,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Christian Kirk,Rec Yards - 1H,10.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Rec Yards - 1H,5.5,−122,−106,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Rec Yards - 1H,0.5,+131,−171,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Ja'Marr Chase,Rec Yards - 1H,44.5,−116,−112,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Rome Odunze,Rec Yards - 1H,28.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Tee Higgins,Rec Yards - 1H,24.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,D.J. Moore,Rec Yards - 1H,22.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Olamide Zaccheaus,Rec Yards - 1H,13.5,−113,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Colston Loveland,Rec Yards - 1H,9.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Andrei Iosivas,Rec Yards - 1H,7.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Noah Fant,Rec Yards - 1H,6.5,−120,−108,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Cole Kmet,Rec Yards - 1H,6.5,−119,−109,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Rec Yards - 1H,5.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Rec Yards - 1H,4.5,−112,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,George Kittle,Rec Yards - 1H,25.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Rec Yards - 1H,23.5,−117,−111,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jauan Jennings,Rec Yards - 1H,23.5,−117,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Wan'Dale Robinson,Rec Yards - 1H,23.5,−115,−113,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Kendrick Bourne,Rec Yards - 1H,19.5,−113,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Darius Slayton,Rec Yards - 1H,18.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Theo Johnson,Rec Yards - 1H,17.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Rec Yards - 1H,6.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brian Thomas Jr.,Rec Yards - 1H,31.5,−111,−116,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brock Bowers,Rec Yards - 1H,24.5,−115,−112,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Jakobi Meyers,Rec Yards - 1H,22.5,−111,−116,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Dyami Brown,Rec Yards - 1H,17.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jaxon Smith-Njigba,Rec Yards - 1H,53.5,−112,−116,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Deebo Samuel,Rec Yards - 1H,25.5,−110,−118,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,CeeDee Lamb,Rec Yards - 1H,42.5,−114,−114,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,George Pickens,Rec Yards - 1H,29.5,−116,−111,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jake Ferguson,Rec Yards - 1H,18.5,−118,−110,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Longest Rush,18.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Longest Rush,18.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Longest Rush,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Longest Rush,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,James Cook,Longest Rush,14.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Longest Rush,14.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Longest Rush,14.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Longest Rush,14.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,J.K. Dobbins,Longest Rush,14.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Javonte Williams,Longest Rush,14.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kyren Williams,Longest Rush,14.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Longest Rush,14.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Kenneth Walker III,Longest Rush,13.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,Longest Rush,13.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,Longest Rush,13.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Longest Rush,13.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Josh Jacobs,Longest Rush,13.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Longest Rush,12.5,−130,+100,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,David Montgomery,Longest Rush,12.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rico Dowdle,Longest Rush,12.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Zonovan Knight,Longest Rush,12.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Longest Rush,12.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Longest Rush,12.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Longest Rush,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Longest Rush,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jacory Croskey-Merritt,Longest Rush,12.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Longest Rush,11.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Longest Rush,11.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jordan Mason,Longest Rush,11.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Kareem Hunt,Longest Rush,11.5,+100,−130,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Blake Corum,Longest Rush,10.5,−135,+105,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Charbonnet,Longest Rush,10.5,−130,+100,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Longest Rush,10.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Longest Rush,10.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nick Chubb,Longest Rush,10.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Samaje Perine,Longest Rush,10.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tony Pollard,Longest Rush,10.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Alvin Kamara,Longest Rush,10.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Longest Rush,10.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tyjae Spears,Longest Rush,10.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Emanuel Wilson,Longest Rush,9.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jacoby Brissett,Longest Rush,9.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,Longest Rush,9.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aaron Jones,Longest Rush,9.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Longest Rush,9.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Longest Rush,9.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Tyler Allgeier,Longest Rush,9.5,+100,−130,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Kenneth Gainwell,Longest Rush,8.5,−130,+100,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Longest Rush,8.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Bhayshul Tuten,Longest Rush,8.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Longest Rush,8.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Devin Singletary,Longest Rush,8.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Chuba Hubbard,Longest Rush,7.5,−130,+100,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Brian Robinson Jr.,Longest Rush,7.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Brashard Smith,Longest Rush,7.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,RJ Harvey,Longest Rush,7.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,Longest Rush,7.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Travis Homer,Longest Rush,6.5,−130,+100,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,Longest Rush,6.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones,Longest Rush,5.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Taysom Hill,Longest Rush,5.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Longest Rush,5.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Ty Johnson,Longest Rush,4.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,Longest Rush,4.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Longest Rush,4.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,Longest Rush,4.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jeremy McNichols,Longest Rush,3.5,−130,+100,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jaxon Smith-Njigba,Longest Reception,28.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Puka Nacua,Longest Reception,26.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,DK Metcalf,Longest Reception,25.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Ja'Marr Chase,Longest Reception,25.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Justin Jefferson,Longest Reception,25.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,CeeDee Lamb,Longest Reception,24.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brian Thomas Jr.,Longest Reception,24.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Rome Odunze,Longest Reception,23.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,George Pickens,Longest Reception,23.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Nico Collins,Longest Reception,23.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Rashee Rice,Longest Reception,23.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Davante Adams,Longest Reception,22.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Alec Pierce,Longest Reception,22.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Amon-Ra St. Brown,Longest Reception,22.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jameson Williams,Longest Reception,22.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Courtland Sutton,Longest Reception,22.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Marvin Harrison Jr.,Longest Reception,22.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Xavier Worthy,Longest Reception,21.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,D.J. Moore,Longest Reception,21.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake London,Longest Reception,21.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Ladd McConkey,Longest Reception,21.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Khalil Shakir,Longest Reception,21.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Darius Slayton,Longest Reception,20.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Tee Higgins,Longest Reception,20.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tucker Kraft,Longest Reception,20.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Christian Watson,Longest Reception,20.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Deebo Samuel,Longest Reception,20.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Tetairoa McMillan,Longest Reception,20.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,George Kittle,Longest Reception,20.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jauan Jennings,Longest Reception,20.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Romeo Doubs,Longest Reception,20.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Trey McBride,Longest Reception,20.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Tyler Warren,Longest Reception,20.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Wan'Dale Robinson,Longest Reception,20.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jordan Addison,Longest Reception,19.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Chris Olave,Longest Reception,19.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Michael Pittman Jr.,Longest Reception,19.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Oronde Gadsden II,Longest Reception,19.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Stefon Diggs,Longest Reception,19.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kayshon Boutte,Longest Reception,19.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Keon Coleman,Longest Reception,19.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Tre Tucker,Longest Reception,19.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Troy Franklin,Longest Reception,19.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Brock Bowers,Longest Reception,19.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Darnell Mooney,Longest Reception,19.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Jakobi Meyers,Longest Reception,19.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Calvin Austin III,Longest Reception,18.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Keenan Allen,Longest Reception,18.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Parker Washington,Longest Reception,18.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Dyami Brown,Longest Reception,18.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Quentin Johnston,Longest Reception,18.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Rashid Shaheed,Longest Reception,18.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Kendrick Bourne,Longest Reception,18.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Kyle Pitts,Longest Reception,18.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Matthew Golden,Longest Reception,18.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Travis Kelce,Longest Reception,18.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Sam LaPorta,Longest Reception,17.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Chimere Dike,Longest Reception,17.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Cooper Kupp,Longest Reception,17.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Dalton Kincaid,Longest Reception,17.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Elic Ayomanor,Longest Reception,17.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Christian McCaffrey,Longest Reception,16.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Olamide Zaccheaus,Longest Reception,16.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Tory Horton,Longest Reception,16.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Josh Downs,Longest Reception,16.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Luke McCaffrey,Longest Reception,16.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Theo Johnson,Longest Reception,15.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Colston Loveland,Longest Reception,15.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jake Ferguson,Longest Reception,15.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Bijan Robinson,Longest Reception,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Chris Moore,Longest Reception,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Van Jefferson,Longest Reception,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Zach Ertz,Longest Reception,15.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Michael Wilson,Longest Reception,15.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,A.J. Barner,Longest Reception,14.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Hunter Henry,Longest Reception,14.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Christian Kirk,Longest Reception,14.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Demario Douglas,Longest Reception,14.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Chigoziem Okonkwo,Longest Reception,14.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Juwan Johnson,Longest Reception,14.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Marquise Brown,Longest Reception,14.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Dalton Schultz,Longest Reception,14.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Evan Engram,Longest Reception,14.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Mack Hollins,Longest Reception,14.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jalen Coker,Longest Reception,13.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Jordan Whittington,Longest Reception,13.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Andrei Iosivas,Longest Reception,13.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonnu Smith,Longest Reception,13.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Elijah Moore,Longest Reception,13.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Noah Fant,Longest Reception,12.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Demarcus Robinson,Longest Reception,12.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Elijah Arroyo,Longest Reception,12.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Pat Freiermuth,Longest Reception,12.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,T.J. Hockenson,Longest Reception,12.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Xavier Legette,Longest Reception,12.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Zay Jones,Longest Reception,12.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Cole Kmet,Longest Reception,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Jaylin Noel,Longest Reception,12.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Hunter Long,Longest Reception,12.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jahmyr Gibbs,Longest Reception,12.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Brashard Smith,Longest Reception,11.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Xavier Hutchinson,Longest Reception,11.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jaylen Warren,Longest Reception,11.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,KaVontae Turpin,Longest Reception,11.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Ja'Tavion Sanders,Longest Reception,11.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jalen Nailor,Longest Reception,11.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Tyrone Tracy Jr.,Longest Reception,11.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Gunnar Helm,Longest Reception,10.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jaylin Lane,Longest Reception,10.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Pat Bryant,Longest Reception,10.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Roman Wilson,Longest Reception,10.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jeremy McNichols,Longest Reception,10.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Jonathan Taylor,Longest Reception,10.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Higbee,Longest Reception,10.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Darnell Washington,Longest Reception,10.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Jayden Higgins,Longest Reception,10.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Aaron Jones,Longest Reception,10.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tyjae Spears,Longest Reception,10.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,TreVeyon Henderson,Longest Reception,9.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Ashton Jeanty,Longest Reception,9.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Noah Gray,Longest Reception,9.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Travis Etienne Jr.,Longest Reception,9.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Woody Marks,Longest Reception,9.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Chase Brown,Longest Reception,9.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Kyle Monangai,Longest Reception,9.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,James Cook,Longest Reception,9.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Kyren Williams,Longest Reception,9.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Rico Dowdle,Longest Reception,9.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Zonovan Knight,Longest Reception,9.5,+100,−130,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Josh Jacobs,Longest Reception,8.5,−130,+100,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Alvin Kamara,Longest Reception,8.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tony Pollard,Longest Reception,8.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,JuJu Smith-Schuster,Longest Reception,8.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Tre Harris,Longest Reception,8.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Kenneth Gainwell,Longest Reception,8.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Brandin Cooks,Longest Reception,8.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,David Sills V,Longest Reception,8.5,−105,−125,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Javonte Williams,Longest Reception,8.5,+100,−130,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Elijah Higgins,Longest Reception,7.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Michael Mayer,Longest Reception,7.5,−125,−105,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Curtis Samuel,Longest Reception,7.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Kalif Raymond,Longest Reception,7.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Austin Hooper,Longest Reception,7.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Dawson Knox,Longest Reception,7.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Johnny Mundt,Longest Reception,7.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Terrance Ferguson,Longest Reception,7.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,RJ Harvey,Longest Reception,7.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Tanner Hudson,Longest Reception,7.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Matthew Stafford,Longest Passing Completion,37.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Aaron Rodgers,Longest Passing Completion,37.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Jordan Love,Longest Passing Completion,37.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Sam Darnold,Longest Passing Completion,37.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Caleb Williams,Longest Passing Completion,36.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Dak Prescott,Longest Passing Completion,36.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Josh Allen,Longest Passing Completion,36.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,KC Chiefs @ BUF Bills,Patrick Mahomes,Longest Passing Completion,36.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,IND Colts @ PIT Steelers,Daniel Jones,Longest Passing Completion,36.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Mac Jones,Longest Passing Completion,35.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,ARI Cardinals @ DAL Cowboys,Jacoby Brissett,Longest Passing Completion,35.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,Jared Goff,Longest Passing Completion,35.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Justin Herbert,Longest Passing Completion,35.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,C.J. Stroud,Longest Passing Completion,34.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,MIN Vikings @ DET Lions,J.J. McCarthy,Longest Passing Completion,34.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SEA Seahawks @ WAS Commanders,Jayden Daniels,Longest Passing Completion,34.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Trevor Lawrence,Longest Passing Completion,34.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,SF 49ers @ NY Giants,Jaxson Dart,Longest Passing Completion,34.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,DEN Broncos @ HOU Texans,Bo Nix,Longest Passing Completion,34.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,CHI Bears @ CIN Bengals,Joe Flacco,Longest Passing Completion,34.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Michael Penix Jr.,Longest Passing Completion,34.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,ATL Falcons @ NE Patriots,Drake Maye,Longest Passing Completion,33.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,JAX Jaguars @ LV Raiders,Geno Smith,Longest Passing Completion,33.5,−120,−110,DraftKings,2025-11-01T18:14:28.489582
+9,LA Chargers @ TEN Titans,Cameron Ward,Longest Passing Completion,32.5,−110,−120,DraftKings,2025-11-01T18:14:28.489582
+9,NO Saints @ LA Rams,Tyler Shough,Longest Passing Completion,31.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
+9,CAR Panthers @ GB Packers,Bryce Young,Longest Passing Completion,30.5,−115,−115,DraftKings,2025-11-01T18:14:28.489582
