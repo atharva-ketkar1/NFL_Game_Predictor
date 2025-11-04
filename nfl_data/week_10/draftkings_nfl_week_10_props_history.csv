@@ -1,0 +1,115 @@
+week,game,player_name,prop_type,line,over_odds,under_odds,sportsbook,scrape_timestamp
+10,LV Raiders @ DEN Broncos,Brock Bowers,Rec Yards,65.5,−110,−114,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Courtland Sutton,Rec Yards,54.5,−110,−114,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Troy Franklin,Rec Yards,39.5,−108,−116,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Drake London,Rec Yards,71.5,−110,−114,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Bijan Robinson,Rec Yards,45.5,−111,−113,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Kyle Pitts,Rec Yards,43.5,−111,−113,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Darnell Mooney,Rec Yards,28.5,−113,−111,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Brock Bowers,Receptions,5.5,−159,+124,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Courtland Sutton,Receptions,4.5,+104,−132,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Troy Franklin,Receptions,3.5,−137,+107,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Drake London,Receptions,5.5,−145,+114,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Bijan Robinson,Receptions,4.5,−143,+112,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Kyle Pitts,Receptions,4.5,−127,+100,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Darnell Mooney,Receptions,2.5,+108,−138,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Interceptions,0.5,−109,−117,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Interceptions,0.5,−173,+135,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Daniel Jones,Interceptions,0.5,−107,−119,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Michael Penix Jr.,Interceptions,0.5,−139,+109,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Pass Yards - 1Q,48.5,−112,−116,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Pass Yards - 1Q,37.5,−117,−111,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,J.K. Dobbins,Rush Yards - 1Q,18.5,−116,−112,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Ashton Jeanty,Rush Yards - 1Q,14.5,−112,−115,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Rush Yards - 1Q,1.5,−110,−118,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Courtland Sutton,Rec Yards - 1Q,9.5,−118,−109,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Troy Franklin,Rec Yards - 1Q,5.5,−119,−109,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Pass Yards - 1H,118.5,−112,−115,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Pass Yards - 1H,97.5,−113,−115,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,J.K. Dobbins,Rush Yards - 1H,38.5,−116,−112,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Ashton Jeanty,Rush Yards - 1H,31.5,−113,−115,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Courtland Sutton,Rec Yards - 1H,29.5,−112,−116,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Troy Franklin,Rec Yards - 1H,21.5,−110,−118,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,J.K. Dobbins,Rush Yards,72.5,−113,−111,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Ashton Jeanty,Rush Yards,56.5,−114,−111,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,RJ Harvey,Rush Yards,21.5,−116,−108,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Rush Yards,20.5,−114,−110,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Rush Yards,8.5,−117,−107,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Jonathan Taylor,Rush Yards,94.5,−114,−110,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Bijan Robinson,Rush Yards,65.5,−112,−112,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Tyler Allgeier,Rush Yards,18.5,−114,−110,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Daniel Jones,Rush Yards,15.5,−112,−112,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Michael Penix Jr.,Rush Yards,6.5,−118,−107,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Pass Attempts,33.5,+100,−128,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Pass Attempts,31.5,−125,−102,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Michael Penix Jr.,Pass Attempts,33.5,−104,−123,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Daniel Jones,Pass Attempts,32.5,−105,−121,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,J.K. Dobbins,Rush Attempts,15.5,−133,+104,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Ashton Jeanty,Rush Attempts,15.5,−101,−127,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Rush Attempts,5.5,+127,−163,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Rush Attempts,3.5,+122,−156,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Jonathan Taylor,Rush Attempts,18.5,−124,−103,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix Passing,Completions,20.5,−128,+100,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith Passing,Completions,19.5,−128,+100,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Daniel Jones Passing,Completions,21.5,−111,−115,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Michael Penix Jr. Passing,Completions,19.5,−114,−111,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Pass Yards,218.5,−111,−113,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Pass Yards,212.5,−113,−111,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Daniel Jones,Pass Yards,243.5,−112,−112,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Michael Penix Jr.,Pass Yards,230.5,−112,−112,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Pass TDs,1.5,−129,+101,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Pass TDs,0.5,−264,+202,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Daniel Jones,Pass TDs,1.5,−120,−106,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Michael Penix Jr.,Pass TDs,1.5,+126,−162,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Pass + Rush Yards,244.5,−112,−114,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Pass + Rush Yards,225.5,−112,−114,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Jonathan Taylor,Longest Rush,19.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,J.K. Dobbins,Longest Rush,16.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,BUF Bills @ MIA Dolphins,De'Von Achane,Longest Rush,15.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Bijan Robinson,Longest Rush,14.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,Lamar Jackson,Longest Rush,14.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,NY Giants @ CHI Bears,Jaxson Dart,Longest Rush,14.5,−105,−125,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Ashton Jeanty,Longest Rush,13.5,−105,−125,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Longest Rush,11.5,−125,−105,DraftKings,2025-11-04T17:29:28.500818
+10,NY Giants @ CHI Bears,Tyrone Tracy Jr.,Longest Rush,10.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,J.J. McCarthy,Longest Rush,9.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,RJ Harvey,Longest Rush,8.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Longest Rush,6.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Michael Penix Jr.,Longest Rush,5.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,Justin Jefferson,Longest Reception,25.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Alec Pierce,Longest Reception,25.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,Zay Flowers,Longest Reception,24.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Courtland Sutton,Longest Reception,21.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Brock Bowers,Longest Reception,20.5,−125,−105,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,Jordan Addison,Longest Reception,20.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Tre Tucker,Longest Reception,20.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Michael Pittman Jr.,Longest Reception,19.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Troy Franklin,Longest Reception,19.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Kyle Pitts,Longest Reception,18.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Tyler Warren,Longest Reception,18.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Darnell Mooney,Longest Reception,17.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Josh Downs,Longest Reception,17.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Bijan Robinson,Longest Reception,16.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,Rashod Bateman,Longest Reception,16.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,Mark Andrews,Longest Reception,15.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,Isaiah Likely,Longest Reception,14.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,BUF Bills @ MIA Dolphins,De'Von Achane,Longest Reception,14.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,T.J. Hockenson,Longest Reception,14.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Evan Engram,Longest Reception,13.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,BUF Bills @ MIA Dolphins,Nick Westbrook-Ikhine,Longest Reception,13.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Michael Mayer,Longest Reception,11.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,NY Giants @ CHI Bears,Tyrone Tracy Jr.,Longest Reception,10.5,−125,−105,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,Justice Hill,Longest Reception,10.5,−105,−125,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Ashton Jeanty,Longest Reception,9.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Jonathan Taylor,Longest Reception,9.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,RJ Harvey,Longest Reception,8.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,PIT Steelers @ LA Chargers,Aaron Rodgers,Longest Passing Completion,37.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,Lamar Jackson,Longest Passing Completion,37.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Daniel Jones,Longest Passing Completion,36.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Bo Nix,Longest Passing Completion,35.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,BAL Ravens @ MIN Vikings,J.J. McCarthy,Longest Passing Completion,35.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,PIT Steelers @ LA Chargers,Justin Herbert,Longest Passing Completion,34.5,−120,−110,DraftKings,2025-11-04T17:29:28.500818
+10,NY Giants @ CHI Bears,Jaxson Dart,Longest Passing Completion,34.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,LV Raiders @ DEN Broncos,Geno Smith,Longest Passing Completion,34.5,−110,−120,DraftKings,2025-11-04T17:29:28.500818
+10,ATL Falcons @ IND Colts,Michael Penix Jr.,Longest Passing Completion,33.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
+10,BUF Bills @ MIA Dolphins,Tua Tagovailoa,Longest Passing Completion,33.5,−115,−115,DraftKings,2025-11-04T17:29:28.500818
